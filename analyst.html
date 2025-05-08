@@ -1,0 +1,363 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Data Analyst Projects</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper" class="fade-in">
+
+  <!-- Intro -->
+  <div id="intro">
+    <h1>Analysis & Visualization Projects<br /></h1>
+    <p>Projects using SQL, Tableau, Excel, Python, and AWS to uncover insights from data. <a href="https://x.com/realzaphyre">@Zaphyre</a></p>
+    <ul class="actions">
+      <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+    </ul>
+  </div>
+
+  <!-- Header -->
+  <header id="header">
+    <a href="index.html" class="logo">Dan's Portfolio</a>
+  </header>
+
+  <!-- Nav -->
+<nav id="nav">
+  <ul class="links">
+    <li class="active"><a href="analyst.html">Analyst Projects</a></li>
+    <li><a href="leveldesign.html">Game Design Projects</a></li>
+    <li><a href="modeling.html">Modeling Projects</a></li>
+  </ul>
+  <ul class="icons">
+    <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+    <li><a href="#" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+    <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+    <li><a href="https://github.com/Ishmael366" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+  </ul>
+</nav>
+
+  <!-- Main -->
+  <div id="main">
+
+    <!-- Featured Post -->
+    <article class="post featured">
+      <header class="major">
+        <h2><a href="https://public.tableau.com/app/profile/daniel.nguyen6826/vizzes">Tableau Dashboards<br /></a></h2>
+      </header>
+      <a href="https://public.tableau.com/app/profile/daniel.nguyen6826/vizzes" class="image fit"><img src="images/ken_pi_header.png" alt="" /></a>
+      <p style="text-align: center;">
+        Collection of all Tableau Dashboards visualizing Travel, COVID, Housing, and Business Insights
+      </p>
+      <ul class="actions special">
+        <li><a href="https://public.tableau.com/app/profile/daniel.nguyen6826/vizzes" class="button">View Project</a></li>
+      </ul>
+    </article>
+
+<!-- Filter Bar -->
+<section id="filters" style="display: flex; justify-content: center; margin: 2em 0;">
+    <div style="display: flex; width: 100%; max-width: 1000px; gap: 2em; align-items: flex-end; flex-wrap: wrap;">
+  
+      <div style="flex: 0 0 auto;">
+        <span style="font-size: 1.4em; font-weight: bold;">Filters:</span>
+      </div>
+  
+      <div style="flex: 1;">
+        <label for="platformFilter">Platform</label>
+        <select id="platformFilter" onchange="applyFilters()" style="width: 100%; padding: 0.5em;">
+          <option value="all">All</option>
+          <option value="SQL">SQL</option>
+          <option value="Python">Python</option>
+          <option value="Tableau">Tableau</option>
+          <option value="Excel">Excel</option>
+          <option value="Power BI">Power BI</option>
+        </select>
+      </div>
+  
+      <div style="flex: 2;">
+        <label for="searchInput">Search Title</label>
+        <input type="text" id="searchInput" oninput="applyFilters()" placeholder="e.g. dashboard insights" style="width: 100%; padding: 0.5em;" />
+      </div>
+  
+    </div>
+  </section>
+
+    <!-- Dynamic Posts -->
+    <section class="posts" id="project-container"></section>
+
+    <!-- Pagination & Jump -->
+    <footer>
+      <div style="text-align: center; margin-bottom: 1em;">
+        <label for="pageSelect">Jump to Page:</label>
+        <select id="pageSelect" onchange="jumpToPage(this.value)"></select>
+      </div>
+      <div class="pagination" id="pagination"></div>
+    </footer>
+
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <section>
+      <form method="post" action="#">
+        <div class="fields">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="3"></textarea>
+          </div>
+        </div>
+        <ul class="actions">
+          <li><input type="submit" value="Send Message" /></li>
+        </ul>
+      </form>
+    </section>
+    <section class="split contact">
+      <section class="alt">
+        <h3>Location</h3>
+        <p><br />Baltimore, MD</p>
+      </section>
+      <section>
+        <h3>Phone</h3>
+        <p><a href="tel:+14438101873">443-810-1873</a></p>
+      </section>
+      <section>
+        <h3>Email</h3>
+        <p><a href="mailto:dhp.nguyen300@gmail.com">dhp.nguyen300@gmail.com</a></p>
+      </section>
+      <section>
+        <h3>Social</h3>
+        <ul class="icons alt">
+          <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+          <li><a href="#" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+          <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+          <li><a href="https://github.com/Ishmael366" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+        </ul>
+      </section>
+    </section>
+  </footer>
+
+  <!-- Copyright -->
+  <div id="copyright">
+    <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+  </div>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+<script>
+const projects = [
+  {
+    title: "SQL Projects",
+    platform: "SQL",
+    description: "Collection of SQL Projects involving Data Cleaning, EDA, and Insights.",
+    image: "images/sql.jpeg",
+    link: "https://github.com/Ishmael366/SQL"
+  },
+  {
+    title: "Python Projects",
+    platform: "Python",
+    description: "Collection of data wrangling, automation, and correlation analysis Projects in Python.",
+    image: "images/python.jpeg",
+    link: "https://github.com/Ishmael366/Python"
+  },
+  {
+    title: "Excel Projects",
+    platform: "Excel",
+    description: "Collection of Excel Projects involving Data Cleaning, EDA, and Insights.",
+    image: "images/excel.jpeg",
+    link: "https://github.com/Ishmael366/Excel"
+  },
+  {
+    title: "Power Bi Projects",
+    platform: "Power BI",
+    description: "Collection of Power BI Dashboards visualizing Travel, COVID, Housing, and Business Insights",
+    image: "images/power bi.jpeg",
+    link: "https://github.com/Ishmael366/PowerBI"
+  },
+  {
+    title: "AWS Projects",
+    platform: "AWS",
+    description: "AWS Projects in Data Engineering & Warehousing.",
+    image: "images/aws.jpeg",
+    link: "#"
+  },
+  {
+    title: "Extra Project 6",
+    platform: "SQL",
+    description: "Another data project description.",
+    image: "images/placeholder6.jpg",
+    link: "#"
+  },
+  {
+    title: "Extra Project 7",
+    platform: "Python",
+    description: "Another data project description.",
+    image: "images/placeholder7.jpg",
+    link: "#"
+  },
+  {
+    title: "Extra Project 8",
+    platform: "Tableau",
+    description: "Another data project description.",
+    image: "images/placeholder8.jpg",
+    link: "#"
+  }
+];
+
+const perPage = 4;
+let currentPage = 1;
+let filteredProjects = projects;
+
+function renderProjects() {
+  const container = document.getElementById("project-container");
+  const start = (currentPage - 1) * perPage;
+  const end = start + perPage;
+  const visible = filteredProjects.slice(start, end);
+
+  container.innerHTML = "";
+
+  if (visible.length === 0) {
+    container.innerHTML = "<p style='text-align:center;'>No projects available for selected filters.</p>";
+    return;
+  }
+
+  visible.forEach(p => {
+    container.innerHTML += `
+      <article>
+        <header>
+          <h2><a href="${p.link}">${p.title}</a></h2>
+        </header>
+        <a href="${p.link}" class="image fit"><img src="${p.image}" alt="${p.title}" /></a>
+        <p>${p.description}</p>
+        <ul class="actions special">
+          <li><a href="${p.link}" class="button">View Project</a></li>
+        </ul>
+      </article>
+    `;
+  });
+}
+
+function renderPagination() {
+  const pagination = document.getElementById("pagination");
+  pagination.innerHTML = "";
+
+  const realPages = Math.ceil(filteredProjects.length / perPage);
+  const totalPages = Math.max(realPages, 7);
+  const maxButtons = 7;
+
+  pagination.innerHTML += `<a href="#" class="page" onclick="currentPage=1; renderProjects(); renderPagination(); populateDropdown(); window.scrollTo(0,0);">« First</a>`;
+
+  let start = currentPage - Math.floor(maxButtons / 2);
+  let end = currentPage + Math.floor(maxButtons / 2);
+
+  if (start < 1) {
+    end += 1 - start;
+    start = 1;
+  }
+  if (end > totalPages) {
+    start -= end - totalPages;
+    end = totalPages;
+    if (start < 1) start = 1;
+  }
+
+  for (let i = start; i <= end; i++) {
+    pagination.innerHTML += `<a href="#" class="page ${i === currentPage ? 'active' : ''}" onclick="currentPage=${i}; renderProjects(); renderPagination(); populateDropdown(); window.scrollTo(0,0);">${i}</a>`;
+  }
+
+  pagination.innerHTML += `<a href="#" class="page" onclick="currentPage=${realPages}; renderProjects(); renderPagination(); populateDropdown(); window.scrollTo(0,0);">Last »</a>`;
+}
+
+function populateDropdown() {
+  const select = document.getElementById("pageSelect");
+  select.innerHTML = "";
+
+  const totalPages = Math.max(Math.ceil(filteredProjects.length / perPage), 7);
+  for (let i = 1; i <= totalPages; i++) {
+    const option = document.createElement("option");
+    option.value = i;
+    option.textContent = `Page ${i}`;
+    if (i === currentPage) option.selected = true;
+    select.appendChild(option);
+  }
+}
+
+function jumpToPage(page) {
+  currentPage = parseInt(page);
+  renderProjects();
+  renderPagination();
+  populateDropdown();
+  window.scrollTo(0, 0);
+}
+
+function applyFilters() {
+  const platform = document.getElementById("platformFilter").value.toLowerCase();
+  const searchQuery = document.getElementById("searchInput").value.toLowerCase();
+
+  filteredProjects = projects.filter(p =>
+    (platform === "all" || (p.platform && p.platform.toLowerCase() === platform)) &&
+    p.title.toLowerCase().includes(searchQuery)
+  );
+
+  currentPage = 1;
+  renderProjects();
+  renderPagination();
+  populateDropdown();
+}
+
+function toggleDropdown() {
+  const dropdown = document.getElementById("platformOptions");
+  dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+}
+
+// Close dropdown when clicking outside
+document.addEventListener("click", function (e) {
+  if (!e.target.closest("#platformDropdown") && !e.target.closest("#platformOptions")) {
+    document.getElementById("platformOptions").style.display = "none";
+  }
+});
+
+function applyFilters() {
+  const checkboxes = document.querySelectorAll('#platformOptions input[type="checkbox"]');
+  const selectedPlatforms = Array.from(checkboxes).filter(cb => cb.checked).map(cb => cb.value.toLowerCase());
+  const searchQuery = document.getElementById("searchInput").value.toLowerCase();
+
+  filteredProjects = projects.filter(p =>
+    (selectedPlatforms.length === 0 || selectedPlatforms.includes(p.platform.toLowerCase())) &&
+    (p.title.toLowerCase().includes(searchQuery))
+  );
+
+  currentPage = 1;
+  renderProjects();
+  renderPagination();
+  populateDropdown();
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  renderProjects();
+  renderPagination();
+  populateDropdown();
+});
+</script>
+</body>
+</html>
+

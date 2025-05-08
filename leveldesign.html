@@ -1,0 +1,312 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Game Design Projects</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper" class="fade-in">
+
+  <!-- Intro -->
+  <div id="intro">
+    <h1>Game & Level Design Projects<br /></h1>
+    <p>Projects using Javascript, Python, C++ & Unreal Engine 5 to simulate popular genres. <a href="https://x.com/realzaphyre">@Zaphyre</a></p>
+    <ul class="actions">
+      <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+    </ul>
+  </div>
+
+  <!-- Header -->
+  <header id="header">
+    <a href="index.html" class="logo">Dan's Portfolio</a>
+  </header>
+
+ <!-- Nav -->
+<nav id="nav">
+  <ul class="links">
+    <li><a href="analyst.html">Analyst Projects</a></li>
+    <li class="active"><a href="leveldesign.html">Game Design Projects</a></li>
+    <li><a href="modeling.html">Modeling Projects</a></li>
+  </ul>
+  <ul class="icons">
+    <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+    <li><a href="#" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+    <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+    <li><a href="https://github.com/Ishmael366" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+  </ul>
+</nav>
+
+  <!-- Main -->
+  <div id="main">
+
+    <!-- Featured Post -->
+    <article class="post featured">
+      <header class="major">
+        <h2><a href="#">Pokémon<br /></a></h2>
+      </header>
+      <a href="#" class="image fit"><img src="images/pokemon.jpeg" alt="" /></a>
+      <p style="text-align: center;"></p>Clone of the famous Pokémon RPG!</p>
+      <ul class="actions special">
+        <li><a href="#" class="button">View Project</a></li>
+      </ul>
+    </article>
+
+<!-- Filter Bar -->
+<section id="filters" style="display: flex; justify-content: center; margin: 2em 0;">
+    <div style="display: flex; width: 100%; max-width: 1000px; gap: 1.5em; align-items: flex-end; flex-wrap: wrap;">
+  
+      <div style="flex: 0 0 auto;">
+        <span style="font-size: 1.4em; font-weight: bold;">Filters:</span>
+      </div>
+  
+      <div style="flex: 1;">
+        <label for="genreFilter">Genre</label>
+        <select id="genreFilter" onchange="applyFilters()" style="width: 100%; padding: 0.5em;">
+          <option value="all">All</option>
+          <option value="Shooter">Shooter</option>
+          <option value="RPG">RPG</option>
+          <option value="Puzzle">Puzzle</option>
+          <option value="Platformer">Platformer</option>
+        </select>
+      </div>
+  
+      <div style="flex: 1;">
+        <label for="languageFilter">Language</label>
+        <select id="languageFilter" onchange="applyFilters()" style="width: 100%; padding: 0.5em;">
+          <option value="all">All</option>
+          <option value="C++">C++</option>
+          <option value="Python">Python</option>
+          <option value="JavaScript">JavaScript</option>
+        </select>
+      </div>
+  
+      <div style="flex: 1;">
+        <label for="engineFilter">Engine</label>
+        <select id="engineFilter" onchange="applyFilters()" style="width: 100%; padding: 0.5em;">
+          <option value="all">All</option>
+          <option value="Unreal">Unreal</option>
+          <option value="Unity">Unity</option>
+          <option value="Custom">Custom</option>
+        </select>
+      </div>
+  
+      <div style="flex: 2;">
+        <label for="searchInput">Search Title</label>
+        <input type="text" id="searchInput" placeholder="e.g. stealth platformer" oninput="applyFilters()" style="width: 100%; padding: 0.5em;" />
+      </div>
+  
+    </div>
+  </section>
+
+    <!-- Posts Container -->
+    <section class="posts" id="project-container"></section>
+
+    <!-- Pagination and Jump -->
+    <footer>
+      <div style="text-align: center; margin-bottom: 1em;">
+        <label for="pageSelect">Jump to Page:</label>
+        <select id="pageSelect" onchange="jumpToPage(this.value)"></select>
+      </div>
+      <div class="pagination" id="pagination"></div>
+    </footer>
+
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <section>
+      <form method="post" action="#">
+        <div class="fields">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="3"></textarea>
+          </div>
+        </div>
+        <ul class="actions">
+          <li><input type="submit" value="Send Message" /></li>
+        </ul>
+      </form>
+    </section>
+    <section class="split contact">
+      <section class="alt">
+        <h3>Location</h3>
+        <p><br />Baltimore, MD</p>
+      </section>
+      <section>
+        <h3>Phone</h3>
+        <p><a href="tel:+14438101873">443-810-1873</a></p>
+      </section>
+      <section>
+        <h3>Email</h3>
+        <p><a href="mailto:dhp.nguyen300@gmail.com">dhp.nguyen300@gmail.com</a></p>
+      </section>
+      <section>
+        <h3>Social</h3>
+        <ul class="icons alt">
+          <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+          <li><a href="#" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+          <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+          <li><a href="https://github.com/Ishmael366" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+        </ul>
+      </section>
+    </section>
+  </footer>
+
+  <!-- Copyright -->
+  <div id="copyright">
+    <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+  </div>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+<script>
+const projects = [
+	{ title: "Project Title 1", description: "Short description of project 1.", image: "images/placeholder1.jpg", link: "#", genre: "Shooter", language: "C++", engine: "Unreal" },
+	{ title: "Project Title 2", description: "Short description of project 2.", image: "images/placeholder2.jpg", link: "#", genre: "RPG", language: "Python", engine: "Unity" },
+	{ title: "Project Title 3", description: "Short description of project 3.", image: "images/placeholder3.jpg", link: "#", genre: "Puzzle", language: "JavaScript", engine: "Custom" },
+	{ title: "Project Title 4", description: "Short description of project 4.", image: "images/placeholder4.jpg", link: "#", genre: "Platformer", language: "C++", engine: "Unreal" },
+	{ title: "Project Title 5", description: "Short description of project 5.", image: "images/placeholder5.jpg", link: "#", genre: "Shooter", language: "Python", engine: "Unity" },
+	{ title: "Project Title 6", description: "Short description of project 6.", image: "images/placeholder6.jpg", link: "#", genre: "RPG", language: "JavaScript", engine: "Custom" },
+	{ title: "Project Title 7", description: "Short description of project 7.", image: "images/placeholder7.jpg", link: "#", genre: "Puzzle", language: "C++", engine: "Unreal" },
+	{ title: "Project Title 8", description: "Short description of project 8.", image: "images/placeholder8.jpg", link: "#", genre: "Platformer", language: "Python", engine: "Unity" }
+];
+
+const perPage = 4;
+let currentPage = 1;
+let filteredProjects = projects;
+
+function applyFilters() {
+  const genre = document.getElementById("genreFilter").value.toLowerCase();
+  const language = document.getElementById("languageFilter").value.toLowerCase();
+  const engine = document.getElementById("engineFilter").value.toLowerCase();
+  const searchQuery = document.getElementById("searchInput").value.toLowerCase();
+
+  filteredProjects = projects.filter(p =>
+    (genre === "all" || (p.genre && p.genre.toLowerCase() === genre)) &&
+    (language === "all" || (p.language && p.language.toLowerCase() === language)) &&
+    (engine === "all" || (p.engine && p.engine.toLowerCase() === engine)) &&
+    (p.title.toLowerCase().includes(searchQuery))
+  );
+
+  currentPage = 1;
+  renderProjects();
+  renderPagination();
+  populateDropdown();
+}
+
+function renderProjects() {
+	const container = document.getElementById("project-container");
+	const start = (currentPage - 1) * perPage;
+	const end = start + perPage;
+	const visible = filteredProjects.slice(start, end);
+
+	container.innerHTML = "";
+
+	if (visible.length === 0) {
+		container.innerHTML = "<p style='text-align:center;'>No projects available for selected filters.</p>";
+		return;
+	}
+
+	visible.forEach(p => {
+		container.innerHTML += `
+			<article>
+				<header>
+					<h2><a href="${p.link}">${p.title}</a></h2>
+				</header>
+				<a href="${p.link}" class="image fit"><img src="${p.image}" alt="${p.title}" /></a>
+				<p>${p.description}</p>
+				<ul class="actions special">
+					<li><a href="${p.link}" class="button">View Project</a></li>
+				</ul>
+			</article>
+		`;
+	});
+}
+
+function renderPagination() {
+	const pagination = document.getElementById("pagination");
+	pagination.innerHTML = "";
+
+	const realPages = Math.ceil(filteredProjects.length / perPage);
+	const totalPages = Math.max(realPages, 7); // Always at least 7 page buttons
+	const maxButtons = 7;
+
+	// Always show "First"
+	pagination.innerHTML += `<a href="#" class="page" onclick="currentPage=1; renderProjects(); renderPagination(); populateDropdown(); window.scrollTo(0,0);">« First</a>`;
+
+	let start = currentPage - Math.floor(maxButtons / 2);
+	let end = currentPage + Math.floor(maxButtons / 2);
+
+	if (start < 1) {
+		end += 1 - start;
+		start = 1;
+	}
+	if (end > totalPages) {
+		start -= end - totalPages;
+		end = totalPages;
+		if (start < 1) start = 1;
+	}
+
+	for (let i = start; i <= end; i++) {
+		pagination.innerHTML += `<a href="#" class="page ${i === currentPage ? 'active' : ''}" onclick="currentPage=${i}; renderProjects(); renderPagination(); populateDropdown(); window.scrollTo(0,0);">${i}</a>`;
+	}
+
+	// Always show "Last"
+	pagination.innerHTML += `<a href="#" class="page" onclick="currentPage=${realPages}; renderProjects(); renderPagination(); populateDropdown(); window.scrollTo(0,0);">Last »</a>`;
+}
+
+function populateDropdown() {
+	const select = document.getElementById("pageSelect");
+	select.innerHTML = "";
+
+	const realPages = Math.ceil(filteredProjects.length / perPage);
+	const totalPages = Math.max(realPages, 7); // Always show at least 7 in the dropdown
+
+	for (let i = 1; i <= totalPages; i++) {
+		const option = document.createElement("option");
+		option.value = i;
+		option.textContent = `Page ${i}`;
+		if (i === currentPage) option.selected = true;
+		select.appendChild(option);
+	}
+}
+
+function jumpToPage(page) {
+	currentPage = parseInt(page);
+	renderProjects();
+	renderPagination();
+	populateDropdown();
+	window.scrollTo(0, 0);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+	applyFilters(); // triggers render + populate
+});
+</script>
+</body>
+</html>
+
+</html>
