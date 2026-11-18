@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.local/
+.pages-build/
+static-output/
+.env*
+!.env.example
+*.log
+.DS_Store

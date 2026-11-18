@@ -1,5 +1,18 @@
 {
-  "skillAreas": ["Infrastructure", "Transport", "Graphics", "Community", "Health", "Athletics", "Modeling", "Art", "Ecology", "Emergencies", "Production", "Composition"],
+  "skillAreas": [
+    "Infrastructure",
+    "Transport",
+    "Graphics",
+    "Community",
+    "Health",
+    "Athletics",
+    "Modeling",
+    "Art",
+    "Ecology",
+    "Emergencies",
+    "Production",
+    "Composition"
+  ],
   "groups": [
     {
       "id": "politics-business",
@@ -7,7 +20,10 @@
       "projects": [
         {
           "id": "covid",
-          "skills": ["Graphics", "Health"],
+          "skills": [
+            "Graphics",
+            "Health"
+          ],
           "title": "COVID Portfolio Project",
           "description": "SQL queries and a Tableau workbook compare COVID-19 cases, deaths, and vaccination figures across places and over time.",
           "tech": [
@@ -45,7 +61,10 @@
         },
         {
           "id": "nashville-housing",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "Nashville Housing Project",
           "description": "Prepares property records for analysis by standardizing dates, filling in and separating address fields, and identifying duplicate transactions.",
           "tech": [
@@ -65,7 +84,10 @@
         },
         {
           "id": "washington-housing",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "Washington Housing Project",
           "description": "A Tableau dashboard uses a map and calendar to explore sale prices and compare homes by bedroom and bathroom counts.",
           "tech": [
@@ -85,7 +107,10 @@
         },
         {
           "id": "london-biking",
-          "skills": ["Transport", "Graphics"],
+          "skills": [
+            "Transport",
+            "Graphics"
+          ],
           "title": "London Biking Project",
           "description": "Explores London bike-share usage by time and weather, using a heatmap and moving-average view.",
           "tech": [
@@ -105,7 +130,10 @@
         },
         {
           "id": "ocd",
-          "skills": ["Graphics", "Health"],
+          "skills": [
+            "Graphics",
+            "Health"
+          ],
           "title": "OCD Project",
           "description": "Queries a sample dataset by diagnosis month, demographic categories, and recorded obsession and compulsion types.",
           "tech": [
@@ -120,7 +148,10 @@
         },
         {
           "id": "sales-insights",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "Sales Insights Project",
           "description": "Tableau and Power BI reports organize sales revenue and quantity by market, product, customer, and time.",
           "tech": [
@@ -140,7 +171,10 @@
         },
         {
           "id": "shopping-trends",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "Sales Analytics Project",
           "description": "SQL queries and a Python notebook use the shopping-trends dataset to explore customer segments, product categories, and purchase behavior.",
           "tech": [
@@ -161,7 +195,10 @@
         },
         {
           "id": "retail-sales",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "Retail Analysis Project",
           "description": "SQL queries clean retail transaction data and compare sales by category, customer, month, and shift.",
           "tech": [
@@ -176,7 +213,10 @@
         },
         {
           "id": "walmart",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "Walmart Project",
           "description": "Queries branch sales, payment methods, product ratings, and changes in revenue over time.",
           "tech": [
@@ -191,8 +231,11 @@
         },
         {
           "id": "monday-coffee",
-          "skills": ["Graphics", "Community"],
-          "title": "Monday Coffee — Data Analysis",
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
+          "title": "Monday Coffee \u2014 Data Analysis",
           "description": "SQL queries explore city-level coffee sales, product demand, customer spending, and potential market coverage.",
           "tech": [
             "SQL"
@@ -206,7 +249,10 @@
         },
         {
           "id": "coffee-dashboard",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "Coffee Project",
           "description": "An Excel dashboard summarizes coffee order totals, sales by country, and top customers.",
           "tech": [
@@ -221,7 +267,10 @@
         },
         {
           "id": "layoffs",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "Layoffs Data Cleaning & Exploratory Analysis",
           "description": "Two SQL scripts prepare a layoffs dataset and explore recorded totals by company, industry, country, and period.",
           "tech": [
@@ -240,7 +289,10 @@
         },
         {
           "id": "hr-satisfaction",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "HR Analytics Project",
           "description": "SQL queries compare department satisfaction scores and examine relationships with salary and other employee measures.",
           "tech": [
@@ -255,7 +307,10 @@
         },
         {
           "id": "presence-insights",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "Presence Insights",
           "description": "A Power BI report tracks recorded attendance, sick leave, and work-from-home measures over time.",
           "tech": [
@@ -270,7 +325,10 @@
         },
         {
           "id": "hr-dashboard",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "HR Dashboard Project",
           "description": "An interactive Tableau dashboard provides an overview of workforce data.",
           "tech": [
@@ -290,7 +348,10 @@
         },
         {
           "id": "library",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "Library Management Project",
           "description": "Database and reporting exercises cover books, members, branches, loans, overdue items, and rental income.",
           "tech": [
@@ -305,7 +366,10 @@
         },
         {
           "id": "loan-applications",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "Financial Data Analysis Project",
           "description": "A Python notebook visualizes loan application and approval counts by year and applicant income category.",
           "tech": [
@@ -322,7 +386,11 @@
         },
         {
           "id": "bike-sales",
-          "skills": ["Transport", "Graphics", "Community"],
+          "skills": [
+            "Transport",
+            "Graphics",
+            "Community"
+          ],
           "title": "Europe Bike Sales Project",
           "description": "An Excel dashboard uses pivot tables and filters to compare bike buyers by income, age, and commute distance.",
           "tech": [
@@ -337,7 +405,10 @@
         },
         {
           "id": "seattle-airbnb",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "AirBnb Seattle Project",
           "description": "A Tableau dashboard maps average Seattle rental prices by ZIP code, compares listings by bedroom count, and charts weekly totals.",
           "tech": [
@@ -357,7 +428,11 @@
         },
         {
           "id": "british-airways",
-          "skills": ["Transport", "Graphics", "Community"],
+          "skills": [
+            "Transport",
+            "Graphics",
+            "Community"
+          ],
           "title": "British Airways Project",
           "description": "Tableau workbook examining airline reviews by aircraft, geography, and month.",
           "tech": [
@@ -377,7 +452,10 @@
         },
         {
           "id": "sales-customers",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "Sales & Customer Dashboards (Dynamic)",
           "description": "Two Tableau dashboards show weekly sales trends, profit, orders, and customer distribution, with a view of top customers.",
           "tech": [
@@ -397,7 +475,10 @@
         },
         {
           "id": "personal-finance",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "Personal Finance Dashboard",
           "description": "A Power BI dashboard tracks income, expenses, savings, and net worth over time, with spending breakdowns and savings targets.",
           "tech": [
@@ -412,7 +493,10 @@
         },
         {
           "id": "hospitality-revenue",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "Revenue Insights in Hospitality Domain",
           "description": "A Power BI dashboard presents hospitality revenue data for review.",
           "tech": [
@@ -427,7 +511,10 @@
         },
         {
           "id": "performance-report",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "Performance Report",
           "description": "Power BI report with account and product measures, gross-profit percentage, and year-to-date comparisons.",
           "tech": [
@@ -442,7 +529,10 @@
         },
         {
           "id": "amazon-scraper",
-          "skills": ["Graphics", "Community"],
+          "skills": [
+            "Graphics",
+            "Community"
+          ],
           "title": "Amazon Web Scraper Project",
           "description": "Notebook exercise that parses a product page, extracts a title and price, and appends observations to a CSV.",
           "tech": [
@@ -459,7 +549,9 @@
         },
         {
           "id": "sql-mentor",
-          "skills": ["Graphics"],
+          "skills": [
+            "Graphics"
+          ],
           "title": "SQL Mentor User Performance",
           "description": "SQL exercises use daily and weekly submission data to calculate scores, summarize correctness, and rank users.",
           "tech": [
@@ -480,7 +572,10 @@
       "projects": [
         {
           "id": "cricket",
-          "skills": ["Graphics", "Athletics"],
+          "skills": [
+            "Graphics",
+            "Athletics"
+          ],
           "title": "Cricket",
           "description": "A Power BI report presents cricket data through interactive visuals.",
           "tech": [
@@ -500,8 +595,83 @@
       "label": "Entertainment & Videos",
       "projects": [
         {
+          "id": "netflix-interface",
+          "skills": [
+            "Graphics",
+            "Production"
+          ],
+          "title": "Netflix Streaming Interface",
+          "description": "Cinematic title browsing with a featured hero, search, title details and a saved list.",
+          "tech": [
+            "React",
+            "JavaScript",
+            "CSS"
+          ],
+          "artifacts": [
+            {
+              "label": "Open live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/netflix-demo.html"
+            },
+            {
+              "label": "Source code",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/Graphics_Batch_01_Source.zip"
+            }
+          ]
+        },
+        {
+          "id": "disney-interface",
+          "skills": [
+            "Graphics",
+            "Production"
+          ],
+          "title": "Disney+ Streaming Interface",
+          "description": "A branded carousel, studio collections, title details and a persistent watchlist.",
+          "tech": [
+            "Next.js",
+            "JavaScript",
+            "CSS"
+          ],
+          "artifacts": [
+            {
+              "label": "Open live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/disney-demo.html"
+            },
+            {
+              "label": "Source code",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/Graphics_Batch_01_Source.zip"
+            }
+          ]
+        },
+        {
+          "id": "spotify-interface",
+          "skills": [
+            "Graphics",
+            "Production"
+          ],
+          "title": "Spotify Music Interface",
+          "description": "A music dashboard with searchable collections, saved tracks and a working sample-audio player.",
+          "tech": [
+            "Next.js",
+            "JavaScript",
+            "CSS"
+          ],
+          "artifacts": [
+            {
+              "label": "Open live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/spotify-demo.html"
+            },
+            {
+              "label": "Source code",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/Graphics_Batch_01_Source.zip"
+            }
+          ]
+        },
+        {
           "id": "netflix",
-          "skills": ["Graphics", "Production"],
+          "skills": [
+            "Graphics",
+            "Production"
+          ],
           "title": "Netflix Analysis Project",
           "description": "SQL queries explore the Netflix catalog by title type, genre, country, release year, and rating.",
           "tech": [
@@ -516,7 +686,11 @@
         },
         {
           "id": "movies",
-          "skills": ["Graphics", "Community", "Production"],
+          "skills": [
+            "Graphics",
+            "Community",
+            "Production"
+          ],
           "title": "Movie Portfolio Project",
           "description": "A Python notebook explores relationships among movie budgets, gross earnings, and ratings using scatterplots and correlation charts.",
           "tech": [
@@ -533,7 +707,11 @@
         },
         {
           "id": "youtube",
-          "skills": ["Graphics", "Community", "Production"],
+          "skills": [
+            "Graphics",
+            "Community",
+            "Production"
+          ],
           "title": "YouTube Data Analytics Project",
           "description": "Analyzes a global YouTube statistics dataset, including relationships among subscribers, earnings estimates, and geography.",
           "tech": [
@@ -554,7 +732,9 @@
         },
         {
           "id": "gameflix",
-          "skills": ["Infrastructure"],
+          "skills": [
+            "Infrastructure"
+          ],
           "title": "GameFlix backend",
           "description": "A Java and Spring Boot prototype with REST endpoints, local persistence, service tests and a Docker build.",
           "tech": [

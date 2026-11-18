@@ -1,95 +1,180 @@
 {
   "covid": {
-    "details": ["The workflow uses separate source workbooks for deaths and vaccinations. The analysis SQL explores the records, and a separate preparation script shapes them for Tableau.", "The linked dashboard is the interactive view. The workbook and both SQL files document the steps behind it."]
+    "details": [
+      "The workflow uses separate source workbooks for deaths and vaccinations. The analysis SQL explores the records, and a separate preparation script shapes them for Tableau.",
+      "The linked dashboard is the interactive view. The workbook and both SQL files document the steps behind it."
+    ]
   },
   "nashville-housing": {
-    "details": ["This project focuses on making property records usable for later analysis. The SQL standardizes dates, fills missing address information, separates address components, and identifies duplicate transactions.", "The housing workbook supplies the records. The SQL script shows each transformation."]
+    "details": [
+      "This project focuses on making property records usable for later analysis. The SQL standardizes dates, fills missing address information, separates address components, and identifies duplicate transactions.",
+      "The housing workbook supplies the records. The SQL script shows each transformation."
+    ]
   },
   "washington-housing": {
-    "details": ["The dashboard puts sale prices in geographic and calendar context. The bedroom and bathroom views let readers compare homes with different layouts alongside the location and time views."]
+    "details": [
+      "The dashboard puts sale prices in geographic and calendar context. The bedroom and bathroom views let readers compare homes with different layouts alongside the location and time views."
+    ]
   },
   "london-biking": {
-    "details": ["The heatmap shows how trip counts vary across time and weather conditions. The moving average smooths short-term fluctuations so readers can examine the broader usage pattern."]
+    "details": [
+      "The heatmap shows how trip counts vary across time and weather conditions. The moving average smooths short-term fluctuations so readers can examine the broader usage pattern."
+    ]
   },
   "ocd": {
-    "details": ["The SQL organizes a sample dataset into monthly and demographic summaries and counts recorded categories of obsessions and compulsions. The queries show which fields and groupings produce each view."]
+    "details": [
+      "The SQL organizes a sample dataset into monthly and demographic summaries and counts recorded categories of obsessions and compulsions. The queries show which fields and groupings produce each view."
+    ]
   },
   "sales-insights": {
-    "details": ["The two report files approach the same sales questions from Tableau and Power BI. They keep sales value and quantity distinct as readers move among market, product, customer, and time views."]
+    "details": [
+      "The two report files approach the same sales questions from Tableau and Power BI. They keep sales value and quantity distinct as readers move among market, product, customer, and time views."
+    ]
   },
   "shopping-trends": {
-    "details": ["The notebook explores the shopping-trends data in Python. The companion SQL file summarizes the same records to examine groups of customers, products, and purchases."]
+    "details": [
+      "The notebook explores the shopping-trends data in Python. The companion SQL file summarizes the same records to examine groups of customers, products, and purchases."
+    ]
   },
   "retail-sales": {
-    "details": ["The script begins with transaction cleanup, then groups the prepared records to compare categories, customers, months, and shifts. The SQL file shows the cleaning and analysis steps together."]
+    "details": [
+      "The script begins with transaction cleanup, then groups the prepared records to compare categories, customers, months, and shifts. The SQL file shows the cleaning and analysis steps together."
+    ]
   },
   "walmart": {
-    "details": ["The queries look at sales from the perspectives of branch, payment method, product rating, and time. These views help readers distinguish differences between branches from changes in revenue over time."]
+    "details": [
+      "The queries look at sales from the perspectives of branch, payment method, product rating, and time. These views help readers distinguish differences between branches from changes in revenue over time."
+    ]
   },
   "monday-coffee": {
-    "details": ["The SQL brings together city-level sales, product demand, and customer spending. Those measures support comparison of existing activity and potential market coverage across cities."]
+    "details": [
+      "The SQL brings together city-level sales, product demand, and customer spending. Those measures support comparison of existing activity and potential market coverage across cities."
+    ]
   },
   "coffee-dashboard": {
-    "details": ["The Excel dashboard brings order totals, country-level sales, and leading customers into one view. The workbook is the source for exploring these measures together."]
+    "details": [
+      "The Excel dashboard brings order totals, country-level sales, and leading customers into one view. The workbook is the source for exploring these measures together."
+    ]
   },
   "layoffs": {
-    "details": ["One SQL file prepares the dataset. The exploratory file then groups recorded layoffs by company, industry, country, and period so the same data can be compared at different levels."]
+    "details": [
+      "One SQL file prepares the dataset. The exploratory file then groups recorded layoffs by company, industry, country, and period so the same data can be compared at different levels."
+    ]
   },
   "hr-satisfaction": {
-    "details": ["The queries group satisfaction scores by department and explore how the scores relate to salary and other employee measures. The SQL script shows the groupings used for those comparisons."]
+    "details": [
+      "The queries group satisfaction scores by department and explore how the scores relate to salary and other employee measures. The SQL script shows the groupings used for those comparisons."
+    ]
   },
   "presence-insights": {
-    "details": ["The report tracks attendance, sick leave, and work-from-home measures as separate series. Comparing them over time shows how recorded work arrangements and absences change."]
+    "details": [
+      "The report tracks attendance, sick leave, and work-from-home measures as separate series. Comparing them over time shows how recorded work arrangements and absences change."
+    ]
   },
   "hr-dashboard": {
-    "details": ["The interactive Tableau dashboard presents workforce measures together for review. The packaged workbook provides the companion file for examining the visualization in Tableau."]
+    "details": [
+      "The interactive Tableau dashboard presents workforce measures together for review. The packaged workbook provides the companion file for examining the visualization in Tableau."
+    ]
   },
   "library": {
-    "details": ["The SQL exercises connect books, members, branches, and loan records. Reporting queries use those relationships to examine outstanding loans, overdue items, and rental income."]
+    "details": [
+      "The SQL exercises connect books, members, branches, and loan records. Reporting queries use those relationships to examine outstanding loans, overdue items, and rental income."
+    ]
   },
   "loan-applications": {
-    "details": ["The notebook compares application volume with approval counts. The year and income views provide two ways to examine how those counts vary across the records."]
+    "details": [
+      "The notebook compares application volume with approval counts. The year and income views provide two ways to examine how those counts vary across the records."
+    ]
   },
   "bike-sales": {
-    "details": ["The workbook groups bike buyers using income, age, and commute-distance fields. Excel pivot tables and filters let readers move between those segments within the same dashboard."]
+    "details": [
+      "The workbook groups bike buyers using income, age, and commute-distance fields. Excel pivot tables and filters let readers move between those segments within the same dashboard."
+    ]
   },
   "seattle-airbnb": {
-    "details": ["The map groups average rental prices by ZIP code. The bedroom and weekly views provide other ways to compare listings and changes over the recorded period."]
+    "details": [
+      "The map groups average rental prices by ZIP code. The bedroom and weekly views provide other ways to compare listings and changes over the recorded period."
+    ]
   },
   "british-airways": {
-    "details": ["The workbook explores review records by aircraft, geography, and month. The dashboard and source workbook provide interactive and editable views of the same project."]
+    "details": [
+      "The workbook explores review records by aircraft, geography, and month. The dashboard and source workbook provide interactive and editable views of the same project."
+    ]
   },
   "sales-customers": {
-    "details": ["One dashboard emphasizes weekly sales, profit, and orders. The customer view complements it with the distribution of customers and a closer look at leading customers."]
+    "details": [
+      "One dashboard emphasizes weekly sales, profit, and orders. The customer view complements it with the distribution of customers and a closer look at leading customers."
+    ]
   },
   "personal-finance": {
-    "details": ["The dashboard places income and spending alongside savings and net worth. Expense categories and savings targets give readers additional context for interpreting changes over time."]
+    "details": [
+      "The dashboard places income and spending alongside savings and net worth. Expense categories and savings targets give readers additional context for interpreting changes over time."
+    ]
   },
   "hospitality-revenue": {
-    "details": ["This Power BI project brings hospitality revenue data into a dashboard for review. The linked report is the project file and can be opened in Power BI Desktop."]
+    "details": [
+      "This Power BI project brings hospitality revenue data into a dashboard for review. The linked report is the project file and can be opened in Power BI Desktop."
+    ]
   },
   "performance-report": {
-    "details": ["The report groups performance measures by account and product. Gross-profit percentage adds a margin view, and year-to-date comparisons put current figures in time context."]
+    "details": [
+      "The report groups performance measures by account and product. Gross-profit percentage adds a margin view, and year-to-date comparisons put current figures in time context."
+    ]
   },
   "amazon-scraper": {
-    "details": ["The Python notebook extracts the product title and price from a page, then writes an observation to a CSV. Repeated observations can be read back from that file."]
+    "details": [
+      "The Python notebook extracts the product title and price from a page, then writes an observation to a CSV. Repeated observations can be read back from that file."
+    ]
   },
   "sql-mentor": {
-    "details": ["The SQL exercises work with daily and weekly submissions. They calculate scores, summarize correctness, and rank users using different reporting periods."]
+    "details": [
+      "The SQL exercises work with daily and weekly submissions. They calculate scores, summarize correctness, and rank users using different reporting periods."
+    ]
   },
   "cricket": {
-    "details": ["This project presents cricket data in a Power BI report with interactive visuals. The linked Power BI file contains the report for further exploration."]
+    "details": [
+      "This project presents cricket data in a Power BI report with interactive visuals. The linked Power BI file contains the report for further exploration."
+    ]
   },
   "netflix": {
-    "details": ["The queries group catalog records by title type, genre, country, release year, and rating. The SQL script shows how each catalog comparison is calculated."]
+    "details": [
+      "The queries group catalog records by title type, genre, country, release year, and rating. The SQL script shows how each catalog comparison is calculated."
+    ]
   },
   "movies": {
-    "details": ["The scatterplots show how budgets, gross earnings, and ratings vary across individual records. The correlation charts summarize relationships across those measures in the notebook."]
+    "details": [
+      "The scatterplots show how budgets, gross earnings, and ratings vary across individual records. The correlation charts summarize relationships across those measures in the notebook."
+    ]
   },
   "youtube": {
-    "details": ["The notebook examines subscriber counts and earnings estimates alongside geographic information. The linked dataset provides the input records used for the analysis."]
+    "details": [
+      "The notebook examines subscriber counts and earnings estimates alongside geographic information. The linked dataset provides the input records used for the analysis."
+    ]
   },
   "gameflix": {
-    "details": ["The Spring Boot prototype exposes REST endpoints backed by local persistence. The repository includes service tests and a Docker build for running the prototype."]
+    "details": [
+      "The Spring Boot prototype exposes REST endpoints backed by local persistence. The repository includes service tests and a Docker build for running the prototype."
+    ]
+  },
+  "netflix-interface": {
+    "details": [
+      "Cinematic title browsing with a featured hero, search, title details and a saved list.",
+      "An independent tutorial-derived interface study adapted for browser-only presentation. Saved collections stay in this browser. Playback uses short sample media; account services and full commercial streaming are outside this demo.",
+      "Tutorial sources and adaptations are documented in SOURCE.md alongside the code."
+    ]
+  },
+  "disney-interface": {
+    "details": [
+      "A branded carousel, studio collections, title details and a persistent watchlist.",
+      "An independent tutorial-derived interface study adapted for browser-only presentation. Saved collections stay in this browser. Playback uses short sample media; account services and full commercial streaming are outside this demo.",
+      "Tutorial sources and adaptations are documented in SOURCE.md alongside the code."
+    ]
+  },
+  "spotify-interface": {
+    "details": [
+      "A music dashboard with searchable collections, saved tracks and a working sample-audio player.",
+      "An independent tutorial-derived interface study adapted for browser-only presentation. Saved collections stay in this browser. Playback uses short sample media; account services and full commercial streaming are outside this demo.",
+      "Tutorial sources and adaptations are documented in SOURCE.md alongside the code."
+    ]
   }
 }

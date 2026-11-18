@@ -65,7 +65,7 @@ const renderImage = (image, eager) =>
 function projectImage(p) {
   const photo = photos[p.id];
   if (photo) {
-    const src = `assets/project-photos/${photo.file}`;
+    const src = photo.root ? photo.file : `assets/project-photos/${photo.file}`;
     if (!/^[a-z0-9-]+\.(?:jpe?g|webp|png)$/.test(photo.file) || !existsSync(here(`./dist/${src}`)) ||
         !Number.isSafeInteger(photo.width) || photo.width <= 0 ||
         !Number.isSafeInteger(photo.height) || photo.height <= 0 ||

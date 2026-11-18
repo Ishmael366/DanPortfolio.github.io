@@ -188,7 +188,7 @@
     "file": "youtube.jpg",
     "width": 1200,
     "height": 675,
-    "alt": "YouTube’s red play icon and wordmark",
+    "alt": "YouTube\u2019s red play icon and wordmark",
     "source": "https://brand.youtube/"
   },
   "gameflix": {
@@ -196,5 +196,26 @@
     "width": 1200,
     "height": 750,
     "alt": "A game controller beside a laptop displaying code"
+  },
+  "netflix-interface": {
+    "file": "netflix-interface.jpg",
+    "alt": "Netflix Streaming Interface presentation preview",
+    "width": 1200,
+    "height": 675,
+    "root": true
+  },
+  "disney-interface": {
+    "file": "disney-interface.jpg",
+    "alt": "Disney+ Streaming Interface presentation preview",
+    "width": 1200,
+    "height": 675,
+    "root": true
+  },
+  "spotify-interface": {
+    "file": "spotify-interface.jpg",
+    "alt": "Spotify Music Interface presentation preview",
+    "width": 1200,
+    "height": 675,
+    "root": true
   }
 }
