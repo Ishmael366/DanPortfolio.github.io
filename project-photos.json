@@ -217,5 +217,208 @@
     "width": 1200,
     "height": 675,
     "root": true
+  },
+  "game-programming-pong-in-the-park": {
+    "file": "game-programming-pong-in-the-park-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Programming Pong In The Park live game preview"
+  },
+  "game-ninja-adventure": {
+    "file": "game-ninja-adventure-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Ninja Adventure live game preview"
+  },
+  "game-sunnyland-platformer": {
+    "file": "game-sunnyland-platformer-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Sunnyland Platformer live game preview"
+  },
+  "game-vertical-platformer": {
+    "file": "game-vertical-platformer-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Vertical Platformer live game preview"
+  },
+  "game-fighting-game": {
+    "file": "game-fighting-game-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Samurai Fighting Game live game preview"
+  },
+  "game-tower-defense": {
+    "file": "game-tower-defense-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Tower Defense live game preview"
+  },
+  "game-kings-and-pigs": {
+    "file": "game-kings-and-pigs-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Kings And Pigs live game preview"
+  },
+  "game-pacman": {
+    "file": "game-pacman-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Pacman live game preview"
+  },
+  "game-asteroids-neural-network": {
+    "file": "game-asteroids-neural-network-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Asteroids \u2014 Base Game live game preview"
+  },
+  "game-meth-meth-method--tetris": {
+    "file": "game-meth-meth-method--tetris-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Tetris live game preview"
+  },
+  "game-kubowania--memory-game": {
+    "file": "game-kubowania--memory-game-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Memory Game live game preview"
+  },
+  "game-kubowania--whack-a-mole": {
+    "file": "game-kubowania--whack-a-mole-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Whack A Mole live game preview"
+  },
+  "game-kubowania--connect-four": {
+    "file": "game-kubowania--connect-four-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Connect Four live game preview"
+  },
+  "game-kubowania--nokia3310-snake": {
+    "file": "game-kubowania--nokia3310-snake-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Nokia3310 Snake live game preview"
+  },
+  "game-kubowania--space-invaders": {
+    "file": "game-kubowania--space-invaders-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Space Invaders live game preview"
+  },
+  "game-kubowania--tetris": {
+    "file": "game-kubowania--tetris-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Tetris live game preview"
+  },
+  "game-kubowania--doodle-jump": {
+    "file": "game-kubowania--doodle-jump-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Doodle Jump live game preview"
+  },
+  "game-kubowania--whac-a-mole": {
+    "file": "game-kubowania--whac-a-mole-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Whac A Mole live game preview"
+  },
+  "game-kubowania--breakout": {
+    "file": "game-kubowania--breakout-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Breakout live game preview"
+  },
+  "game-kubowania--flappy-bird": {
+    "file": "game-kubowania--flappy-bird-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Flappy Bird live game preview"
+  },
+  "game-kubowania--minesweeper": {
+    "file": "game-kubowania--minesweeper-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Minesweeper live game preview"
+  },
+  "game-kubowania--tetris-basic": {
+    "file": "game-kubowania--tetris-basic-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Tetris Basic live game preview"
+  },
+  "game-kubowania--candy-crush": {
+    "file": "game-kubowania--candy-crush-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Candy Crush live game preview"
+  },
+  "game-kubowania--2048": {
+    "file": "game-kubowania--2048-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "2048 live game preview"
+  },
+  "game-kubowania--mario-js": {
+    "file": "game-kubowania--mario-js-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Mario Js live game preview"
+  },
+  "game-kubowania--pac-man": {
+    "file": "game-kubowania--pac-man-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Pac Man live game preview"
+  },
+  "game-kubowania--zelda-js": {
+    "file": "game-kubowania--zelda-js-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Zelda Js live game preview"
+  },
+  "game-kubowania--zelda-kaboom-js": {
+    "file": "game-kubowania--zelda-kaboom-js-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Zelda Kaboom.Js live game preview"
+  },
+  "game-kubowania--tic-tac-toe": {
+    "file": "game-kubowania--tic-tac-toe-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Tic Tac Toe live game preview"
   }
 }

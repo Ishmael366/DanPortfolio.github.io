@@ -93,7 +93,6 @@ function renderProject(p, group, featured) {
     throw new Error(`Invalid skill areas for project: ${p.id}`);
   }
   for (const artifact of p.artifacts) {
-    if (artifacts.has(artifact.url)) throw new Error(`Duplicate project artifact: ${artifact.url}`);
     artifacts.add(artifact.url);
   }
   const image = projectImage(p);

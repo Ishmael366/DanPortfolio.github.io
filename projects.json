@@ -571,6 +571,673 @@
       "label": "Sports & Games",
       "projects": [
         {
+          "id": "game-programming-pong-in-the-park",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Programming Pong In The Park",
+          "description": "A playable Programming Pong In The Park tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-programming-pong-in-the-park.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-programming-pong-in-the-park-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-ninja-adventure",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Ninja Adventure",
+          "description": "Explore a pixel-art village with character movement, collisions and animated enemies.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-ninja-adventure.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-ninja-adventure-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-sunnyland-platformer",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Sunnyland Platformer",
+          "description": "Run and jump through a colorful platform world with scrolling scenery.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-sunnyland-platformer.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-sunnyland-platformer-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-vertical-platformer",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Vertical Platformer",
+          "description": "A playable Vertical Platformer tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-vertical-platformer.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-vertical-platformer-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-fighting-game",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Samurai Fighting Game",
+          "description": "A two-player samurai fighting game with animated attacks and health bars.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-fighting-game.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-fighting-game-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-tower-defense",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Tower Defense",
+          "description": "Place defenses and protect a winding path against waves of enemies.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-tower-defense.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-tower-defense-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kings-and-pigs",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Kings And Pigs",
+          "description": "A playable Kings And Pigs tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kings-and-pigs.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kings-and-pigs-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-pacman",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Pacman",
+          "description": "A playable Pacman tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-pacman.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-pacman-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-asteroids-neural-network",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Asteroids \u2014 Base Game",
+          "description": "A playable Asteroids \u2014 Base Game tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-asteroids-neural-network.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-asteroids-neural-network-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-meth-meth-method--tetris",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Tetris",
+          "description": "A playable Tetris tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-meth-meth-method--tetris.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-meth-meth-method--tetris-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--memory-game",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Memory Game",
+          "description": "A playable Memory Game tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--memory-game.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--memory-game-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--whack-a-mole",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Whack A Mole",
+          "description": "A playable Whack A Mole tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--whack-a-mole.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--whack-a-mole-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--connect-four",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Connect Four",
+          "description": "A playable Connect Four tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--connect-four.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--connect-four-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--nokia3310-snake",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Nokia3310 Snake",
+          "description": "A playable Nokia3310 Snake tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--nokia3310-snake.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--nokia3310-snake-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--space-invaders",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Space Invaders",
+          "description": "A playable Space Invaders tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--space-invaders.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--space-invaders-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--tetris",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Tetris",
+          "description": "A playable Tetris tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--tetris.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--tetris-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--doodle-jump",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Doodle Jump",
+          "description": "A playable Doodle Jump tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--doodle-jump.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--doodle-jump-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--whac-a-mole",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Whac A Mole",
+          "description": "A playable Whac A Mole tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--whac-a-mole.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--whac-a-mole-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--breakout",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Breakout",
+          "description": "A playable Breakout tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--breakout.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--breakout-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--flappy-bird",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Flappy Bird",
+          "description": "A playable Flappy Bird tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--flappy-bird.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--flappy-bird-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--minesweeper",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Minesweeper",
+          "description": "A playable Minesweeper tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--minesweeper.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--minesweeper-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--tetris-basic",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Tetris Basic",
+          "description": "A playable Tetris Basic tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--tetris-basic.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--tetris-basic-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--candy-crush",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Candy Crush",
+          "description": "A playable Candy Crush tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--candy-crush.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--candy-crush-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--2048",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "2048",
+          "description": "A playable 2048 tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--2048.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--2048-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--mario-js",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Mario Js",
+          "description": "A playable Mario Js tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--mario-js.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--mario-js-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--pac-man",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Pac Man",
+          "description": "A playable Pac Man tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--pac-man.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--pac-man-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--zelda-js",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Zelda Js",
+          "description": "A playable Zelda Js tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--zelda-js.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--zelda-js-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--zelda-kaboom-js",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Zelda Kaboom.Js",
+          "description": "A playable Zelda Kaboom.Js tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--zelda-kaboom-js.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--zelda-kaboom-js-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-kubowania--tic-tac-toe",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "title": "Tic Tac Toe",
+          "description": "A playable Tic Tac Toe tutorial game with browser controls and downloadable source.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-kubowania--tic-tac-toe.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-kubowania--tic-tac-toe-source.zip"
+            }
+          ]
+        },
+        {
           "id": "cricket",
           "skills": [
             "Graphics",

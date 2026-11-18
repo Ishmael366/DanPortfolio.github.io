@@ -176,5 +176,208 @@
       "An independent tutorial-derived interface study adapted for browser-only presentation. Saved collections stay in this browser. Playback uses short sample media; account services and full commercial streaming are outside this demo.",
       "Tutorial sources and adaptations are documented in SOURCE.md alongside the code."
     ]
+  },
+  "game-programming-pong-in-the-park": {
+    "details": [
+      "A playable Programming Pong In The Park tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-ninja-adventure": {
+    "details": [
+      "Explore a pixel-art village with character movement, collisions and animated enemies.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-sunnyland-platformer": {
+    "details": [
+      "Run and jump through a colorful platform world with scrolling scenery.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-vertical-platformer": {
+    "details": [
+      "A playable Vertical Platformer tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-fighting-game": {
+    "details": [
+      "A two-player samurai fighting game with animated attacks and health bars.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-tower-defense": {
+    "details": [
+      "Place defenses and protect a winding path against waves of enemies.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kings-and-pigs": {
+    "details": [
+      "A playable Kings And Pigs tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-pacman": {
+    "details": [
+      "A playable Pacman tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-asteroids-neural-network": {
+    "details": [
+      "A playable Asteroids \u2014 Base Game tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-meth-meth-method--tetris": {
+    "details": [
+      "A playable Tetris tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--memory-game": {
+    "details": [
+      "A playable Memory Game tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--whack-a-mole": {
+    "details": [
+      "A playable Whack A Mole tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--connect-four": {
+    "details": [
+      "A playable Connect Four tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--nokia3310-snake": {
+    "details": [
+      "A playable Nokia3310 Snake tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--space-invaders": {
+    "details": [
+      "A playable Space Invaders tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--tetris": {
+    "details": [
+      "A playable Tetris tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--doodle-jump": {
+    "details": [
+      "A playable Doodle Jump tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--whac-a-mole": {
+    "details": [
+      "A playable Whac A Mole tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--breakout": {
+    "details": [
+      "A playable Breakout tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--flappy-bird": {
+    "details": [
+      "A playable Flappy Bird tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--minesweeper": {
+    "details": [
+      "A playable Minesweeper tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--tetris-basic": {
+    "details": [
+      "A playable Tetris Basic tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--candy-crush": {
+    "details": [
+      "A playable Candy Crush tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--2048": {
+    "details": [
+      "A playable 2048 tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--mario-js": {
+    "details": [
+      "A playable Mario Js tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--pac-man": {
+    "details": [
+      "A playable Pac Man tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--zelda-js": {
+    "details": [
+      "A playable Zelda Js tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--zelda-kaboom-js": {
+    "details": [
+      "A playable Zelda Kaboom.Js tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
+  },
+  "game-kubowania--tic-tac-toe": {
+    "details": [
+      "A playable Tic Tac Toe tutorial game with browser controls and downloadable source.",
+      "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
+      "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
+    ]
   }
 }
