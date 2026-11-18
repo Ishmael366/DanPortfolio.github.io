@@ -1,0 +1,200 @@
+{
+  "covid": {
+    "alt": "CDC illustration of a SARS-CoV-2 particle with red surface spikes.",
+    "source": "https://wwwn.cdc.gov/phil/details.aspx?pid=23312",
+    "credit": "Alissa Eckert and Dan Higgins / CDC (public domain)",
+    "file": "covid.jpg",
+    "width": 1200,
+    "height": 675
+  },
+  "nashville-housing": {
+    "alt": "A Craftsman bungalow with a front porch on a residential street.",
+    "file": "nashville-housing.jpg",
+    "width": 1200,
+    "height": 750
+  },
+  "washington-housing": {
+    "alt": "Pacific Northwest houses along a tree-lined residential street.",
+    "file": "washington-housing.jpg",
+    "width": 1200,
+    "height": 750
+  },
+  "london-biking": {
+    "alt": "Rows of red cycle hire bicycles docked on a London street.",
+    "file": "london-biking.jpg",
+    "width": 1200,
+    "height": 750
+  },
+  "ocd": {
+    "alt": "A notebook and clipboard on a quiet counseling office desk.",
+    "file": "ocd.jpg",
+    "width": 1200,
+    "height": 750
+  },
+  "sales-insights": {
+    "alt": "An analyst reviews revenue charts on a laptop and a printed report.",
+    "file": "sales-insights.jpg",
+    "width": 1200,
+    "height": 750
+  },
+  "shopping-trends": {
+    "alt": "A shopper considers a blue garment among colorful clothing racks.",
+    "file": "shopping-trends.jpg",
+    "width": 1200,
+    "height": 750
+  },
+  "retail-sales": {
+    "alt": "A shopper pays with a phone at a retail checkout.",
+    "file": "retail-sales.jpg",
+    "width": 1200,
+    "height": 750
+  },
+  "walmart": {
+    "alt": "The signed Walmart Supercenter storefront in Quincy, Florida.",
+    "source": "https://commons.wikimedia.org/wiki/File:Walmart_Supercenter_-_488_-_Quincy,_FL.jpg",
+    "credit": "FLGALine1999 / Wikimedia Commons (CC0)",
+    "file": "walmart.jpg",
+    "width": 1200,
+    "height": 900
+  },
+  "monday-coffee": {
+    "alt": "A barista pours coffee at a neighborhood cafe counter.",
+    "file": "monday-coffee.jpg",
+    "width": 1200,
+    "height": 750
+  },
+  "coffee-dashboard": {
+    "alt": "Roasted coffee beans, paper order slips, and coffee packaging.",
+    "file": "coffee-dashboard.jpg",
+    "width": 1200,
+    "height": 750
+  },
+  "layoffs": {
+    "alt": "A packed cardboard box beside a vacant office desk.",
+    "file": "layoffs.jpg",
+    "width": 1200,
+    "height": 750
+  },
+  "hr-satisfaction": {
+    "alt": "Two coworkers discuss an employee feedback form.",
+    "file": "hr-satisfaction.jpg",
+    "width": 1200,
+    "height": 750
+  },
+  "presence-insights": {
+    "file": "presence-insights.jpg",
+    "width": 1440,
+    "height": 810,
+    "alt": "A hybrid meeting setup in an open workplace as employees arrive."
+  },
+  "hr-dashboard": {
+    "file": "hr-dashboard.jpg",
+    "width": 1440,
+    "height": 810,
+    "alt": "Colleagues reviewing charts in a glass-walled meeting room."
+  },
+  "library": {
+    "file": "library.jpg",
+    "width": 1440,
+    "height": 810,
+    "alt": "Books and a scanner at a public library circulation desk."
+  },
+  "loan-applications": {
+    "file": "loan-applications.jpg",
+    "width": 1440,
+    "height": 810,
+    "alt": "A paper loan application, pen, and calculator at a meeting table."
+  },
+  "bike-sales": {
+    "file": "bike-sales.jpg",
+    "width": 1440,
+    "height": 810,
+    "alt": "A row of city bicycles in a bicycle shop."
+  },
+  "seattle-airbnb": {
+    "file": "seattle-airbnb.jpg",
+    "width": 1440,
+    "height": 810,
+    "alt": "An illustrative Seattle-style house with the Space Needle in the distance."
+  },
+  "british-airways": {
+    "file": "british-airways.jpg",
+    "width": 1440,
+    "height": 960,
+    "alt": "A British Airways Airbus A350 on approach to London Heathrow Airport.",
+    "source": "https://commons.wikimedia.org/wiki/File:British_Airways_G-XWBA_Airbus_A350-1041_London_Heathrow_Airport_(LHR_EGLL)_(52677400051).jpg",
+    "credit": "Mitchul Hope / Wikimedia Commons (CC BY-SA 2.0, resized)",
+    "license": "https://creativecommons.org/licenses/by-sa/2.0/"
+  },
+  "sales-customers": {
+    "file": "sales-customers.jpg",
+    "width": 1440,
+    "height": 810,
+    "alt": "A customer paying at a retail checkout counter."
+  },
+  "personal-finance": {
+    "file": "personal-finance.jpg",
+    "width": 1440,
+    "height": 810,
+    "alt": "A household budget notebook, receipts, calculator, and coins."
+  },
+  "hospitality-revenue": {
+    "file": "hospitality-revenue.jpg",
+    "width": 1440,
+    "height": 810,
+    "alt": "A warmly lit hotel lobby and reception desk."
+  },
+  "performance-report": {
+    "file": "performance-report.jpg",
+    "width": 1440,
+    "height": 810,
+    "alt": "Printed charts laid side by side on a meeting table."
+  },
+  "amazon-scraper": {
+    "file": "amazon-scraper.jpg",
+    "width": 1440,
+    "height": 810,
+    "alt": "An Amazon delivery box beside a laptop showing a shopping page."
+  },
+  "sql-mentor": {
+    "file": "sql-mentor.jpg",
+    "width": 1440,
+    "height": 810,
+    "alt": "A learner working in a database editor beside a notebook."
+  },
+  "cricket": {
+    "file": "cricket.jpg",
+    "width": 1200,
+    "height": 673,
+    "alt": "A Test cricket match between Australia and the West Indies at Perth Stadium",
+    "source": "https://commons.wikimedia.org/wiki/File:Wicket_of_Jermaine_Blackwood_batting_at_Perth_Stadium,_First_Test_Australia_versus_West_Indies,_2_December_2022.jpg",
+    "credit": "Photo: Calistemon, CC BY-SA 4.0 (resized)",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "netflix": {
+    "file": "netflix.jpg",
+    "width": 700,
+    "height": 419,
+    "alt": "Red Netflix wordmark on a black background",
+    "source": "https://about.netflix.com/en/company-assets"
+  },
+  "movies": {
+    "file": "movies.jpg",
+    "width": 1200,
+    "height": 750,
+    "alt": "A film reel and clapperboard in a cinema"
+  },
+  "youtube": {
+    "file": "youtube.jpg",
+    "width": 1200,
+    "height": 675,
+    "alt": "YouTube’s red play icon and wordmark",
+    "source": "https://brand.youtube/"
+  },
+  "gameflix": {
+    "file": "gameflix.jpg",
+    "width": 1200,
+    "height": 750,
+    "alt": "A game controller beside a laptop displaying code"
+  }
+}

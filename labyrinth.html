@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <title>Labyrinth Overview — Daniel Nguyen</title>
+  <meta name="description" content="Explore Labyrinth’s Chesapeake Bay Archive, Network, Workshop, and development history.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="dark.css">
+  <link rel="stylesheet" href="collection-dark.css">
+  <link rel="stylesheet" href="labyrinth.css?v=416f109d3d74">
+  <script src="app.js" defer></script>
+  <script src="labyrinth-panels.js?v=4eeacb5f75f0" defer></script>
+</head>
+<body class="labyrinth-overview">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Daniel Nguyen, home">
+      <span class="brand-mark" aria-hidden="true">dn<span>↗</span></span>
+      <span>Daniel Nguyen</span>
+    </a>
+    <nav class="case-nav" aria-label="Overview navigation">
+      <a href="index.html#work">All work</a>
+      <a class="button button-dark" href="https://therubyquartz.github.io/labyrinth/" target="_blank" rel="noopener">Open Labyrinth <span aria-hidden="true">↗</span><span class="sr-only"> (opens a new tab)</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="case-intro section-shell" aria-labelledby="case-title">
+      <div class="breadcrumb"><a href="index.html#work">Projects</a><span aria-hidden="true">/</span><span>Overview</span></div>
+      <p class="featured-project-label">Featured Project</p>
+      <h1 id="case-title">Labyrinth</h1>
+      <p class="case-lead">Labyrinth is designed to help conservation teams monitor conditions, coordinate their work, and test strategies before taking them into the field. I built the Chesapeake Bay Archive during my internship.</p>
+    </section>
+    <div class="case-article section-shell" id="scope">
+      <nav class="labyrinth-tabs" aria-label="Labyrinth sections">
+        <a id="archive-tab" href="#overview">Archive</a>
+        <a id="network-tab" href="#network">Network</a>
+        <a id="workshop-tab" href="#workshop">Workshop</a>
+        <a id="development-history-tab" href="#development-history">Development history</a>
+      </nav>
+      <article class="case-content">
+        <section id="overview" data-labyrinth-panel>
+          <h2>Archive</h2>
+          <p class="labyrinth-panel-summary">Sourced records, maps, and observations for tracking wildlife and habitats.</p>
+          <figure class="labyrinth-figure">
+            <img src="assets/labyrinth/archive-live-gallery.jpg" width="1280" height="720" alt="Labyrinth Archive gallery with blue crab, eastern oyster, and Tangier Sound seagrass cards">
+            <figcaption class="labyrinth-image-caption"><span>Species and habitats in the live Archive Gallery</span><a href="assets/labyrinth/archive-live-gallery.jpg" target="_blank" rel="noopener">View full size <span aria-hidden="true">↗</span><span class="sr-only"> (opens the Archive image in a new tab)</span></a></figcaption>
+          </figure>
+          <p>The Archive covers Chesapeake Bay blue crab and eastern oyster. It combines a searchable inventory with regional maps, measurements, histories, and news. The blue crab profile spans 13 sections with model viewers, related records, comparisons, and source references.</p>
+          <p id="interface"><strong>Features</strong><br>The homepage connects an interactive globe, specimen galleries, and 3D scenes to Archive entries. Visitors can move from the regional map to a species profile and explore related material in grid, gallery, and Connections views.</p>
+          <p><strong>Tools</strong><br>React, TypeScript, and Vite power the interface. GitHub Actions runs scheduled data imports.</p>
+          <h3 id="data">Data sources and validation</h3>
+          <p>The Archive combines NOAA terrain and station readings with observations from Maryland DNR, VIMS, and NOAA. The pipeline checks dates, units, values, station identity, and survey qualifications. Station readings refresh on visits and every 15 minutes while the view is visible. Annual surveys retain their source dates, and failed updates preserve the last available observation with its original date.</p>
+        </section>
+        <section id="network" data-labyrinth-panel>
+          <h2>Network</h2>
+          <p class="labyrinth-panel-summary">Community hub for sharing field observations and coordinating conservation work.</p>
+          <figure class="labyrinth-figure">
+            <img src="assets/labyrinth/network-field-updates.jpg" width="1672" height="941" loading="lazy" alt="Labyrinth Network interface with discussion channels, a blue crab photo in the field updates feed, and team chat">
+            <figcaption class="labyrinth-image-caption"><span>Field updates, photo posts, and team chat</span><a href="assets/labyrinth/network-field-updates.jpg" target="_blank" rel="noopener">View full size <span aria-hidden="true">↗</span><span class="sr-only"> (opens the Network image in a new tab)</span></a></figcaption>
+          </figure>
+          <p>The Network organizes conversations around shared subjects from the Archive, such as a species, habitat, or restoration effort. Those subjects give people and organizations a common reference when they share observations or plan work.</p>
+          <p><strong>Features</strong><br>A feed for short field updates and photos, topic channels for ongoing discussions, and team chat for quick coordination. Relationship maps connect shared subjects with people, organizations, and Workshop investigations.</p>
+          <p><strong>Tools</strong><br>The Archive’s Connections view for browsing related records, a discussion editor with local drafts, and shared channels for coordinating fieldwork.</p>
+        </section>
+        <section id="workshop" data-labyrinth-panel>
+          <h2>Workshop</h2>
+          <p class="labyrinth-panel-summary">A 3D workspace for investigating habitats and testing conservation strategies.</p>
+          <figure class="labyrinth-figure">
+            <img src="assets/labyrinth/workshop-scenario.jpg" width="1672" height="941" loading="lazy" alt="Oblique 3D view of Chesapeake Bay wetlands with a marked oyster reef restoration area, minimap, and simulation controls">
+            <figcaption class="labyrinth-image-caption"><span>Oyster reef restoration scenario in Chesapeake Bay</span><a href="assets/labyrinth/workshop-scenario.jpg" target="_blank" rel="noopener">View full size <span aria-hidden="true">↗</span><span class="sr-only"> (opens the Workshop image in a new tab)</span></a></figcaption>
+          </figure>
+          <p>The Workshop brings together terrain, field maps, and Archive evidence. In the oyster reef restoration scenario, an overhead strategy view shows how the reef sits within the surrounding Chesapeake Bay wetlands.</p>
+          <p><strong>Features</strong><br>3D model inspection, terrain exploration, an investigation notebook, and scenario controls for adjusting conditions and comparing conservation strategies before fieldwork.</p>
+          <p><strong>Tools</strong><br>Archive 3D viewers for model inspection. The simulation design pairs GIS mapping and Blender assets with Unreal Engine for terrain and scenario playback.</p>
+        </section>
+        <section id="development-history" data-labyrinth-panel>
+          <h2>Development history</h2>
+          <p>The internship focused on one wildlife species, its habitat, and related assets. The project scope covered the Archive for records and observations, the Network for coordination, and the Workshop for investigating conditions and testing strategies.</p>
+          <ol class="development-timeline" role="list">
+            <li>
+              <p class="development-date"><time datetime="2026-08">August 2026</time></p>
+              <h3>Initial architecture and build</h3>
+              <p>I built the Archive, 3D Map, and Marketplace views in React and TypeScript, with search, filtering, measurements, histories, and linked records. I tested the application with demonstration data and procedural terrain, then packaged it for GitHub Pages.</p>
+              <figure class="labyrinth-figure">
+                <img src="assets/labyrinth/early-prototype.jpg" width="1280" height="720" loading="lazy" alt="The early Labyrinth interface with a fictional 3D terrain study and sample records">
+                <figcaption>Early Labyrinth 3D Map</figcaption>
+              </figure>
+            </li>
+            <li>
+              <p class="development-date"><time datetime="2026-08">August 2026</time></p>
+              <h3>Regionalization and data integration</h3>
+              <p>I centered the platform on Chesapeake Bay blue crab and eastern oyster. I integrated NOAA terrain, mapping tools, and observations from Maryland DNR, VIMS, and NOAA. I added historical data, exports, source references, and quality flags, then linked ecological risks, news, and seasonal activity to records and maps.</p>
+              <figure class="labyrinth-figure">
+                <img src="assets/labyrinth/history-regionalization-current.jpg" width="1280" height="720" loading="lazy" alt="Chesapeake Bay satellite map with blue crab overlays and place labels">
+                <figcaption>Chesapeake Bay in the current Blue Crab Movement Atlas</figcaption>
+              </figure>
+            </li>
+            <li>
+              <p class="development-date"><time datetime="2026-09">September 2026</time></p>
+              <h3>Archive article development</h3>
+              <p>I expanded compact records into dark-themed articles with scientific profiles, detailed sections, source references, and interactive graphics. I added a contents panel and direct entry links while retaining measurements and ecological tools.</p>
+              <figure class="labyrinth-figure">
+                <img src="assets/labyrinth/history-archive-article-current.jpg" width="1280" height="720" loading="lazy" alt="The blue crab Archive article with its contents panel open">
+                <figcaption>The blue crab article and its contents panel today</figcaption>
+              </figure>
+            </li>
+            <li>
+              <p class="development-date">Late September to early October 2026</p>
+              <h3>Homepage development</h3>
+              <p>I built the homepage with an interactive globe, specimen galleries, animated navigation, a reading calendar, and Field Explorer. I created a 3D journey with responsive controls and reworked the homepage map to link featured projects, especially blue crab, directly to their Archive entries.</p>
+              <figure class="labyrinth-figure">
+                <img src="assets/labyrinth/history-homepage-current.jpg" width="1280" height="720" loading="lazy" alt="The interactive Earth scene on the Labyrinth homepage with Chesapeake Bay selected">
+                <figcaption>The current homepage globe links Chesapeake Bay to the blue crab entry</figcaption>
+              </figure>
+            </li>
+            <li>
+              <p class="development-date"><time datetime="2026-10">October 2026</time></p>
+              <h3>Entry collections and Archive redesign</h3>
+              <p>I expanded the blue crab entry into 13 sections with embedded records, model viewers, media, comparisons, and source information. I redesigned Archive browsing with consistent cards, category navigation, Grid, Gallery, and Connections views, and quick-look panels. I took layout cues from Apple and Ecosia.</p>
+              <figure class="labyrinth-figure">
+                <img src="assets/labyrinth/archive-collection.jpg" width="1280" height="720" loading="lazy" alt="The current Archive collection with species cards, search, and Grid, Gallery, and Connections controls">
+                <figcaption>Current Archive collection and viewing modes</figcaption>
+              </figure>
+            </li>
+            <li>
+              <p class="development-date"><time datetime="2026-10">October 2026</time></p>
+              <h3>Latest interface and scene refinements</h3>
+              <p>I unified the Map, Marketplace, News, and entry layouts with shared styling, search, and saved-item controls. I improved collection browsing and evidence comparisons, refined the homepage portal, exhibits, particles, globe, and expedition carousel, and documented Blender inspections and where the assets came from.</p>
+              <figure class="labyrinth-figure">
+                <img src="assets/labyrinth/history-interface-refinements-current.jpg" width="1280" height="720" loading="lazy" alt="Conservation news in Labyrinth with tabs for the Archive, Marketplace, and News">
+                <figcaption>Shared navigation in the current Conservation News view</figcaption>
+              </figure>
+            </li>
+          </ol>
+        </section>
+        <nav class="case-link-row" id="explore" aria-label="Labyrinth project links">
+          <a class="text-link" href="https://github.com/TheRubyQuartz/labyrinth" target="_blank" rel="noopener">Source code <span aria-hidden="true">↗</span><span class="sr-only"> (opens a new tab)</span></a>
+          <a class="text-link" href="https://github.com/TheRubyQuartz/labyrinth/blob/main/DATA_GUIDE.md" target="_blank" rel="noopener">Data guide <span aria-hidden="true">↗</span><span class="sr-only"> (opens a new tab)</span></a>
+        </nav>
+      </article>
+    </div>
+  </main>
+  <footer class="site-footer section-shell">
+    <span>© <span data-year>2026</span> Daniel Nguyen</span>
+    <div><a href="index.html#work">All projects</a><a href="resume.html">Full résumé</a></div>
+  </footer>
+</body>
+</html>

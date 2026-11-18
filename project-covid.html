@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <title>COVID Portfolio Project Overview — Daniel Nguyen</title>
+  <meta name="description" content="SQL queries and a Tableau workbook compare COVID-19 cases, deaths, and vaccination figures across places and over time.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="topics.css?v=ef6e8e593db9">
+  <link rel="stylesheet" href="dark.css"><link rel="stylesheet" href="collection-dark.css">
+  <link rel="stylesheet" href="project-overview.css">
+  <script src="app.js" defer></script>
+</head>
+<body class="topic-page project-page" data-theme="politics">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Daniel Nguyen, home"><span class="brand-mark" aria-hidden="true">dn<span>↗</span></span><span>Daniel Nguyen</span></a>
+    <button class="menu-button" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">+</span></button>
+    <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+      <a href="index.html#work">Projects</a><a href="index.html#skills">Skills</a>
+      <a href="resume.html">Full résumé</a>
+      <a class="nav-contact" href="index.html#contact">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="case-intro section-shell" aria-labelledby="project-title">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html#work">Projects</a><span aria-hidden="true">/</span>
+        <a href="politics.html#project-covid">Politics &amp; Business</a>
+      </nav>
+      <p class="featured-project-label">Featured Project</p>
+      <h1 id="project-title">COVID Portfolio Project</h1>
+      <section class="project-overview-summary" aria-labelledby="overview-heading">
+        <h2 id="overview-heading">Overview</h2>
+        <p>The workflow uses separate source workbooks for deaths and vaccinations. The analysis SQL explores the records, and a separate preparation script shapes them for Tableau.</p>
+        <p>The linked dashboard is the interactive view. The workbook and both SQL files document the steps behind it.</p>
+      </section>
+    </section>
+    <div class="case-art section-shell project-overview-art">
+      <img class="project-photo" src="assets/project-photos/covid.jpg" alt="CDC illustration of a SARS-CoV-2 particle with red surface spikes." width="1200" height="675" fetchpriority="high">
+    </div>
+    <p class="section-shell project-image-credit"><a href="https://wwwn.cdc.gov/phil/details.aspx?pid=23312">Alissa Eckert and Dan Higgins / CDC (public domain)</a></p>
+    <div class="section-shell project-overview-resources">
+      <section aria-labelledby="tools-heading">
+        <h2 id="tools-heading">Tools</h2>
+        <div class="tags"><span>SQL</span><span>Excel</span><span>Tableau</span></div>
+      </section>
+      <section aria-labelledby="files-heading">
+        <h2 id="files-heading">Project files</h2>
+        <ul class="project-artifacts">
+          <li><a href="https://public.tableau.com/app/profile/daniel.nguyen6826/viz/CovidProject_17462101691630/Dashboard1" target="_blank" rel="noopener">Open Tableau dashboard <span aria-hidden="true">↗</span><span class="sr-only"> for COVID Portfolio Project (opens a new tab)</span></a></li>
+          <li><a href="https://github.com/Ishmael366/SQL/blob/main/COVID%20Portfolio%20Project.sql" target="_blank" rel="noopener">COVID analysis SQL <span aria-hidden="true">↗</span><span class="sr-only"> for COVID Portfolio Project (opens a new tab)</span></a></li>
+          <li><a href="https://github.com/Ishmael366/SQL/blob/main/Tableau%20Portfolio%20Project.sql" target="_blank" rel="noopener">Tableau preparation SQL <span aria-hidden="true">↗</span><span class="sr-only"> for COVID Portfolio Project (opens a new tab)</span></a></li>
+          <li><a href="https://github.com/Ishmael366/Tableau/blob/main/Projects/Covid%20Project.twb" target="_blank" rel="noopener">Tableau workbook <span aria-hidden="true">↗</span><span class="sr-only"> for COVID Portfolio Project (opens a new tab)</span></a></li>
+          <li><a href="https://github.com/Ishmael366/Excel/blob/main/Projects/CovidDeaths.xlsx" target="_blank" rel="noopener">Deaths source workbook <span aria-hidden="true">↗</span><span class="sr-only"> for COVID Portfolio Project (opens a new tab)</span></a></li>
+          <li><a href="https://github.com/Ishmael366/Excel/blob/main/Projects/CovidVaccinations.xlsx" target="_blank" rel="noopener">Vaccinations source workbook <span aria-hidden="true">↗</span><span class="sr-only"> for COVID Portfolio Project (opens a new tab)</span></a></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer section-shell">
+    <span>© <span data-year>2026</span> Daniel Nguyen</span>
+    <div><a href="politics.html#project-covid">Back to Politics &amp; Business</a><a href="index.html#contact">Contact</a></div>
+  </footer>
+</body>
+</html>

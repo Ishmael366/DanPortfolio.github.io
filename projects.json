@@ -1,0 +1,601 @@
+{
+  "skillAreas": ["Infrastructure", "Transport", "Graphics", "Community", "Health", "Athletics", "Modeling", "Art", "Ecology", "Emergencies", "Production", "Composition"],
+  "groups": [
+    {
+      "id": "politics-business",
+      "label": "Politics & Business",
+      "projects": [
+        {
+          "id": "covid",
+          "skills": ["Graphics", "Health"],
+          "title": "COVID Portfolio Project",
+          "description": "SQL queries and a Tableau workbook compare COVID-19 cases, deaths, and vaccination figures across places and over time.",
+          "tech": [
+            "SQL",
+            "Excel",
+            "Tableau"
+          ],
+          "artifacts": [
+            {
+              "label": "Open Tableau dashboard",
+              "url": "https://public.tableau.com/app/profile/daniel.nguyen6826/viz/CovidProject_17462101691630/Dashboard1",
+              "title": "Covid Project"
+            },
+            {
+              "label": "COVID analysis SQL",
+              "url": "https://github.com/Ishmael366/SQL/blob/main/COVID%20Portfolio%20Project.sql"
+            },
+            {
+              "label": "Tableau preparation SQL",
+              "url": "https://github.com/Ishmael366/SQL/blob/main/Tableau%20Portfolio%20Project.sql"
+            },
+            {
+              "label": "Tableau workbook",
+              "url": "https://github.com/Ishmael366/Tableau/blob/main/Projects/Covid%20Project.twb"
+            },
+            {
+              "label": "Deaths source workbook",
+              "url": "https://github.com/Ishmael366/Excel/blob/main/Projects/CovidDeaths.xlsx"
+            },
+            {
+              "label": "Vaccinations source workbook",
+              "url": "https://github.com/Ishmael366/Excel/blob/main/Projects/CovidVaccinations.xlsx"
+            }
+          ]
+        },
+        {
+          "id": "nashville-housing",
+          "skills": ["Graphics", "Community"],
+          "title": "Nashville Housing Project",
+          "description": "Prepares property records for analysis by standardizing dates, filling in and separating address fields, and identifying duplicate transactions.",
+          "tech": [
+            "SQL",
+            "Excel"
+          ],
+          "artifacts": [
+            {
+              "label": "SQL script",
+              "url": "https://github.com/Ishmael366/SQL/blob/main/Nashville%20Housing%20Project.sql"
+            },
+            {
+              "label": "Housing data workbook",
+              "url": "https://github.com/Ishmael366/Excel/blob/main/Projects/Nashville%20Housing%20Data.xlsx"
+            }
+          ]
+        },
+        {
+          "id": "washington-housing",
+          "skills": ["Graphics", "Community"],
+          "title": "Washington Housing Project",
+          "description": "A Tableau dashboard uses a map and calendar to explore sale prices and compare homes by bedroom and bathroom counts.",
+          "tech": [
+            "Tableau"
+          ],
+          "artifacts": [
+            {
+              "label": "Open Tableau dashboard",
+              "url": "https://public.tableau.com/app/profile/daniel.nguyen6826/viz/WashingtonHousingProject/HouseSalesDashboard",
+              "title": "Washington Housing Project"
+            },
+            {
+              "label": "Tableau workbook",
+              "url": "https://github.com/Ishmael366/Tableau/blob/main/Projects/Washington%20Housing%20Project.twb"
+            }
+          ]
+        },
+        {
+          "id": "london-biking",
+          "skills": ["Transport", "Graphics"],
+          "title": "London Biking Project",
+          "description": "Explores London bike-share usage by time and weather, using a heatmap and moving-average view.",
+          "tech": [
+            "Tableau"
+          ],
+          "artifacts": [
+            {
+              "label": "Open Tableau dashboard",
+              "url": "https://public.tableau.com/app/profile/daniel.nguyen6826/viz/LondonBikingProject/Dashboard1",
+              "title": "London Biking Project"
+            },
+            {
+              "label": "Tableau workbook",
+              "url": "https://github.com/Ishmael366/Tableau/blob/main/Projects/London%20Biking%20Project.twb"
+            }
+          ]
+        },
+        {
+          "id": "ocd",
+          "skills": ["Graphics", "Health"],
+          "title": "OCD Project",
+          "description": "Queries a sample dataset by diagnosis month, demographic categories, and recorded obsession and compulsion types.",
+          "tech": [
+            "SQL"
+          ],
+          "artifacts": [
+            {
+              "label": "SQL script",
+              "url": "https://github.com/Ishmael366/SQL/blob/main/OCD%20Project.sql"
+            }
+          ]
+        },
+        {
+          "id": "sales-insights",
+          "skills": ["Graphics", "Community"],
+          "title": "Sales Insights Project",
+          "description": "Tableau and Power BI reports organize sales revenue and quantity by market, product, customer, and time.",
+          "tech": [
+            "Tableau",
+            "Power BI"
+          ],
+          "artifacts": [
+            {
+              "label": "Tableau workbook",
+              "url": "https://github.com/Ishmael366/Tableau/blob/main/Projects/Sales%20Insights%20Project.twb"
+            },
+            {
+              "label": "Power BI sales report",
+              "url": "https://github.com/Ishmael366/PowerBI/blob/main/Projects/Youtube.pbix"
+            }
+          ]
+        },
+        {
+          "id": "shopping-trends",
+          "skills": ["Graphics", "Community"],
+          "title": "Sales Analytics Project",
+          "description": "SQL queries and a Python notebook use the shopping-trends dataset to explore customer segments, product categories, and purchase behavior.",
+          "tech": [
+            "SQL",
+            "Python",
+            "Pandas"
+          ],
+          "artifacts": [
+            {
+              "label": "Python notebook",
+              "url": "https://github.com/Ishmael366/Python/blob/main/Projects/Sales%20Analytics%20Project.ipynb"
+            },
+            {
+              "label": "Shopping trends SQL",
+              "url": "https://github.com/Ishmael366/SQL/blob/main/Retail%20Data%20Project.sql"
+            }
+          ]
+        },
+        {
+          "id": "retail-sales",
+          "skills": ["Graphics", "Community"],
+          "title": "Retail Analysis Project",
+          "description": "SQL queries clean retail transaction data and compare sales by category, customer, month, and shift.",
+          "tech": [
+            "SQL"
+          ],
+          "artifacts": [
+            {
+              "label": "SQL script",
+              "url": "https://github.com/Ishmael366/SQL/blob/main/Retail%20Analysis%20Project.sql"
+            }
+          ]
+        },
+        {
+          "id": "walmart",
+          "skills": ["Graphics", "Community"],
+          "title": "Walmart Project",
+          "description": "Queries branch sales, payment methods, product ratings, and changes in revenue over time.",
+          "tech": [
+            "SQL"
+          ],
+          "artifacts": [
+            {
+              "label": "SQL script",
+              "url": "https://github.com/Ishmael366/SQL/blob/main/Walmart%20Project.sql"
+            }
+          ]
+        },
+        {
+          "id": "monday-coffee",
+          "skills": ["Graphics", "Community"],
+          "title": "Monday Coffee — Data Analysis",
+          "description": "SQL queries explore city-level coffee sales, product demand, customer spending, and potential market coverage.",
+          "tech": [
+            "SQL"
+          ],
+          "artifacts": [
+            {
+              "label": "SQL script",
+              "url": "https://github.com/Ishmael366/SQL/blob/main/Coffee%20Project.sql"
+            }
+          ]
+        },
+        {
+          "id": "coffee-dashboard",
+          "skills": ["Graphics", "Community"],
+          "title": "Coffee Project",
+          "description": "An Excel dashboard summarizes coffee order totals, sales by country, and top customers.",
+          "tech": [
+            "Excel"
+          ],
+          "artifacts": [
+            {
+              "label": "Excel workbook",
+              "url": "https://github.com/Ishmael366/Excel/blob/main/Projects/Coffee%20Project.xlsx"
+            }
+          ]
+        },
+        {
+          "id": "layoffs",
+          "skills": ["Graphics", "Community"],
+          "title": "Layoffs Data Cleaning & Exploratory Analysis",
+          "description": "Two SQL scripts prepare a layoffs dataset and explore recorded totals by company, industry, country, and period.",
+          "tech": [
+            "SQL"
+          ],
+          "artifacts": [
+            {
+              "label": "Data cleaning SQL",
+              "url": "https://github.com/Ishmael366/SQL/blob/main/Data%20Cleaning%20Project.sql"
+            },
+            {
+              "label": "Exploratory analysis SQL",
+              "url": "https://github.com/Ishmael366/SQL/blob/main/Exploratory%20Data%20Analysis%20Project.sql"
+            }
+          ]
+        },
+        {
+          "id": "hr-satisfaction",
+          "skills": ["Graphics", "Community"],
+          "title": "HR Analytics Project",
+          "description": "SQL queries compare department satisfaction scores and examine relationships with salary and other employee measures.",
+          "tech": [
+            "SQL"
+          ],
+          "artifacts": [
+            {
+              "label": "SQL script",
+              "url": "https://github.com/Ishmael366/SQL/blob/main/HR%20Analytics%20Project.sql"
+            }
+          ]
+        },
+        {
+          "id": "presence-insights",
+          "skills": ["Graphics", "Community"],
+          "title": "Presence Insights",
+          "description": "A Power BI report tracks recorded attendance, sick leave, and work-from-home measures over time.",
+          "tech": [
+            "Power BI"
+          ],
+          "artifacts": [
+            {
+              "label": "Power BI report",
+              "url": "https://github.com/Ishmael366/PowerBI/blob/main/Projects/HR%20Analytics.pbix"
+            }
+          ]
+        },
+        {
+          "id": "hr-dashboard",
+          "skills": ["Graphics", "Community"],
+          "title": "HR Dashboard Project",
+          "description": "An interactive Tableau dashboard provides an overview of workforce data.",
+          "tech": [
+            "Tableau"
+          ],
+          "artifacts": [
+            {
+              "label": "Open Tableau dashboard",
+              "url": "https://public.tableau.com/app/profile/daniel.nguyen6826/viz/HRDashboardProject_17463027358040/HRSummary",
+              "title": "HR Dashboard Project"
+            },
+            {
+              "label": "Packaged Tableau workbook",
+              "url": "https://github.com/Ishmael366/Tableau/blob/main/Projects/HR%20Dashboard%20Project.twbx"
+            }
+          ]
+        },
+        {
+          "id": "library",
+          "skills": ["Graphics", "Community"],
+          "title": "Library Management Project",
+          "description": "Database and reporting exercises cover books, members, branches, loans, overdue items, and rental income.",
+          "tech": [
+            "SQL"
+          ],
+          "artifacts": [
+            {
+              "label": "SQL script",
+              "url": "https://github.com/Ishmael366/SQL/blob/main/Library%20Management%20Project.sql"
+            }
+          ]
+        },
+        {
+          "id": "loan-applications",
+          "skills": ["Graphics", "Community"],
+          "title": "Financial Data Analysis Project",
+          "description": "A Python notebook visualizes loan application and approval counts by year and applicant income category.",
+          "tech": [
+            "Python",
+            "Pandas",
+            "Seaborn"
+          ],
+          "artifacts": [
+            {
+              "label": "Python notebook",
+              "url": "https://github.com/Ishmael366/Python/blob/main/Projects/Financial%20Data%20Analysis%20Project.ipynb"
+            }
+          ]
+        },
+        {
+          "id": "bike-sales",
+          "skills": ["Transport", "Graphics", "Community"],
+          "title": "Europe Bike Sales Project",
+          "description": "An Excel dashboard uses pivot tables and filters to compare bike buyers by income, age, and commute distance.",
+          "tech": [
+            "Excel"
+          ],
+          "artifacts": [
+            {
+              "label": "Excel workbook",
+              "url": "https://github.com/Ishmael366/Excel/blob/main/Projects/Europe%20Bike%20Sales%20Project.xlsx"
+            }
+          ]
+        },
+        {
+          "id": "seattle-airbnb",
+          "skills": ["Graphics", "Community"],
+          "title": "AirBnb Seattle Project",
+          "description": "A Tableau dashboard maps average Seattle rental prices by ZIP code, compares listings by bedroom count, and charts weekly totals.",
+          "tech": [
+            "Tableau"
+          ],
+          "artifacts": [
+            {
+              "label": "Open Tableau dashboard",
+              "url": "https://public.tableau.com/app/profile/daniel.nguyen6826/viz/AirBnbSeattleProject_17449280248480/Dashboard1",
+              "title": "AirBnb Seattle Project"
+            },
+            {
+              "label": "Tableau workbook",
+              "url": "https://github.com/Ishmael366/Tableau/blob/main/Projects/AirBnb%20Seattle%20Project.twb"
+            }
+          ]
+        },
+        {
+          "id": "british-airways",
+          "skills": ["Transport", "Graphics", "Community"],
+          "title": "British Airways Project",
+          "description": "Tableau workbook examining airline reviews by aircraft, geography, and month.",
+          "tech": [
+            "Tableau"
+          ],
+          "artifacts": [
+            {
+              "label": "Open Tableau dashboard",
+              "url": "https://public.tableau.com/app/profile/daniel.nguyen6826/viz/BritishAirwaysProject_17462237848890/Dashboard1",
+              "title": "British Airways Project"
+            },
+            {
+              "label": "Tableau workbook",
+              "url": "https://github.com/Ishmael366/Tableau/blob/main/Projects/British%20Airways%20Project.twb"
+            }
+          ]
+        },
+        {
+          "id": "sales-customers",
+          "skills": ["Graphics", "Community"],
+          "title": "Sales & Customer Dashboards (Dynamic)",
+          "description": "Two Tableau dashboards show weekly sales trends, profit, orders, and customer distribution, with a view of top customers.",
+          "tech": [
+            "Tableau"
+          ],
+          "artifacts": [
+            {
+              "label": "Open Tableau dashboard",
+              "url": "https://public.tableau.com/app/profile/daniel.nguyen6826/viz/SalesCustomerDashboardsDynamic_17463028061980/SalesDashboard",
+              "title": "Sales & Customer Dashboards (Dynamic)"
+            },
+            {
+              "label": "Packaged Tableau workbook",
+              "url": "https://github.com/Ishmael366/Tableau/blob/main/Projects/Sales%20%26%20Customer%20Project.twbx"
+            }
+          ]
+        },
+        {
+          "id": "personal-finance",
+          "skills": ["Graphics", "Community"],
+          "title": "Personal Finance Dashboard",
+          "description": "A Power BI dashboard tracks income, expenses, savings, and net worth over time, with spending breakdowns and savings targets.",
+          "tech": [
+            "Power BI"
+          ],
+          "artifacts": [
+            {
+              "label": "Power BI report",
+              "url": "https://github.com/Ishmael366/PowerBI/blob/main/Projects/Personal%20Finance%20Dashboard.pbix"
+            }
+          ]
+        },
+        {
+          "id": "hospitality-revenue",
+          "skills": ["Graphics", "Community"],
+          "title": "Revenue Insights in Hospitality Domain",
+          "description": "A Power BI dashboard presents hospitality revenue data for review.",
+          "tech": [
+            "Power BI"
+          ],
+          "artifacts": [
+            {
+              "label": "Power BI report",
+              "url": "https://github.com/Ishmael366/PowerBI/blob/main/Projects/Revenue%20Insights%20in%20Hospitality%20Domain.pbix"
+            }
+          ]
+        },
+        {
+          "id": "performance-report",
+          "skills": ["Graphics", "Community"],
+          "title": "Performance Report",
+          "description": "Power BI report with account and product measures, gross-profit percentage, and year-to-date comparisons.",
+          "tech": [
+            "Power BI"
+          ],
+          "artifacts": [
+            {
+              "label": "Power BI report",
+              "url": "https://github.com/Ishmael366/PowerBI/blob/main/Projects/Performance%20Report.pbix"
+            }
+          ]
+        },
+        {
+          "id": "amazon-scraper",
+          "skills": ["Graphics", "Community"],
+          "title": "Amazon Web Scraper Project",
+          "description": "Notebook exercise that parses a product page, extracts a title and price, and appends observations to a CSV.",
+          "tech": [
+            "Python",
+            "Beautiful Soup",
+            "CSV"
+          ],
+          "artifacts": [
+            {
+              "label": "Python notebook",
+              "url": "https://github.com/Ishmael366/Python/blob/main/Projects/Amazon%20Web%20Scraper%20Project.ipynb"
+            }
+          ]
+        },
+        {
+          "id": "sql-mentor",
+          "skills": ["Graphics"],
+          "title": "SQL Mentor User Performance",
+          "description": "SQL exercises use daily and weekly submission data to calculate scores, summarize correctness, and rank users.",
+          "tech": [
+            "SQL"
+          ],
+          "artifacts": [
+            {
+              "label": "SQL script",
+              "url": "https://github.com/Ishmael366/SQL/blob/main/Mentor%20Project.sql"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "label": "Sports & Games",
+      "projects": [
+        {
+          "id": "cricket",
+          "skills": ["Graphics", "Athletics"],
+          "title": "Cricket",
+          "description": "A Power BI report presents cricket data through interactive visuals.",
+          "tech": [
+            "Power BI"
+          ],
+          "artifacts": [
+            {
+              "label": "Power BI report",
+              "url": "https://github.com/Ishmael366/PowerBI/blob/main/Projects/Cricket.pbix"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entertainment",
+      "label": "Entertainment & Videos",
+      "projects": [
+        {
+          "id": "netflix",
+          "skills": ["Graphics", "Production"],
+          "title": "Netflix Analysis Project",
+          "description": "SQL queries explore the Netflix catalog by title type, genre, country, release year, and rating.",
+          "tech": [
+            "SQL"
+          ],
+          "artifacts": [
+            {
+              "label": "SQL script",
+              "url": "https://github.com/Ishmael366/SQL/blob/main/Netflix%20Analysis%20Project.sql"
+            }
+          ]
+        },
+        {
+          "id": "movies",
+          "skills": ["Graphics", "Community", "Production"],
+          "title": "Movie Portfolio Project",
+          "description": "A Python notebook explores relationships among movie budgets, gross earnings, and ratings using scatterplots and correlation charts.",
+          "tech": [
+            "Python",
+            "Pandas",
+            "Seaborn"
+          ],
+          "artifacts": [
+            {
+              "label": "Python notebook",
+              "url": "https://github.com/Ishmael366/Python/blob/main/Projects/Movie%20Portfolio%20Project.ipynb"
+            }
+          ]
+        },
+        {
+          "id": "youtube",
+          "skills": ["Graphics", "Community", "Production"],
+          "title": "YouTube Data Analytics Project",
+          "description": "Analyzes a global YouTube statistics dataset, including relationships among subscribers, earnings estimates, and geography.",
+          "tech": [
+            "Python",
+            "Pandas",
+            "CSV"
+          ],
+          "artifacts": [
+            {
+              "label": "Python notebook",
+              "url": "https://github.com/Ishmael366/Python/blob/main/Projects/Youtube%20Data%20Analytics%20Project.ipynb"
+            },
+            {
+              "label": "Source dataset",
+              "url": "https://github.com/Ishmael366/Excel/blob/main/Projects/Global%20YouTube%20Statistics.csv"
+            }
+          ]
+        },
+        {
+          "id": "gameflix",
+          "skills": ["Infrastructure"],
+          "title": "GameFlix backend",
+          "description": "A Java and Spring Boot prototype with REST endpoints, local persistence, service tests and a Docker build.",
+          "tech": [
+            "Java",
+            "Spring Boot",
+            "Docker"
+          ],
+          "artifacts": [
+            {
+              "label": "GameFlix source code",
+              "url": "https://github.com/Ishmael366/GameFlixAuthApp"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "label": "SQL projects",
+      "url": "https://github.com/Ishmael366/SQL"
+    },
+    {
+      "label": "Python projects",
+      "url": "https://github.com/Ishmael366/Python"
+    },
+    {
+      "label": "Excel projects",
+      "url": "https://github.com/Ishmael366/Excel"
+    },
+    {
+      "label": "Power BI projects",
+      "url": "https://github.com/Ishmael366/PowerBI"
+    },
+    {
+      "label": "Tableau Public profile",
+      "url": "https://public.tableau.com/app/profile/daniel.nguyen6826/vizzes"
+    },
+    {
+      "label": "Tableau workbook files",
+      "url": "https://github.com/Ishmael366/Tableau/tree/main/Projects"
+    }
+  ]
+}

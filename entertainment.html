@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <title>Entertainment &amp; Videos — Daniel Nguyen</title>
+  <meta name="description" content="Discover how stories are made, shared, and experienced.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="topics.css?v=ef6e8e593db9">
+  <link rel="stylesheet" href="dark.css"><link rel="stylesheet" href="collection-dark.css">
+  <link rel="stylesheet" href="project-overview.css">
+  <script src="app.js?v=27723c1b8193" defer></script>
+</head>
+<body class="topic-page" data-theme="entertainment">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Daniel Nguyen, home"><span class="brand-mark" aria-hidden="true">dn<span>↗</span></span><span>Daniel Nguyen</span></a>
+    <button class="menu-button" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">+</span></button>
+    <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+      <a href="index.html#work">Projects</a><a href="index.html#skills">Skills</a>
+      <a href="resume.html">Full résumé</a>
+      <a class="nav-contact" href="index.html#contact">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="topic-banner" aria-labelledby="topic-title">
+      <div class="section-shell topic-banner-inner">
+        <span class="topic-banner-icon"><svg viewBox="0 0 32 21" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="6" width="24" height="13" rx="2"/><path d="M4 10h24M9 6l3 4m5-4 3 4m5-4 3 4m-14 2 6 2.5-6 2.5z"/></svg></span>
+        <h1 id="topic-title">Entertainment &amp; Videos</h1>
+        <p class="topic-banner-description">Discover how stories are made, shared, and experienced.</p>
+        <a class="topic-down" href="#project-browser" aria-label="Go to projects">↓</a>
+      </div>
+    </section>
+    <nav class="topic-tabs section-shell" aria-label="Project topics">
+    <a class="tabs-home" href="index.html#work">← All topics</a>
+    <a href="politics.html">Politics &amp; Business</a><a href="sports.html">Sports &amp; Games</a><a href="entertainment.html" aria-current="page">Entertainment &amp; Videos</a>
+  </nav>
+    <section class="section-shell topic-page-body" id="project-browser" aria-labelledby="project-list-title" data-catalog>
+      <div class="catalog-header">
+        <h2 id="project-list-title" tabindex="-1">Projects</h2>
+        <div class="catalog-controls" hidden>
+          <div class="catalog-filter"><label for="tool-filter">Tool</label><select id="tool-filter"><option value="">All tools</option><option value="CSV">CSV</option><option value="Docker">Docker</option><option value="Java">Java</option><option value="Pandas">Pandas</option><option value="Python">Python</option><option value="SQL">SQL</option><option value="Seaborn">Seaborn</option><option value="Spring Boot">Spring Boot</option></select></div>
+          <div class="catalog-filter"><label for="skill-filter">Skill area</label><select id="skill-filter"><option value="">All skill areas</option><option value="Infrastructure">Infrastructure</option><option value="Transport">Transport</option><option value="Graphics">Graphics</option><option value="Community">Community</option><option value="Health">Health</option><option value="Athletics">Athletics</option><option value="Modeling">Modeling</option><option value="Art">Art</option><option value="Ecology">Ecology</option><option value="Emergencies">Emergencies</option><option value="Production">Production</option><option value="Composition">Composition</option></select></div>
+          <div class="work-search">
+            <label for="project-search">Find a project</label>
+            <div class="search-control"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="project-search" type="search" placeholder="Search this collection" autocomplete="off"><button id="clear-search" type="button" hidden>Clear</button></div>
+          </div>
+        </div>
+      </div>
+      <p class="result-status" id="result-status" role="status" aria-live="polite">4 projects</p>
+      <div class="topic-grid" id="project-grid"><article class="topic-project lead-project" id="project-netflix" data-project data-tools="SQL" data-skills="Graphics|Production">
+  <div class="project-graphic"><img class="project-photo" src="assets/project-photos/netflix.jpg" alt="Red Netflix wordmark on a black background" width="700" height="419" fetchpriority="high"></div>
+  <div class="topic-project-copy">
+    <p class="featured-project-label">Featured Project</p>
+    <h3><a href="project-netflix.html">Netflix Analysis Project</a></h3>
+    <p>SQL queries explore the Netflix catalog by title type, genre, country, release year, and rating.</p>
+    <div class="tags"><span>SQL</span></div>
+    <div class="project-card-actions">
+      <a class="button button-dark" href="project-netflix.html" aria-label="Overview of Netflix Analysis Project">Overview</a>
+      <ul class="project-artifacts"><li><a href="https://github.com/Ishmael366/SQL/blob/main/Netflix%20Analysis%20Project.sql" target="_blank" rel="noopener">SQL script <span aria-hidden="true">↗</span><span class="sr-only"> for Netflix Analysis Project (opens a new tab)</span></a></li></ul>
+    </div>
+
+  </div>
+</article>
+<article class="topic-project" id="project-movies" data-project data-tools="Python|Pandas|Seaborn" data-skills="Graphics|Community|Production">
+  <div class="project-graphic"><img class="project-photo" src="assets/project-photos/movies.jpg" alt="A film reel and clapperboard in a cinema" width="1200" height="750" loading="lazy"></div>
+  <div class="topic-project-copy">
+
+    <h3><a href="project-movies.html">Movie Portfolio Project</a></h3>
+    <p>A Python notebook explores relationships among movie budgets, gross earnings, and ratings using scatterplots and correlation charts.</p>
+    <div class="tags"><span>Python</span><span>Pandas</span><span>Seaborn</span></div>
+    <div class="project-card-actions">
+      <a class="button button-dark" href="project-movies.html" aria-label="Overview of Movie Portfolio Project">Overview</a>
+      <ul class="project-artifacts"><li><a href="https://github.com/Ishmael366/Python/blob/main/Projects/Movie%20Portfolio%20Project.ipynb" target="_blank" rel="noopener">Python notebook <span aria-hidden="true">↗</span><span class="sr-only"> for Movie Portfolio Project (opens a new tab)</span></a></li></ul>
+    </div>
+
+  </div>
+</article>
+<article class="topic-project" id="project-youtube" data-project data-tools="Python|Pandas|CSV" data-skills="Graphics|Community|Production">
+  <div class="project-graphic"><img class="project-photo" src="assets/project-photos/youtube.jpg" alt="YouTube’s red play icon and wordmark" width="1200" height="675" loading="lazy"></div>
+  <div class="topic-project-copy">
+
+    <h3><a href="project-youtube.html">YouTube Data Analytics Project</a></h3>
+    <p>Analyzes a global YouTube statistics dataset, including relationships among subscribers, earnings estimates, and geography.</p>
+    <div class="tags"><span>Python</span><span>Pandas</span><span>CSV</span></div>
+    <div class="project-card-actions">
+      <a class="button button-dark" href="project-youtube.html" aria-label="Overview of YouTube Data Analytics Project">Overview</a>
+      <ul class="project-artifacts"><li><a href="https://github.com/Ishmael366/Python/blob/main/Projects/Youtube%20Data%20Analytics%20Project.ipynb" target="_blank" rel="noopener">Python notebook <span aria-hidden="true">↗</span><span class="sr-only"> for YouTube Data Analytics Project (opens a new tab)</span></a></li></ul>
+    </div>
+    <details class="supporting-files"><summary>1 supporting file</summary><ul class="project-artifacts"><li><a href="https://github.com/Ishmael366/Excel/blob/main/Projects/Global%20YouTube%20Statistics.csv" target="_blank" rel="noopener">Source dataset <span aria-hidden="true">↗</span><span class="sr-only"> for YouTube Data Analytics Project (opens a new tab)</span></a></li></ul></details>
+  </div>
+</article>
+<article class="topic-project" id="project-gameflix" data-project data-tools="Java|Spring Boot|Docker" data-skills="Infrastructure">
+  <div class="project-graphic"><img class="project-photo" src="assets/project-photos/gameflix.jpg" alt="A game controller beside a laptop displaying code" width="1200" height="750" loading="lazy"></div>
+  <div class="topic-project-copy">
+
+    <h3><a href="project-gameflix.html">GameFlix backend</a></h3>
+    <p>A Java and Spring Boot prototype with REST endpoints, local persistence, service tests and a Docker build.</p>
+    <div class="tags"><span>Java</span><span>Spring Boot</span><span>Docker</span></div>
+    <div class="project-card-actions">
+      <a class="button button-dark" href="project-gameflix.html" aria-label="Overview of GameFlix backend">Overview</a>
+      <ul class="project-artifacts"><li><a href="https://github.com/Ishmael366/GameFlixAuthApp" target="_blank" rel="noopener">GameFlix source code <span aria-hidden="true">↗</span><span class="sr-only"> for GameFlix backend (opens a new tab)</span></a></li></ul>
+    </div>
+
+  </div>
+</article></div>
+      <div class="empty-state" id="empty-state" hidden><h3>No projects match these filters.</h3><p>Try a different search, tool, or skill area.</p><button class="button button-dark" id="reset-projects" type="button">Clear filters</button></div>
+      <nav class="catalog-pagination" aria-label="Project pages" hidden>
+        <button class="button" type="button" data-page-prev>← Previous</button>
+        <div><label for="project-page">Jump to page</label><select id="project-page"></select></div>
+        <button class="button" type="button" data-page-next>Next →</button>
+      </nav>
+      <details class="source-collections"><summary>Browse original source collections</summary>
+  <ul><li><a href="https://github.com/Ishmael366/SQL" target="_blank" rel="noopener">SQL projects <span aria-hidden="true">↗</span><span class="sr-only"> (opens a new tab)</span></a></li><li><a href="https://github.com/Ishmael366/Python" target="_blank" rel="noopener">Python projects <span aria-hidden="true">↗</span><span class="sr-only"> (opens a new tab)</span></a></li><li><a href="https://github.com/Ishmael366/Excel" target="_blank" rel="noopener">Excel projects <span aria-hidden="true">↗</span><span class="sr-only"> (opens a new tab)</span></a></li><li><a href="https://github.com/Ishmael366/PowerBI" target="_blank" rel="noopener">Power BI projects <span aria-hidden="true">↗</span><span class="sr-only"> (opens a new tab)</span></a></li><li><a href="https://public.tableau.com/app/profile/daniel.nguyen6826/vizzes" target="_blank" rel="noopener">Tableau Public profile <span aria-hidden="true">↗</span><span class="sr-only"> (opens a new tab)</span></a></li><li><a href="https://github.com/Ishmael366/Tableau/tree/main/Projects" target="_blank" rel="noopener">Tableau workbook files <span aria-hidden="true">↗</span><span class="sr-only"> (opens a new tab)</span></a></li></ul>
+</details>
+    </section>
+  </main>
+  <footer class="site-footer section-shell"><span>© <span data-year>2026</span> Daniel Nguyen</span><div><a href="index.html#work">All topics</a><a href="index.html#contact">Contact</a></div></footer>
+</body>
+</html>

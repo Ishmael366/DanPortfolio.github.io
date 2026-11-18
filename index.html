@@ -1,152 +1,200 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Dan's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <title>Portfolio</title>
+  <meta name="description" content="Daniel Nguyen’s portfolio and skills in software, data and interactive media. Explore Labyrinth and projects in Politics &amp; Business, Sports &amp; Games, and Entertainment &amp; Videos.">
+  <meta property="og:title" content="Portfolio">
+  <meta property="og:description" content="Designing for change.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="topics.css">
+  <link rel="stylesheet" href="dark.css?v=368f6786a6b9">
+  <script src="app.js" defer></script>
+  <script src="home-header.js?v=9832e8c04d0d" defer></script>
+  <script src="assets/globe-data.js" defer></script>
+  <script src="globe.js?v=a8d9dd4ad477" defer></script>
+</head>
+<body class="portfolio-home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Daniel Nguyen, home">
+      <span class="brand-mark" aria-hidden="true">dn<span>↗</span></span>
+      <span>Daniel Nguyen</span>
+    </a>
+    <button class="menu-button" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">+</span></button>
+    <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+      <a href="#work">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
 
-		<!-- Wrapper -->
-		<div id="wrapper" class="fade-in">
+  <main id="main">
+    <section class="section-shell portfolio-intro" aria-labelledby="intro-title">
+      <div class="intro-name">
+        <p class="eyebrow">Portfolio</p>
+        <h1 id="intro-title">Daniel <em>Nguyen.</em></h1>
+      </div>
+      <div class="intro-details">
+        <p class="hero-role">Designing for change.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#work">Browse projects <span aria-hidden="true">↓</span></a>
+          <a class="button button-outline" href="resume.html">Full résumé <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
 
-			<!-- Intro -->
-			<div id="intro">
-				<h1>Dan's Portfolio<br /></h1>
-				<p>
-					Data Analyst, Game Designer & 3D Modeler<br />
-					Skilled in SQL, Tableau, Excel, AWS, Python, JavaScript, C++, Unreal Engine 5, Blender, ZBrush, Maya & Substance Painter. <br />
-					<a href="https://x.com/realzaphyre">@Zaphyre</a>
-				  </p>
-				<ul class="actions">
-					<li><a href="#main" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-				</ul>
-			</div>
+    <section class="labyrinth-hero" aria-labelledby="feature-title">
+      <div class="labyrinth-intro">
+        <p class="featured-project-label">Featured Project</p>
+        <h2 id="feature-title">Labyrinth</h2>
+        <p class="labyrinth-description">A conservation platform designed for exploring nature, testing strategies, and coordinating work.</p>
+        <div class="portal-links">
+          <a class="button button-dark" href="labyrinth.html">Overview</a>
+          <a class="button button-outline" href="https://therubyquartz.github.io/labyrinth/" target="_blank" rel="noopener">Open Labyrinth <span aria-hidden="true">↗</span><span class="sr-only"> (opens a new tab)</span></a>
+        </div>
+      </div>
+      <div class="globe-stage">
+        <canvas id="labyrinth-globe" width="760" height="520" tabindex="0" aria-label="Interactive globe. Use the left and right arrow keys to rotate."></canvas>
+        <img id="globe-fallback" src="assets/globe-fallback.svg?v=2d785548b862" width="760" height="520" alt="Globe illustration showing the Chesapeake Bay region">
+      </div>
+      <div class="globe-controls" hidden aria-label="Globe controls">
+        <span>Drag to rotate</span>
+        <button type="button" data-globe-turn="left" aria-label="Rotate globe left">←</button>
+        <button type="button" data-globe-turn="right" aria-label="Rotate globe right">→</button>
+        <button type="button" data-globe-reset aria-label="Reset globe to Chesapeake Bay">Reset</button>
+        <button type="button" data-globe-pause aria-label="Pause globe rotation">Pause</button>
+      </div>
+      <p id="globe-status" class="sr-only" role="status"></p>
+    </section>
 
-			<!-- Header -->
-			<header id="header">
-				<a href="index.html" class="logo">Dan's Portfolio</a>
-			</header>
+    <section class="section-shell topic-work" id="work" aria-labelledby="work-title">
+      <h2 id="work-title">Projects by topic</h2>
+      <p class="directory-intro">Choose a topic to see the projects and their source files.</p>
+      <!-- TOPICS_START -->
+<nav class="topic-directory" aria-label="Project topics"><a class="directory-card" data-theme="politics" href="politics.html">
+    <div class="directory-card-copy">
+      <h3>Politics &amp; Business</h3>
+      <p>Public life, policy, and markets.</p>
+      <span class="directory-count">26 projects <span aria-hidden="true">↗</span></span>
+    </div>
+    <img class="directory-cover" src="assets/topics/politics-business.png" alt="" width="738" height="414" loading="lazy">
+  </a>
+<a class="directory-card" data-theme="sports" href="sports.html">
+    <div class="directory-card-copy">
+      <h3>Sports &amp; Games</h3>
+      <p>Competition, play, and performance.</p>
+      <span class="directory-count">1 project <span aria-hidden="true">↗</span></span>
+    </div>
+    <img class="directory-cover" src="assets/topics/sports-games.png" alt="" width="1920" height="1080" loading="lazy">
+  </a>
+<a class="directory-card" data-theme="entertainment" href="entertainment.html">
+    <div class="directory-card-copy">
+      <h3>Entertainment &amp; Videos</h3>
+      <p>Media, storytelling, and culture.</p>
+      <span class="directory-count">4 projects <span aria-hidden="true">↗</span></span>
+    </div>
+    <img class="directory-cover" src="assets/topics/entertainment-videos.png" alt="" width="738" height="414" loading="lazy">
+  </a></nav>
+<!-- TOPICS_END -->
+    </section>
 
-			<!-- Nav -->
-<nav id="nav">
-	<ul class="links">
-	  <li><a href="analyst.html">Analyst Projects</a></li>
-	  <li><a href="leveldesign.html">Game Design Projects</a></li>
-	  <li><a href="modeling.html">Modeling Projects</a></li>
-	</ul>
-	<ul class="icons">
-	  <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-	  <li><a href="#" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-	  <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-	  <li><a href="https://github.com/Ishmael366" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-	</ul>
-  </nav>
+    <section id="about" class="section-shell about-section" aria-labelledby="about-title">
+      <div>
+        <p class="eyebrow">ABOUT</p>
+        <h2 id="about-title">Blending digital, physical, <em>and human experiences.</em></h2>
+        <p class="about-location"><span class="location-dot" aria-hidden="true"></span>Maryland, United States</p>
+      </div>
+      <p class="large-copy">I draw on data analysis, scientific research and creative production to build tools that help people connect, protect and explore the world around them.</p>
+      <section id="skills" class="skills-section" aria-labelledby="skills-title">
+        <h3 id="skills-title">Skills</h3>
+        <div class="skills-grid">
+          <article class="skill-card" aria-labelledby="skill-infrastructure">
+            <h4 id="skill-infrastructure"><svg class="skill-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="assets/skill-icons.svg?v=efc5b81d8835#infrastructure"></use></svg>Infrastructure</h4>
+            <p class="skill-scope">Construction &amp; Electronics</p>
+            <p>Site planning, drafting, and materials for buildings, bridges, and other civil works, alongside circuits, sensors, device repair, networking, software, and cloud systems.</p>
+          </article>
+          <article class="skill-card" aria-labelledby="skill-movement">
+            <h4 id="skill-movement"><svg class="skill-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="assets/skill-icons.svg?v=efc5b81d8835#transport"></use></svg>Transport</h4>
+            <p class="skill-scope">Vehicles &amp; Manufacturing</p>
+            <p>Design and maintenance of cars, boats, and aircraft, plus materials, CAD, machining, 3D printing, robotics, and automation.</p>
+          </article>
+          <article class="skill-card" aria-labelledby="skill-graphics">
+            <h4 id="skill-graphics"><svg class="skill-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="assets/skill-icons.svg?v=efc5b81d8835#graphics"></use></svg>Graphics</h4>
+            <p class="skill-scope">Information &amp; Photography</p>
+            <p>Research, databases, statistics, data visualization, and machine learning, alongside camera work, lighting, and editing for wildlife, sports, and live performances.</p>
+          </article>
+          <article class="skill-card" aria-labelledby="skill-society">
+            <h4 id="skill-society"><svg class="skill-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="assets/skill-icons.svg?v=efc5b81d8835#community"></use></svg>Community</h4>
+            <p class="skill-scope">Society &amp; Commerce</p>
+            <p>Cultural history, civic life, and public policy, plus entrepreneurship, finance, marketing, and how organizations manage supply chains.</p>
+          </article>
+          <article class="skill-card" aria-labelledby="skill-health">
+            <h4 id="skill-health"><svg class="skill-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="assets/skill-icons.svg?v=efc5b81d8835#health"></use></svg>Health</h4>
+            <p class="skill-scope">Medicine &amp; Cuisine</p>
+            <p>Anatomy, disease prevention, emergency care, and rehabilitation, along with cooking, fermentation, food safety, and how ingredients are grown and preserved.</p>
+          </article>
+          <article class="skill-card" aria-labelledby="skill-combat">
+            <h4 id="skill-combat"><svg class="skill-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="assets/skill-icons.svg?v=efc5b81d8835#athletics"></use></svg>Athletics</h4>
+            <p class="skill-scope">Combat &amp; Fitness</p>
+            <p>Martial arts, competition rules, judging, and stage choreography, along with strength training, biomechanics, coaching, mobility, and recovery.</p>
+          </article>
+          <article id="creative" class="skill-card" aria-labelledby="skill-modeling">
+            <h4 id="skill-modeling"><svg class="skill-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="assets/skill-icons.svg?v=efc5b81d8835#modeling"></use></svg>Modeling</h4>
+            <p class="skill-scope">Games &amp; Sculpting</p>
+            <p>Tabletop strategy, role-playing, esports, and playtesting, plus creating creatures and props with digital tools, textures, clay, and 3D printing.</p>
+          </article>
+          <article class="skill-card" aria-labelledby="skill-art">
+            <h4 id="skill-art"><svg class="skill-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="assets/skill-icons.svg?v=efc5b81d8835#art"></use></svg>Art</h4>
+            <p class="skill-scope">Animation &amp; Fashion</p>
+            <p>Illustration, storyboards, character movement, and stop motion, alongside garment sketching, patternmaking, textiles, costumes, and digital clothing.</p>
+          </article>
+          <article class="skill-card" aria-labelledby="skill-environment">
+            <h4 id="skill-environment"><svg class="skill-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="assets/skill-icons.svg?v=efc5b81d8835#ecology"></use></svg>Ecology</h4>
+            <p class="skill-scope">Nature &amp; Simulation</p>
+            <p>GIS, terrain mapping, weather, hydrology, and habitat conservation, alongside systems design, numerical models, and real-time physics for interactive environments.</p>
+          </article>
+          <article class="skill-card" aria-labelledby="skill-survival">
+            <h4 id="skill-survival"><svg class="skill-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="assets/skill-icons.svg?v=efc5b81d8835#emergencies"></use></svg>Emergencies</h4>
+            <p class="skill-scope">Survival &amp; Extremes</p>
+            <p>Outdoor navigation, shelter, and hazard awareness, plus safety in demanding settings like mountains and open water, disaster preparedness, and search and rescue.</p>
+          </article>
+          <article class="skill-card" aria-labelledby="skill-videos">
+            <h4 id="skill-videos"><svg class="skill-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="assets/skill-icons.svg?v=efc5b81d8835#production"></use></svg>Production</h4>
+            <p class="skill-scope">Film &amp; Theatrics</p>
+            <p>Cinematography, directing, editing, color grading, and compositing, along with stagecraft, set and prop design, lighting, practical effects, and managing live performances.</p>
+          </article>
+          <article class="skill-card" aria-labelledby="skill-sounds">
+            <h4 id="skill-sounds"><svg class="skill-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="assets/skill-icons.svg?v=efc5b81d8835#composition"></use></svg>Composition</h4>
+            <p class="skill-scope">Music &amp; Literature</p>
+            <p>Instrumental and vocal performance, songwriting, sound design, recording, and mixing, alongside narrative writing, scripts, poetry, folklore, and publishing.</p>
+          </article>
+        </div>
+      </section>
+    </section>
 
-			<!-- Main -->
-			<div id="main">
-
-		<!-- Section with Three Main Links -->
-<section class="posts">
-	<article>
-	  <header>
-		<h2><a href="analyst.html">Data Analyst Projects</a></h2>
-	  </header>
-	  <a href="analyst.html" class="image fit"><img src="images/ken_pi_header.png" alt="Data Projects" /></a>
-	  <p style="text-align: center;"></p>Explore my work in Data Analytics using SQL, Tableau, Python, and Excel.</p>
-	  <ul class="actions special">
-		<li><a href="analyst.html" class="button large">Go to Data Projects</a></li>
-	  </ul>
-	</article>
-  
-	<article>
-	  <header>
-		<h2><a href="leveldesign.html">Game Design Projects</a></h2>
-	  </header>
-	  <a href="leveldesign.html" class="image fit"><img src="images/pokemon.jpeg" alt="Game Design Projects" /></a>
-	  <p style="text-align: center;"></p>Browse my Game Design work featuring Unreal Engine 5 and gameplay systems.</p>
-	  <ul class="actions special">
-		<li><a href="leveldesign.html" class="button large">Go to Game Design Projects</a></li>
-	  </ul>
-	</article>
-  
-	<article style="width: 100%;">
-	  <header>
-		<h2><a href="modeling.html">3D Modeling Projects</a></h2>
-	  </header>
-	  <a href="modeling.html" class="image fit"><img src="images/kong.jpeg" alt="Modeling Projects" /></a>
-	  <p style="text-align: center;"></p>View my 3D Modeling and sculpting work using Blender, ZBrush, and more.</p>
-	  <ul class="actions special">
-		<li><a href="modeling.html" class="button large">Go to Modeling Projects</a></li>
-	  </ul>
-	</article>
-  </section>
-
-			<!-- Footer -->
-			<footer id="footer">
-				<section>
-					<form method="post" action="#">
-						<div class="fields">
-							<div class="field">
-								<label for="name">Name</label>
-								<input type="text" name="name" id="name" />
-							</div>
-							<div class="field">
-								<label for="email">Email</label>
-								<input type="text" name="email" id="email" />
-							</div>
-							<div class="field">
-								<label for="message">Message</label>
-								<textarea name="message" id="message" rows="3"></textarea>
-							</div>
-						</div>
-						<ul class="actions">
-							<li><input type="submit" value="Send Message" /></li>
-						</ul>
-					</form>
-				</section>
-				<section class="split contact">
-					<section class="alt">
-						<h3>Location</h3>
-						<p><br />Baltimore, MD</p>
-					</section>
-					<section>
-						<h3>Phone</h3>
-						<p><a href="tel:+14438101873">443-810-1873</a></p>
-					</section>
-					<section>
-						<h3>Email</h3>
-						<p><a href="mailto:dhp.nguyen300@gmail.com">dhp.nguyen300@gmail.com</a></p>
-					</section>
-					<section>
-						<h3>Social</h3>
-						<ul class="icons alt">
-							<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="https://github.com/Ishmael366" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</section>
-				</section>
-			</footer>
-
-			<!-- Copyright -->
-			<div id="copyright">
-				<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-			</div>
-
-		</div>
-
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
-
-	</body>
+    <section id="contact" class="contact-section" aria-labelledby="contact-title">
+      <div class="section-shell contact-inner">
+        <div>
+          <p class="eyebrow">CONTACT</p>
+          <h2 id="contact-title">Let’s <em>Talk</em></h2>
+          <p>Get in touch about work &amp; upcoming projects</p>
+        </div>
+        <div class="contact-details">
+          <a class="contact-email" href="mailto:dhp.nguyen300@gmail.com">dhp.nguyen300@gmail.com <span aria-hidden="true">↗</span></a>
+          <div class="contact-actions">
+            <button class="copy-email text-link" type="button" hidden>Copy email <span aria-hidden="true">⧉</span></button>
+            <a class="text-link" href="https://github.com/Ishmael366" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (opens a new tab)</span></a>
+            <span id="copy-status" class="copy-status" role="status"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer section-shell"><span>© <span data-year>2026</span> Daniel Nguyen</span><a href="#main">Back to top ↑</a></footer>
+</body>
 </html>

@@ -1,0 +1,69 @@
+@media screen {
+  .resume-page .resume-shell {
+    width: min(900px, calc(100% - clamp(32px, 6vw, 96px)));
+  }
+
+  .resume-page .main-nav a[aria-current="page"] { color: var(--accent); }
+
+  .resume-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding-block: clamp(26px, 5vw, 58px) clamp(18px, 3vw, 32px);
+  }
+
+  .resume-toolbar h1 {
+    font-size: clamp(38px, 6vw, 68px);
+    font-weight: 650;
+    line-height: 1.08;
+    letter-spacing: -.055em;
+  }
+
+  .resume-toolbar .button { min-height: 44px; }
+
+  .resume-pages {
+    display: grid;
+    gap: clamp(12px, 2.5vw, 24px);
+  }
+
+  .resume-pages img {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: white;
+  }
+
+  .resume-transcript {
+    margin-block: 24px 44px;
+    padding: 12px 18px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--surface);
+  }
+
+  .resume-transcript summary {
+    color: var(--accent);
+    cursor: pointer;
+  }
+
+  .resume-transcript pre {
+    margin: 12px 0 0;
+    color: var(--ink);
+    font: inherit;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+}
+
+@media print {
+  .resume-page .site-header,
+  .resume-page .site-footer,
+  .resume-toolbar,
+  .resume-transcript { display: none; }
+
+  .resume-page .resume-shell { width: 100%; }
+  .resume-pages img { width: 100%; break-inside: avoid; }
+  .resume-pages img + img { break-before: page; }
+}
