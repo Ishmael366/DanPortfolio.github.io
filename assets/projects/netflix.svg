@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="440" viewBox="0 0 720 440" role="img" aria-labelledby="title desc">
+  <title id="title">Netflix catalog analysis</title>
+  <desc id="desc">Original illustration of film and series catalog tiles sorted into a SQL query. Decorative, without dataset results.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#30262f"/><stop offset="1" stop-color="#151f1d"/>
+    </linearGradient>
+    <linearGradient id="poster" x2="1" y2="1">
+      <stop stop-color="#75536c"/><stop offset="1" stop-color="#362e44"/>
+    </linearGradient>
+    <linearGradient id="series" x2="1" y2="1">
+      <stop stop-color="#556b59"/><stop offset="1" stop-color="#253e36"/>
+    </linearGradient>
+    <pattern id="grid" width="31" height="31" patternUnits="userSpaceOnUse">
+      <path d="M31 0H0V31" fill="none" stroke="#deebd3" stroke-opacity=".065"/>
+    </pattern>
+    <pattern id="film" width="16" height="26" patternUnits="userSpaceOnUse">
+      <rect x="3" y="4" width="10" height="8" rx="1" fill="#bfa4bc" fill-opacity=".38"/>
+    </pattern>
+    <clipPath id="film-art"><rect x="0" y="0" width="150" height="196" rx="5"/></clipPath>
+    <clipPath id="series-art"><rect x="0" y="0" width="148" height="201" rx="5"/></clipPath>
+  </defs>
+  <rect width="720" height="440" fill="url(#background)"/>
+  <rect width="720" height="440" fill="url(#grid)"/>
+  <path d="M50 75v-20h20M670 365v20h-20" fill="none" stroke="#d0dabf" stroke-opacity=".35"/>
+  <g transform="translate(131 105) rotate(-12 75 98)">
+    <rect x="10" y="12" width="150" height="196" rx="5" fill="#101818" opacity=".55"/>
+    <g clip-path="url(#film-art)">
+      <rect width="150" height="196" fill="url(#poster)"/>
+      <circle cx="77" cy="65" r="39" fill="#d2b9c8" opacity=".79"/>
+      <circle cx="77" cy="65" r="52" fill="none" stroke="#dfc9d5" opacity=".35"/>
+      <path d="m-13 155 62-69 48 44 25-32 45 42v63H-13z" fill="#34283e"/>
+      <path d="m-8 181 63-54 37 26 18-13 51 38v24H-8z" fill="#242332"/>
+      <rect width="16" height="196" fill="url(#film)"/>
+      <rect x="134" width="16" height="196" fill="url(#film)"/>
+    </g>
+    <rect width="150" height="196" rx="5" fill="none" stroke="#e4cadc" stroke-opacity=".5"/>
+    <text x="75" y="174" text-anchor="middle" fill="#efe1ea" font-family="monospace" font-size="12" letter-spacing="3">FILM</text>
+  </g>
+  <g transform="translate(250 143) rotate(10 74 101)">
+    <rect x="10" y="12" width="148" height="201" rx="5" fill="#101818" opacity=".61"/>
+    <g clip-path="url(#series-art)">
+      <rect width="148" height="201" fill="url(#series)"/>
+      <path d="M-35 140 80 25l51 52-115 115zm61 45L141 70l56 56-115 115z" fill="#93a987" opacity=".44"/>
+      <path d="m-22 180 149-149M-6 198 145 46M16 206 159 61" stroke="#c1d1ab" stroke-opacity=".34"/>
+      <circle cx="74" cy="80" r="37" fill="#273d37" stroke="#c1d1ab" stroke-opacity=".5"/>
+      <path d="m66 67 20 13-20 13z" fill="#c2d2b1"/>
+      <rect y="151" width="148" height="50" fill="#1a2e2a" opacity=".91"/>
+    </g>
+    <rect width="148" height="201" rx="5" fill="none" stroke="#c4d4b6" stroke-opacity=".5"/>
+    <text x="74" y="181" text-anchor="middle" fill="#e1ead8" font-family="monospace" font-size="12" letter-spacing="2.8">SERIES</text>
+  </g>
+  <path d="M411 194h43l36-32h56M411 267h57l40 39h48" fill="none" stroke="#c4d6b6" stroke-opacity=".44" stroke-dasharray="4 5"/>
+  <circle cx="414" cy="194" r="3" fill="#d4e6b6"/><circle cx="414" cy="267" r="3" fill="#c7b0c8"/>
+  <g transform="translate(463 117)">
+    <rect x="8" y="10" width="181" height="201" rx="6" fill="#101818" opacity=".42"/>
+    <rect width="181" height="201" rx="6" fill="#202b28" stroke="#9eb29a" stroke-opacity=".53"/>
+    <rect x="17" y="18" width="44" height="27" rx="3" fill="#becfad"/>
+    <text x="39" y="36" text-anchor="middle" fill="#263a31" font-family="monospace" font-size="13" font-weight="700">SQL</text>
+    <path d="M17 65h147M17 111h147M17 154h147" stroke="#a9bea6" stroke-opacity=".22"/>
+    <g fill="#d9e2d1" font-family="monospace" font-size="11" letter-spacing="1.4">
+      <text x="17" y="93">TITLE TYPE</text><text x="17" y="137">GENRE</text><text x="17" y="181">COUNTRY</text>
+    </g>
+    <g fill="none" stroke="#a8c49e" stroke-opacity=".65"><path d="m148 89 4 4 8-9m-12 48 4 4 8-9m-12 48 4 4 8-9"/></g>
+  </g>
+</svg>

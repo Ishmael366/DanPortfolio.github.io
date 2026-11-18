@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" width="720" height="440" role="img" aria-labelledby="title desc">
+  <title id="title">Cricket data project illustration</title>
+  <desc id="desc">A cricket ground viewed from above, with the oval boundary, central pitch, and creases. A larger illustration shows a wicket, bat, and seamed cricket ball.</desc>
+  <defs>
+    <linearGradient id="ground" x2="1" y2="1"><stop stop-color="#37594a"/><stop offset="1" stop-color="#1e3831"/></linearGradient>
+    <linearGradient id="field" x2="1" y2="1"><stop stop-color="#729670"/><stop offset="1" stop-color="#426d55"/></linearGradient>
+    <linearGradient id="willow" x2="1" y2="1"><stop stop-color="#efe3b9"/><stop offset=".7" stop-color="#d3b783"/><stop offset="1" stop-color="#b99163"/></linearGradient>
+    <pattern id="grass" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(20)"><path d="M0 0h14v28H0Z" fill="#e3e9bd" fill-opacity=".14"/></pattern>
+    <radialGradient id="ball" cx=".35" cy=".30" r=".7"><stop stop-color="#b66556"/><stop offset="1" stop-color="#743c37"/></radialGradient>
+  </defs>
+  <rect width="720" height="440" fill="url(#ground)"/>
+  <rect x="23" y="23" width="674" height="394" fill="none" stroke="#b2c6a0" stroke-opacity=".4"/>
+  <g transform="translate(260 218) rotate(-13)">
+    <ellipse rx="204" ry="151" fill="#192e28" opacity=".34" transform="translate(5 8)"/>
+    <ellipse rx="205" ry="153" fill="#435f4c" stroke="#9bb18a" stroke-width="1.1"/>
+    <ellipse rx="193" ry="140" fill="url(#field)" stroke="#c0cfaa" stroke-width="1.3"/>
+    <ellipse rx="192" ry="139" fill="url(#grass)"/>
+    <ellipse rx="183" ry="130" fill="none" stroke="#e7ebca" stroke-width="1.25"/>
+    <ellipse rx="117" ry="76" fill="none" stroke="#e0e7c5" stroke-opacity=".65" stroke-width="1.3" stroke-dasharray="2 4"/>
+    <path d="M-185 0h370M0-130v260" stroke="#f0e9ca" stroke-opacity=".17" stroke-width="1"/>
+    <g transform="rotate(12)">
+      <rect x="-65" y="-17" width="130" height="34" rx="1" fill="#d3bf8d" stroke="#ded7ad"/>
+      <path d="M-57-18v36m10-19v38m94-38v38m10-37v36M-65-13h16m-16 26h16m98-26h16m-16 26h16" stroke="#faf0d1" stroke-width="1.5" fill="none"/>
+      <path d="M-57-5v10m114-10v10" stroke="#5f4738" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+  <path d="M419 148h48m-31 67h39M428 282h38" stroke="#c4d5b0" stroke-opacity=".43" stroke-dasharray="3 5"/>
+  <g transform="translate(475 72)">
+    <rect x="7" y="8" width="180" height="282" rx="4" fill="#112b24" opacity=".36"/>
+    <rect width="180" height="282" rx="4" fill="#e9e4cb" stroke="#abbb94"/>
+    <path d="M18 20h144v241H18z" fill="none" stroke="#95a78a" stroke-opacity=".55" stroke-dasharray="2 4"/>
+    <path d="M30 212h120" stroke="#769376" stroke-width="1.3"/>
+    <g fill="url(#willow)" stroke="#815e46" stroke-width="1" stroke-linejoin="round">
+      <path d="M42 95h8v114l-4 6-4-6Z"/><path d="M59 95h8v114l-4 6-4-6Z"/><path d="M76 95h8v114l-4 6-4-6Z"/>
+      <path d="M42 95v-5h24v5Zm17 0v-5h25v5Z"/>
+    </g>
+    <g transform="translate(111 174) rotate(23)">
+      <path d="M-10 2q0-9 6-18h8q6 9 6 18v57q-10 7-20 0Z" fill="url(#willow)" stroke="#8d6849" stroke-width="1.3"/>
+      <path d="M-4-15v-44q4-4 8 0v44Z" fill="#54694e" stroke="#45604d" stroke-width="1"/>
+      <path d="M-4-49h8m-8 6h8m-8 6h8m-8 6h8m-8 6h8M-6 9v41" stroke="#efe1ac" stroke-opacity=".64" stroke-width="1"/>
+    </g>
+    <g transform="translate(116 61) rotate(-22)">
+      <circle r="18" fill="url(#ball)" stroke="#784c3c" stroke-width="1.2"/>
+      <path d="M-2-17C4-8 4 9-2 17m6-34c6 8 6 26 0 33" fill="none" stroke="#e4bca0" stroke-width="1.15"/>
+      <path d="m0-11 5-1m-4 5 6-1m-5 5 6-1m-6 5h6m-6 4 5 1m-6 3 5 1m-7 3 5 1" stroke="#efc8a9" stroke-width=".7"/>
+    </g>
+  </g>
+  <path d="M59 383h599m-599-5v10m120-8v6m120-8v10m120-8v6m120-8v10m119-8v6" fill="none" stroke="#bbcba6" stroke-opacity=".5"/>
+</svg>

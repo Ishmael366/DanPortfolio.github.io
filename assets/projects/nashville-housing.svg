@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" width="720" height="440" role="img" aria-labelledby="title desc">
+  <title id="title">Nashville property records illustration</title>
+  <desc id="desc">A schematic street and parcel grid with house plans, linked to a property record form with address, sale date, and parcel fields. No real parcels or records are shown.</desc>
+  <defs>
+    <linearGradient id="paper" x2="1" y2="1"><stop stop-color="#f7f1e2"/><stop offset="1" stop-color="#dde4d6"/></linearGradient>
+    <pattern id="grid" width="19" height="19" patternUnits="userSpaceOnUse"><path d="M19 0H0V19" fill="none" stroke="#607a65" stroke-opacity=".12"/></pattern>
+    <g id="house" stroke="#445d50" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m-14 0 14-12L14 0v13h-28Z" fill="#f0ebd7"/><path d="M-4 13V5h8v8M-16 2 0-12 16 2" fill="none"/>
+    </g>
+  </defs>
+  <rect width="720" height="440" fill="url(#paper)"/>
+  <rect x="23" y="23" width="674" height="394" fill="url(#grid)" stroke="#7d9480" stroke-opacity=".38"/>
+  <g transform="translate(44 50) rotate(-10 184 159)">
+    <rect x="14" y="17" width="334" height="286" fill="#d2d9c2" stroke="#71876d"/>
+    <g fill="#aab89d" stroke="#6d866d" stroke-width="1">
+      <path d="M25 31h78v54H25zm84 0h73v54h-73zm94 0h64v54h-64zm70 0h62v54h-62z"/>
+      <path d="M25 111h59v66H25zm65 0h92v66H90zm113 0h74v66h-74zm80 0h52v66h-52z"/>
+      <path d="M25 203h91v83H25zm97 0h60v83h-60zm81 0h53v83h-53zm59 0h73v83h-73z"/>
+      <path d="M90 111h92v66H90Z" fill="#b27a60" stroke="#8a5646" stroke-width="2"/>
+    </g>
+    <path d="M15 98h333M15 190h333M192 17v286" stroke="#faf4df" stroke-width="15"/>
+    <path d="M15 98h333M15 190h333M192 17v286" stroke="#82947e" stroke-dasharray="3 5" fill="none"/>
+    <use href="#house" x="66" y="55"/><use href="#house" x="146" y="58"/><use href="#house" x="235" y="58"/><use href="#house" x="302" y="59"/>
+    <use href="#house" x="53" y="143"/><use href="#house" x="136" y="143"/><use href="#house" x="238" y="142"/><use href="#house" x="309" y="142"/>
+    <use href="#house" x="71" y="240"/><use href="#house" x="150" y="239"/><use href="#house" x="229" y="242"/><use href="#house" x="298" y="242"/>
+    <circle cx="136" cy="144" r="25" fill="none" stroke="#f9efda" stroke-width="1.5" stroke-dasharray="3 4"/>
+  </g>
+  <path d="M183 199h149l90-46" fill="none" stroke="#965d49" stroke-width="1.6" stroke-dasharray="4 4"/>
+  <circle cx="183" cy="199" r="4" fill="#965d49" stroke="#f7f1e2" stroke-width="2"/>
+  <g transform="translate(402 86)">
+    <rect x="11" y="11" width="234" height="258" rx="4" fill="#284d3c" opacity=".17"/>
+    <rect width="234" height="258" rx="4" fill="#f6f0e1" stroke="#6e846c"/>
+    <path d="M4 0h226a4 4 0 0 1 4 4v50H0V4a4 4 0 0 1 4-4" fill="#284b3d"/>
+    <path d="M19 30h11m-5.5-5.5v11" stroke="#d6ddbf" stroke-width="1.3"/>
+    <text x="42" y="33" fill="#f4efe1" font-family="Arial,sans-serif" font-size="15" font-weight="600">Property record</text>
+    <g font-family="Arial,sans-serif" font-size="12" fill="#42574a">
+      <text x="20" y="83">Parcel</text><text x="20" y="130">Address</text><text x="20" y="177">Sale date</text><text x="20" y="224">Duplicate check</text>
+    </g>
+    <path d="M20 101h194M20 148h194M20 195h194" stroke="#a3ae9c" stroke-width="1"/>
+    <path d="M112 80h81m-81 47h100m-100 47h57m-57 47h57" stroke="#73917a" stroke-width="4" stroke-linecap="round" opacity=".48"/>
+    <path d="m197 220 5 5 10-12" fill="none" stroke="#40704f" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <path d="M77 380h282m-282-5v10m47-8v6m47-8v10m47-8v6m47-8v10m47-8v6m47-8v10" fill="none" stroke="#55735f" stroke-opacity=".55"/>
+</svg>

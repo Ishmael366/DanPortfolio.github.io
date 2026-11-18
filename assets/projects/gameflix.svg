@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="440" viewBox="0 0 720 440" role="img" aria-labelledby="title desc">
+  <title id="title">GameFlix backend architecture</title>
+  <desc id="desc">Original schematic of REST endpoints connected to a Java service, local persistence, and service tests within a Docker build outline.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#273330"/><stop offset="1" stop-color="#1c2429"/>
+    </linearGradient>
+    <linearGradient id="green" x2="1" y2="1">
+      <stop stop-color="#526f5e"/><stop offset="1" stop-color="#29463c"/>
+    </linearGradient>
+    <linearGradient id="plum" x2="1" y2="1">
+      <stop stop-color="#74627a"/><stop offset="1" stop-color="#3b354a"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#deebd4" stroke-opacity=".06"/>
+    </pattern>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <path d="m0 0 7 3.5L0 7" fill="none" stroke="#c2d5b3" stroke-width="1.2"/>
+    </marker>
+  </defs>
+  <rect width="720" height="440" fill="url(#background)"/>
+  <rect width="720" height="440" fill="url(#grid)"/>
+  <path d="M50 76v-20h20M670 366v20h-20" fill="none" stroke="#c0d3bd" stroke-opacity=".34"/>
+  <rect x="69" y="69" width="582" height="306" rx="10" fill="#1d2c29" fill-opacity=".31" stroke="#a9c3a7" stroke-opacity=".46" stroke-dasharray="4 6"/>
+  <path d="M119 69h482M69 122v201M651 122v201" stroke="#bdcdb3" stroke-opacity=".17"/>
+  <rect x="92" y="57" width="130" height="25" rx="4" fill="#293b35" stroke="#b0c4a7" stroke-opacity=".44"/>
+  <text x="157" y="73" text-anchor="middle" fill="#d6e3cc" font-family="monospace" font-size="10" letter-spacing="1.6">DOCKER BUILD</text>
+  <g fill="none" stroke="#c2d5b3" stroke-opacity=".68" stroke-width="1.3" marker-end="url(#arrow)">
+    <path d="M239 191h42"/><path d="M433 191h42"/><path d="M357 245v43"/>
+  </g>
+  <g transform="translate(95 140)">
+    <rect x="7" y="9" width="145" height="105" rx="6" fill="#12201d" opacity=".68"/>
+    <rect width="145" height="105" rx="6" fill="url(#plum)" stroke="#cbb3ca" stroke-opacity=".57"/>
+    <path d="M47 40 32 52l15 12m52-24 15 12-15 12m-23-28-8 32" fill="none" stroke="#e9dced" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="72.5" y="88" fill="#e9e4e9" text-anchor="middle" font-family="monospace" font-size="11" letter-spacing="1.3">REST ENDPOINTS</text>
+  </g>
+  <g transform="translate(286 140)">
+    <rect x="7" y="9" width="145" height="105" rx="6" fill="#12201d" opacity=".68"/>
+    <rect width="145" height="105" rx="6" fill="url(#green)" stroke="#bbd5b6" stroke-opacity=".69"/>
+    <g fill="none" stroke="#d9e8cb" stroke-width="1.6" stroke-linejoin="round">
+      <path d="m72 31 28 14-28 14-28-14zm-28 23 28 14 28-14m-56 9 28 14 28-14"/>
+    </g>
+    <text x="72.5" y="93" fill="#e5ebdf" text-anchor="middle" font-family="monospace" font-size="11" letter-spacing="1.4">JAVA SERVICE</text>
+  </g>
+  <g transform="translate(480 140)">
+    <rect x="7" y="9" width="145" height="105" rx="6" fill="#12201d" opacity=".68"/>
+    <rect width="145" height="105" rx="6" fill="#344b43" stroke="#b6ccb1" stroke-opacity=".64"/>
+    <g fill="none" stroke="#d2e3ca" stroke-width="1.6">
+      <ellipse cx="72.5" cy="39" rx="22" ry="7"/><path d="M50.5 39v26c0 4 10 7 22 7s22-3 22-7V39m-44 9c0 4 10 7 22 7s22-3 22-7m-44 9c0 4 10 7 22 7s22-3 22-7"/>
+    </g>
+    <text x="72.5" y="93" fill="#e5ebdf" text-anchor="middle" font-family="monospace" font-size="11" letter-spacing="1.3">PERSISTENCE</text>
+  </g>
+  <g transform="translate(278 292)">
+    <rect width="159" height="49" rx="5" fill="#293a35" stroke="#a5c5a3" stroke-opacity=".65"/>
+    <circle cx="24" cy="24" r="10" fill="#b1caa6" fill-opacity=".18"/>
+    <path d="m20 24 3 3 6-7" fill="none" stroke="#c9e1b4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="43" y="28" fill="#d5e1d0" font-family="monospace" font-size="11" letter-spacing="1.1">SERVICE TESTS</text>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" width="720" height="440" role="img" aria-labelledby="title desc">
+  <title id="title">COVID-19 public health analysis illustration</title>
+  <desc id="desc">An abstract world globe beside three report panels for cases, deaths, and vaccination, with an unnumbered calendar strip. The marks are illustrative.</desc>
+  <defs>
+    <linearGradient id="ground" x2="1" y2="1"><stop stop-color="#243f37"/><stop offset="1" stop-color="#162a27"/></linearGradient>
+    <radialGradient id="sea"><stop stop-color="#47655a"/><stop offset="1" stop-color="#2c463f"/></radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#d8e0c6" stroke-opacity=".10"/></pattern>
+    <clipPath id="globe"><circle cx="253" cy="203" r="148"/></clipPath>
+    <g id="report">
+      <rect width="210" height="67" rx="4" fill="#f3efe3"/>
+      <path d="M0 1h210M58 0v67" stroke="#d1d7c5"/>
+      <path d="M75 47h94m-94 6h65" stroke="#8e9b8b" stroke-opacity=".5" stroke-width="1.5"/>
+    </g>
+  </defs>
+  <rect width="720" height="440" fill="url(#ground)"/>
+  <rect x="23" y="23" width="674" height="394" fill="url(#grid)" stroke="#b2c0a3" stroke-opacity=".32"/>
+  <circle cx="253" cy="203" r="166" fill="none" stroke="#a9bea4" stroke-opacity=".28" stroke-dasharray="2 5"/>
+  <circle cx="253" cy="203" r="148" fill="url(#sea)" stroke="#adbea3" stroke-width="1.4"/>
+  <g clip-path="url(#globe)" fill="none" stroke="#b0c6ab" stroke-opacity=".32">
+    <ellipse cx="253" cy="203" rx="99" ry="148"/><ellipse cx="253" cy="203" rx="46" ry="148"/>
+    <path d="M100 203h304M124 131q126 46 258 0M124 275q126-46 258 0M253 49v309"/>
+    <g fill="#8fa98a" stroke="#c0d0ac" stroke-opacity=".45" stroke-linejoin="round">
+      <path d="m100 111 30-20 24-8 22 11 20-9 25 13-2 14-26 14-12 23-9 15 6 17 17 5 11 16 12 5-10 11-19-7-11-17-16-10-8-16-22-16-16-11-13-13Z"/>
+      <path d="m207 209 18 2 25 13 16 20-11 24-10 9-5 20-14 21-14 13 2-27-7-22-4-30-12-24Z"/>
+      <path d="m253 111 9-13 20 2 6-19 28-10 11 8 33 2 39 14 20 17-22 25-29 3-10 22-19 15-15-5-11-22-14 7-5 19-16-5-4-25-24 1-13-8Z"/>
+      <path d="m262 163 23-4 26 13 15 26-9 25-17 28-14 8-12-14-4-27-14-16-4-23Z"/>
+      <path d="m347 233 13-10 23 3 11 16 9 20-17 11-19-3-16-6-13-16Z"/>
+      <path d="m202 80 15-14 26-9 8 11-12 19-25 8Z"/>
+    </g>
+  </g>
+  <g fill="#bd7965" stroke="#f3e5d8" stroke-width="1.5">
+    <circle cx="171" cy="154" r="4"/><circle cx="231" cy="254" r="4"/><circle cx="277" cy="133" r="4"/><circle cx="307" cy="199" r="4"/><circle cx="365" cy="137" r="4"/><circle cx="379" cy="248" r="4"/>
+  </g>
+  <path d="M171 154q49-51 106-21m0 0q49-35 88 4m-88-4q19 26 30 66" fill="none" stroke="#e2ac8e" stroke-opacity=".68" stroke-dasharray="3 5"/>
+  <g font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#30473b">
+    <use href="#report" x="444" y="75"/><use href="#report" x="444" y="153"/><use href="#report" x="444" y="231"/>
+    <text x="519" y="104">Cases</text><text x="519" y="182">Deaths</text><text x="519" y="260">Vaccination</text>
+  </g>
+  <g fill="none" stroke="#925847" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="473" cy="109" r="11"/><path d="M468 109h10m-5-5v10"/>
+    <path d="M460 188h6l4-9 6 15 5-8h6"/>
+    <path d="m464 273 16-16m-4-4 8 8m-11-3 6 6-8 8-6-6m1 9-4 4"/>
+  </g>
+  <g transform="translate(65 378)" stroke="#c8d2b8" stroke-opacity=".52" fill="none">
+    <path d="M0 0h590M0-7v14m59-11v8m59-11v14m59-11v8m59-11v14m59-11v8m59-11v14m59-11v8m59-11v14m59-11v8m59-11v14"/>
+    <circle cx="118" r="4" fill="#c88770" stroke="none"/><circle cx="354" r="4" fill="#c88770" stroke="none"/><circle cx="531" r="4" fill="#c88770" stroke="none"/>
+  </g>
+</svg>

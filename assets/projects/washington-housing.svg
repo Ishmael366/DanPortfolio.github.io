@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" width="720" height="440" role="img" aria-labelledby="title desc">
+  <title id="title">Washington housing analysis illustration</title>
+  <desc id="desc">A stylized outline of Washington with topographic contour lines, paired with a small calendar and house elevations. The map and calendar contain no sale data.</desc>
+  <defs>
+    <linearGradient id="ground" x2="1" y2="1"><stop stop-color="#e7ede0"/><stop offset="1" stop-color="#cddbd1"/></linearGradient>
+    <linearGradient id="land" x2="1" y2="1"><stop stop-color="#718f79"/><stop offset="1" stop-color="#3f6b5e"/></linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#345f52" stroke-opacity=".13"/></pattern>
+    <path id="state" d="M78 115q-6-15-9-29l11 12 16 6 11 14 17 6 16 16 12 7 2 16-10 9-12-1-2 13 14 9 17-12 1-23 11-14-2-20-16-22 13-16h18l-4 27 15 27-5 23 10 15 14-14-5-27 7-19-12-23 17-19h264l-1 229-22 7-15-5-20 6-25-10-21 9-33-11-26 8-22-14-24 6-24-16-20 7-31-12-17 3-10-14-18-3-1-16-14-11-6-22-12-12 2-25-14-12 3-15-11-13-4-21Z"/>
+    <clipPath id="outline"><use href="#state"/></clipPath>
+  </defs>
+  <rect width="720" height="440" fill="url(#ground)"/>
+  <rect x="23" y="23" width="674" height="394" fill="url(#grid)" stroke="#658472" stroke-opacity=".44"/>
+  <use href="#state" transform="translate(6 9)" fill="#243e3a" opacity=".13"/>
+  <use href="#state" fill="url(#land)" stroke="#375f51" stroke-width="2" stroke-linejoin="round"/>
+  <g clip-path="url(#outline)" fill="none" stroke="#d6e3cf" stroke-opacity=".58" stroke-width="1.2">
+    <path d="M201 66q81 44 58 97t-25 94q20 42 105 74m-128-265q84 44 65 100t-22 89q21 44 103 74m-129-268q82 53 62 110t-16 83q22 39 99 70m-130-270q81 52 63 109t-13 87q26 37 99 67m-131-265q77 52 58 110t-8 87q26 36 102 58m-135-258q79 54 61 114t-6 85q27 29 96 47m-135-248q82 55 65 116t-6 79q28 28 91 40m-125-242q74 61 61 114t2 82q24 24 83 35"/>
+    <path d="M54 134q51-4 84 45t72 46m-148-79q52 2 77 45t71 44m-137-74q46 4 71 45t69 38m-133-69q47 10 70 46t60 34m-118-69q31 10 64 47t63 32"/>
+  </g>
+  <g transform="translate(268 172)">
+    <circle r="25" fill="#f3eee0" stroke="#75927a" stroke-width="1.5" opacity=".92"/>
+    <path d="M0-13a9 9 0 0 0-9 9c0 7 9 16 9 16S9 3 9-4a9 9 0 0 0-9-9Z" fill="#945e50"/>
+    <circle cy="-4" r="3" fill="#f3eee0"/>
+  </g>
+  <path d="M295 171h119l56-31" fill="none" stroke="#4b6f63" stroke-dasharray="3 4" stroke-width="1.4"/>
+  <g transform="translate(482 65)">
+    <rect x="9" y="9" width="165" height="271" rx="4" fill="#284739" opacity=".13"/>
+    <rect width="165" height="271" rx="4" fill="#f4efe2" stroke="#718c78"/>
+    <g transform="translate(21 26)" fill="none" stroke="#416954" stroke-width="2" stroke-linejoin="round">
+      <path d="m1 35 28-23 28 23v31H1Z" fill="#e5e6d0"/><path d="m-3 38 32-26 32 26M23 66V49h12v17"/>
+      <path d="m70 35 25-17 25 17v31H70Z" fill="#c8d6bc"/><path d="m66 38 29-20 29 20m-36 28V50h13v16"/>
+      <path d="M7 42h9v9H7zM42 42h9v9h-9zM75 42h8v8h-8zM107 42h8v8h-8z" stroke-width="1" fill="#f4efe2"/>
+    </g>
+    <g transform="translate(25 120)">
+      <rect width="116" height="103" rx="3" fill="#edf0df" stroke="#8ca58c"/>
+      <path d="M0 23h116M16 23v80m17-80v80m17-80v80m17-80v80m17-80v80m16-80v80M0 39h116M0 55h116M0 71h116M0 87h116" fill="none" stroke="#9bad98" stroke-width=".7"/>
+      <path d="M24-5v16m68-16v16" stroke="#456e5a" stroke-width="3" stroke-linecap="round"/>
+      <path d="M34 40h15v14H34zm34 16h15v14H68zm17 16h14v14H85z" fill="#ae7965" opacity=".78"/>
+    </g>
+    <path d="M25 244h116" stroke="#a8b7a3" stroke-width="1"/>
+  </g>
+  <path d="M70 367h341m-341-4v8m68-8v8m69-8v8m68-8v8m68-8v8m68-8v8" fill="none" stroke="#577769" stroke-opacity=".55"/>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="440" viewBox="0 0 720 440" role="img" aria-labelledby="title desc">
+  <title id="title">Movie portfolio notebook</title>
+  <desc id="desc">An illustrated film clapper and abstract scatterplot represent the Python notebook’s exploration of movie budgets and earnings. Marks do not represent measured values.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#252c30"/><stop offset="1" stop-color="#192b25"/>
+    </linearGradient>
+    <linearGradient id="chart" x2="1" y2="1">
+      <stop stop-color="#344742"/><stop offset="1" stop-color="#24322f"/>
+    </linearGradient>
+    <linearGradient id="board" x2="1" y2="1">
+      <stop stop-color="#755c74"/><stop offset="1" stop-color="#44394f"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#e3edda" stroke-opacity=".065"/>
+    </pattern>
+    <pattern id="stripes" width="32" height="32" patternUnits="userSpaceOnUse" patternTransform="rotate(41)">
+      <rect width="16" height="32" fill="#e0d4c5"/>
+    </pattern>
+  </defs>
+  <rect width="720" height="440" fill="url(#background)"/>
+  <rect width="720" height="440" fill="url(#grid)"/>
+  <circle cx="161" cy="237" r="141" fill="none" stroke="#c8b5c8" stroke-opacity=".13"/>
+  <circle cx="161" cy="237" r="122" fill="none" stroke="#c8b5c8" stroke-opacity=".12" stroke-dasharray="2 6"/>
+  <g transform="translate(301 82)">
+    <rect x="10" y="11" width="335" height="276" rx="8" fill="#111f1d" opacity=".58"/>
+    <rect width="335" height="276" rx="8" fill="url(#chart)" stroke="#99b29d" stroke-opacity=".49"/>
+    <path d="M33 195h267M33 160h267M33 125h267M33 90h267M84 58v165m52-165v165m52-165v165m52-165v165m52-165v165" stroke="#bdceb6" stroke-opacity=".16"/>
+    <path d="M33 56v167h270" stroke="#bed0b9" stroke-opacity=".61" fill="none"/>
+    <g fill="#c4dcad" opacity=".78">
+      <circle cx="66" cy="194" r="5"/><circle cx="83" cy="175" r="3.5"/><circle cx="104" cy="190" r="4"/><circle cx="121" cy="145" r="5"/><circle cx="136" cy="161" r="4"/><circle cx="148" cy="135" r="3.5"/><circle cx="166" cy="154" r="4.5"/><circle cx="176" cy="112" r="5.5"/><circle cx="198" cy="123" r="3.5"/><circle cx="215" cy="94" r="4.5"/><circle cx="232" cy="112" r="3.5"/><circle cx="248" cy="86" r="5"/><circle cx="272" cy="72" r="4"/>
+    </g>
+    <g fill="#c6a6c1" opacity=".84">
+      <circle cx="77" cy="204" r="3"/><circle cx="114" cy="177" r="3"/><circle cx="154" cy="175" r="4"/><circle cx="174" cy="137" r="3"/><circle cx="200" cy="159" r="4"/><circle cx="224" cy="129" r="3"/><circle cx="254" cy="124" r="4"/><circle cx="280" cy="91" r="4"/>
+    </g>
+    <text x="33" y="34" fill="#e0ebd5" font-family="monospace" font-size="12" letter-spacing="2">MOVIE CORRELATIONS</text>
+    <text x="298" y="248" text-anchor="end" fill="#bccfbc" font-family="monospace" font-size="10" letter-spacing="1.6">BUDGET / GROSS</text>
+  </g>
+  <g transform="translate(80 156) rotate(-8 107 92)">
+    <rect x="10" y="16" width="218" height="160" rx="6" fill="#101918" opacity=".56"/>
+    <rect y="28" width="218" height="146" rx="5" fill="url(#board)" stroke="#cab2c5" stroke-opacity=".6"/>
+    <rect y="28" width="218" height="25" rx="4" fill="#3b3646"/>
+    <rect y="28" width="218" height="25" rx="4" fill="url(#stripes)"/>
+    <g transform="rotate(-20 5 35)">
+      <rect x="0" y="5" width="218" height="25" rx="4" fill="#3b3646" stroke="#d3bacc" stroke-opacity=".62"/>
+      <rect x="0" y="5" width="218" height="25" rx="4" fill="url(#stripes)"/>
+    </g>
+    <circle cx="11" cy="39" r="6" fill="#ded6c8" stroke="#655565" stroke-width="2"/>
+    <path d="M19 105h179M19 130h179M19 152h179M103 106v46" stroke="#d7c3d0" stroke-opacity=".36"/>
+    <text x="19" y="88" fill="#f1e4ec" font-family="Georgia,serif" font-size="22">Motion pictures</text>
+  </g>
+  <path d="M51 80v-21h21M665 361v21h-21" fill="none" stroke="#c4d4bb" stroke-opacity=".4"/>
+</svg>
