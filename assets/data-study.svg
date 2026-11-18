@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+  <title id="title">Data study</title>
+  <desc id="desc">Original abstract illustration of a query schematic and visual analysis in muted sage. Curves and bars are decorative, not measured results.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f4f3e9"/><stop offset="1" stop-color="#e4e9dc"/>
+    </linearGradient>
+    <linearGradient id="sage" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#afc4a7" stop-opacity=".7"/><stop offset="1" stop-color="#afc4a7" stop-opacity=".06"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#294d3e"/><stop offset="1" stop-color="#17372c"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#6f8c72" stroke-opacity=".12" stroke-width=".7"/>
+    </pattern>
+    <pattern id="micro" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".5" fill="#315d43" opacity=".13"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-40%" width="170%" height="190%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#263e2b" flood-opacity=".12"/>
+    </filter>
+    <filter id="smallShadow" x="-30%" y="-40%" width="170%" height="190%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#263e2b" flood-opacity=".12"/>
+    </filter>
+  </defs>
+  <rect width="900" height="600" fill="url(#paper)"/>
+  <rect width="900" height="600" fill="url(#grid)"/>
+  <circle cx="780" cy="65" r="230" fill="#cad6c1" opacity=".35"/>
+  <circle cx="70" cy="560" r="200" fill="#d7dfc9" opacity=".55"/>
+  <path d="M0 480C166 455 173 254 357 275S555 527 900 454" fill="none" stroke="#a4b99a" stroke-opacity=".35"/>
+  <path d="M0 505C172 478 185 290 356 302S567 553 900 480" fill="none" stroke="#a4b99a" stroke-opacity=".25"/>
+  <g fill="#45604d" font-family="Arial, Helvetica, sans-serif">
+    <text x="62" y="51" font-size="11" letter-spacing="3.8">DATA STUDY</text>
+    <path d="M62 67H141" stroke="#45604d" stroke-width="1"/>
+  </g>
+  <g transform="translate(118 105) rotate(-3 330 195)" filter="url(#shadow)">
+    <rect x="8" y="10" width="650" height="402" rx="14" fill="#bdcbb3"/>
+    <rect width="650" height="402" rx="14" fill="#f9f9f1" stroke="#d2daca"/>
+    <rect x="0" y="0" width="650" height="47" rx="14" fill="#edf0e5"/>
+    <path d="M0 34H650V47H0Z" fill="#edf0e5"/>
+    <circle cx="25" cy="24" r="3" fill="#77916f"/>
+    <circle cx="38" cy="24" r="3" fill="#b6c5a7"/>
+    <circle cx="51" cy="24" r="3" fill="#d1dac6"/>
+    <path d="M80 24H175M555 24H625" stroke="#bbc9ae" stroke-width="3" stroke-linecap="round"/>
+    <g transform="translate(32 77)">
+      <text x="0" y="0" fill="#52684f" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2.3">PATTERNS &amp; RELATIONSHIPS</text>
+      <g transform="translate(0 25)">
+        <path d="M0 0H355M0 45H355M0 90H355M0 135H355M0 180H355" stroke="#dce3d5" stroke-width="1"/>
+        <path d="M0 0V180M71 0V180M142 0V180M213 0V180M284 0V180M355 0V180" stroke="#e8ece2" stroke-width="1"/>
+        <path d="M0 161C25 158 34 98 64 109S105 145 133 99S185 91 213 56S256 99 283 48S326 51 355 17V180H0Z" fill="url(#sage)"/>
+        <path d="M0 161C25 158 34 98 64 109S105 145 133 99S185 91 213 56S256 99 283 48S326 51 355 17" fill="none" stroke="#527d58" stroke-width="3" stroke-linecap="round"/>
+        <path d="M0 133C25 136 40 139 64 125S111 92 133 125S181 137 213 101S254 120 283 89S326 109 355 65" fill="none" stroke="#b5c793" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 6"/>
+        <g fill="#fafbf4" stroke="#527d58" stroke-width="2">
+          <circle cx="64" cy="109" r="4"/><circle cx="133" cy="99" r="4"/><circle cx="213" cy="56" r="4"/><circle cx="283" cy="48" r="4"/>
+        </g>
+        <path d="M213 39V160" stroke="#85a16e" stroke-opacity=".35" stroke-dasharray="3 5"/>
+      </g>
+      <g transform="translate(0 244)">
+        <rect width="355" height="45" rx="5" fill="#edf1e5"/>
+        <rect x="13" y="11" width="23" height="23" rx="4" fill="#d3dfc6"/>
+        <path d="M20 28V19M25 28V23M30 28V16" stroke="#628555" stroke-width="2"/>
+        <path d="M50 18H150M50 27H106" stroke="#a3b796" stroke-width="4" stroke-linecap="round"/>
+        <path d="M267 25l13-9 14 11 13-6 14 5 17-11" fill="none" stroke="#6d9362" stroke-width="1.7"/>
+      </g>
+    </g>
+    <g transform="translate(423 78)">
+      <text x="0" y="0" fill="#52684f" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2.3">STRUCTURE</text>
+      <rect y="25" width="194" height="119" rx="7" fill="#f1f4e9" stroke="#dce3d3"/>
+      <g fill="#a8be96">
+        <rect x="20" y="93" width="13" height="30" rx="2"/><rect x="43" y="72" width="13" height="51" rx="2"/>
+        <rect x="66" y="84" width="13" height="39" rx="2"/><rect x="89" y="55" width="13" height="68" rx="2"/>
+        <rect x="112" y="68" width="13" height="55" rx="2"/><rect x="135" y="46" width="13" height="77" rx="2"/>
+        <rect x="158" y="59" width="13" height="64" rx="2"/>
+      </g>
+      <path d="M20 123H172" stroke="#c5d1b9"/>
+      <g transform="translate(0 169)">
+        <rect width="194" height="120" rx="7" fill="#e6ecdc"/>
+        <circle cx="60" cy="60" r="35" fill="none" stroke="#d0ddbf" stroke-width="10"/>
+        <path d="M60 25A35 35 0 1 1 26 68" fill="none" stroke="#779e65" stroke-width="10" stroke-linecap="round"/>
+        <path d="M117 37H172M117 54H157M117 71H172M117 88H145" stroke="#b1c49f" stroke-width="4" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(558 327) rotate(6 125 95)" filter="url(#smallShadow)">
+    <rect width="257" height="181" rx="11" fill="url(#ink)"/>
+    <rect width="257" height="181" rx="11" fill="url(#micro)"/>
+    <text x="22" y="30" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2.4" fill="#c3d5b8">QUERY</text>
+    <path d="M22 42H234" stroke="#779579" stroke-opacity=".32"/>
+    <g font-family="monospace" font-size="12">
+      <text x="23" y="68" fill="#c5dd9c">SELECT</text>
+      <text x="23" y="91" fill="#9bb296">FROM</text>
+      <text x="23" y="114" fill="#c5dd9c">JOIN</text>
+      <text x="23" y="137" fill="#9bb296">GROUP BY</text>
+    </g>
+    <g stroke="#698b72" stroke-width="4" stroke-linecap="round" opacity=".75">
+      <path d="M91 64H198M78 87H168M68 110H186M104 133H204"/>
+    </g>
+    <circle cx="231" cy="157" r="4" fill="#bed590"/>
+    <path d="M23 157H58" stroke="#b5cb98" stroke-width="2"/>
+  </g>
+  <g fill="none" stroke="#607f59" stroke-opacity=".55" stroke-width="1.1">
+    <path d="M83 136H65V160M813 98H837V122M83 477H65V453M826 525H844V501"/>
+    <path d="M98 548H287" stroke-opacity=".25"/>
+  </g>
+  <text x="62" y="561" fill="#63785c" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2.3">QUERY · EXPLORE · VISUALIZE</text>
+  <path d="M798 555H837M825 543L837 555L825 567" fill="none" stroke="#718d63" stroke-width="1.2"/>
+</svg>
