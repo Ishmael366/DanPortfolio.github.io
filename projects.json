@@ -571,6 +571,330 @@
       "label": "Sports & Games",
       "projects": [
         {
+          "id": "game-squid-survival",
+          "title": "Red Light, Green Light \u2014 3D Survival",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "description": "A two-player 3D survival game with a fully rendered doll, timed movement and red-light detection.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-squid-survival.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-squid-survival-source.zip"
+            },
+            {
+              "label": "Source media 1",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-squid-survival-source-media-1.zip"
+            },
+            {
+              "label": "Source media 2",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-squid-survival-source-media-2.zip"
+            },
+            {
+              "label": "Source media 3",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-squid-survival-source-media-3.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-pokemon-adventure",
+          "title": "Pok\u00e9mon Adventure",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "description": "Explore a pixel-art world with animated characters, encounters and a turn-based battle system.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-pokemon-adventure.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-pokemon-adventure-source.zip"
+            },
+            {
+              "label": "Source media 1",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-pokemon-adventure-source-media-1.zip"
+            },
+            {
+              "label": "Source media 2",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-pokemon-adventure-source-media-2.zip"
+            },
+            {
+              "label": "Source media 3",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-pokemon-adventure-source-media-3.zip"
+            },
+            {
+              "label": "Source media 4",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-pokemon-adventure-source-media-4.zip"
+            },
+            {
+              "label": "Source media 5",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-pokemon-adventure-source-media-5.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-mario-adventure",
+          "title": "Mario Adventure",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "description": "A scrolling platformer with animated characters, layered scenery, enemies and power-ups.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-mario-adventure.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-mario-adventure-source.zip"
+            },
+            {
+              "label": "Source media 1",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-mario-adventure-source-media-1.zip"
+            },
+            {
+              "label": "Source media 2",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-mario-adventure-source-media-2.zip"
+            },
+            {
+              "label": "Source media 3",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-mario-adventure-source-media-3.zip"
+            },
+            {
+              "label": "Source media 4",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-mario-adventure-source-media-4.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-space-invaders-deluxe",
+          "title": "Space Invaders Deluxe",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "description": "An arcade space shooter with enemy waves, explosions, particle effects and a styled start screen.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-space-invaders-deluxe.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-space-invaders-deluxe-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-canvas-shooter",
+          "title": "Particle Arena Shooter",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "description": "Aim and shoot through waves of colorful enemies with particle explosions, scoring and sound.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-canvas-shooter.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-canvas-shooter-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-threejs-arena",
+          "title": "3D Obstacle Arena",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "description": "A Three.js game study with 3D movement, shadows, camera controls and obstacles.",
+          "tech": [
+            "JavaScript",
+            "Three.js"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-threejs-arena.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-threejs-arena-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-evolution-simulator",
+          "title": "Evolution Simulator",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "description": "Watch organisms reproduce and mutate in a live simulation with adjustable mutation rate and playback controls.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-evolution-simulator.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-evolution-simulator-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-pacman-arcade",
+          "title": "Pac-Man Arcade",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "description": "Navigate a maze, collect pellets and avoid moving ghosts in a complete browser arcade implementation.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-pacman-arcade.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-pacman-arcade-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-frogger",
+          "title": "Frogger",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "description": "Cross moving traffic and river platforms in a timed browser game.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-frogger.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-frogger-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-battleships",
+          "title": "Battleships",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "description": "Arrange your fleet and face the computer in a browser naval strategy game.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-battleships.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-battleships-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-candy-crush-react",
+          "title": "Candy Crush React",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "description": "Drag colorful candies to form matches and increase your score in a React puzzle game.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-candy-crush-react.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-candy-crush-react-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-rock-paper-scissors-react",
+          "title": "Rock Paper Scissors React",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "description": "Choose a move and compete against the computer in a React game.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-rock-paper-scissors-react.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-rock-paper-scissors-react-source.zip"
+            }
+          ]
+        },
+        {
           "id": "game-programming-pong-in-the-park",
           "skills": [
             "Modeling",

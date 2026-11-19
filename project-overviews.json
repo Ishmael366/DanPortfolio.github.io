@@ -379,5 +379,89 @@
       "This independent tutorial study uses the credited author\u2019s implementation, adapted for browser presentation. Desktop keyboard and mouse are recommended.",
       "The live page contains the game controls where supplied by the original project. Downloadable source retains author attribution. Startup and rendering have been checked; full playthrough validation is pending."
     ]
+  },
+  "game-pokemon-adventure": {
+    "details": [
+      "Explore a pixel-art world with animated characters, encounters and a turn-based battle system.",
+      "A tutorial-derived browser presentation adapted from the saved project. The source archive contains the original project and its license notices.",
+      "Startup, rendering and representative controls were checked. Desktop keyboard and mouse are recommended. Full game playthrough validation remains pending."
+    ]
+  },
+  "game-mario-adventure": {
+    "details": [
+      "A scrolling platformer with animated characters, layered scenery, enemies and power-ups.",
+      "A tutorial-derived browser presentation adapted from the saved project. The source archive contains the original project and its license notices.",
+      "Startup, rendering and representative controls were checked. Desktop keyboard and mouse are recommended. Full game playthrough validation remains pending."
+    ]
+  },
+  "game-space-invaders-deluxe": {
+    "details": [
+      "An arcade space shooter with enemy waves, explosions, particle effects and a styled start screen.",
+      "A tutorial-derived browser presentation adapted from the saved project. The source archive contains the original project and its license notices.",
+      "Startup, rendering and representative controls were checked. Desktop keyboard and mouse are recommended. Full game playthrough validation remains pending."
+    ]
+  },
+  "game-canvas-shooter": {
+    "details": [
+      "Aim and shoot through waves of colorful enemies with particle explosions, scoring and sound.",
+      "A tutorial-derived browser presentation adapted from the saved project. The source archive contains the original project and its license notices.",
+      "Startup, rendering and representative controls were checked. Desktop keyboard and mouse are recommended. Full game playthrough validation remains pending."
+    ]
+  },
+  "game-threejs-arena": {
+    "details": [
+      "A Three.js game study with 3D movement, shadows, camera controls and obstacles.",
+      "A tutorial-derived browser presentation adapted from the saved project. The source archive contains the original project and its license notices.",
+      "Startup, rendering and representative controls were checked. Desktop keyboard and mouse are recommended. Full game playthrough validation remains pending."
+    ]
+  },
+  "game-evolution-simulator": {
+    "details": [
+      "Watch organisms reproduce and mutate in a live simulation with adjustable mutation rate and playback controls.",
+      "A tutorial-derived browser presentation adapted from the saved project. The source archive contains the original project and its license notices.",
+      "Startup, rendering and representative controls were checked. Desktop keyboard and mouse are recommended. Full game playthrough validation remains pending."
+    ]
+  },
+  "game-pacman-arcade": {
+    "details": [
+      "Navigate a maze, collect pellets and avoid moving ghosts in a complete browser arcade implementation.",
+      "A tutorial-derived browser presentation adapted from the saved project. The source archive contains the original project and its license notices.",
+      "Startup, rendering and representative controls were checked. Desktop keyboard and mouse are recommended. Full game playthrough validation remains pending."
+    ]
+  },
+  "game-frogger": {
+    "details": [
+      "Cross moving traffic and river platforms in a timed browser game.",
+      "A tutorial-derived browser presentation adapted from the saved project. The source archive contains the original project and its license notices.",
+      "Startup, rendering and representative controls were checked. Desktop keyboard and mouse are recommended. Full game playthrough validation remains pending."
+    ]
+  },
+  "game-battleships": {
+    "details": [
+      "Arrange your fleet and face the computer in a browser naval strategy game.",
+      "A tutorial-derived browser presentation adapted from the saved project. The source archive contains the original project and its license notices.",
+      "Startup, rendering and representative controls were checked. Desktop keyboard and mouse are recommended. Full game playthrough validation remains pending."
+    ]
+  },
+  "game-candy-crush-react": {
+    "details": [
+      "Drag colorful candies to form matches and increase your score in a React puzzle game.",
+      "A tutorial-derived browser presentation adapted from the saved project. The source archive contains the original project and its license notices.",
+      "Startup, rendering and representative controls were checked. Desktop keyboard and mouse are recommended. Full game playthrough validation remains pending."
+    ]
+  },
+  "game-rock-paper-scissors-react": {
+    "details": [
+      "Choose a move and compete against the computer in a React game.",
+      "A tutorial-derived browser presentation adapted from the saved project. The source archive contains the original project and its license notices.",
+      "Startup, rendering and representative controls were checked. Desktop keyboard and mouse are recommended. Full game playthrough validation remains pending."
+    ]
+  },
+  "game-squid-survival": {
+    "details": [
+      "A two-player 3D survival game with a fully rendered doll, timed movement and red-light detection.",
+      "A tutorial-derived browser presentation adapted from the saved project. The source archive contains the original project and its license notices.",
+      "Startup, rendering and representative controls were checked. Desktop keyboard and mouse are recommended. Full game playthrough validation remains pending."
+    ]
   }
 }

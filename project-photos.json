@@ -420,5 +420,89 @@
     "width": 1280,
     "height": 720,
     "alt": "Tic Tac Toe live game preview"
+  },
+  "game-pokemon-adventure": {
+    "file": "game-pokemon-adventure-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Pok\u00e9mon Adventure demo preview"
+  },
+  "game-mario-adventure": {
+    "file": "game-mario-adventure-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Mario Adventure demo preview"
+  },
+  "game-space-invaders-deluxe": {
+    "file": "game-space-invaders-deluxe-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Space Invaders Deluxe demo preview"
+  },
+  "game-canvas-shooter": {
+    "file": "game-canvas-shooter-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Particle Arena Shooter demo preview"
+  },
+  "game-threejs-arena": {
+    "file": "game-threejs-arena-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "3D Obstacle Arena demo preview"
+  },
+  "game-evolution-simulator": {
+    "file": "game-evolution-simulator-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Evolution Simulator demo preview"
+  },
+  "game-pacman-arcade": {
+    "file": "game-pacman-arcade-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Pac-Man Arcade demo preview"
+  },
+  "game-frogger": {
+    "file": "game-frogger-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Frogger demo preview"
+  },
+  "game-battleships": {
+    "file": "game-battleships-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Battleships demo preview"
+  },
+  "game-candy-crush-react": {
+    "file": "game-candy-crush-react-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Candy Crush React demo preview"
+  },
+  "game-rock-paper-scissors-react": {
+    "file": "game-rock-paper-scissors-react-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Rock Paper Scissors React demo preview"
+  },
+  "game-squid-survival": {
+    "file": "game-squid-survival-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Red Light, Green Light \u2014 3D Survival demo preview"
   }
 }

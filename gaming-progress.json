@@ -1,7 +1,7 @@
 {
   "highlighted_entries": 119,
-  "published_browser_demos": 29,
-  "entries_with_demos": 13,
+  "published_browser_demos": 41,
+  "entries_with_demos": 20,
   "entries": [
     {
       "position": "2",
@@ -34,8 +34,10 @@
       "position": "5",
       "video_id": "sPereCgQnWQ",
       "title": "Three.js 3D Game Tutorial: In-Depth Course for All Levels",
-      "demos": [],
-      "status": "Pending source, build or integration"
+      "demos": [
+        "game-threejs-arena.html"
+      ],
+      "status": "Browser demo prepared"
     },
     {
       "position": "6",
@@ -48,15 +50,19 @@
       "position": "7",
       "video_id": "yP5DKzriqXA",
       "title": "Pok\u00e9mon JavaScript Game Tutorial with HTML Canvas",
-      "demos": [],
-      "status": "Pending source, build or integration"
+      "demos": [
+        "game-pokemon-adventure.html"
+      ],
+      "status": "Browser demo prepared"
     },
     {
       "position": "9",
       "video_id": "4q2vvZn5aoo",
       "title": "Mario Game Tutorial with JavaScript and HTML Canvas",
-      "demos": [],
-      "status": "Pending source, build or integration"
+      "demos": [
+        "game-mario-adventure.html"
+      ],
+      "status": "Browser demo prepared"
     },
     {
       "position": "11",
@@ -71,8 +77,10 @@
       "position": "12",
       "video_id": "MCVU0w73uKI",
       "title": "Space Invaders Game Tutorial with JavaScript and HTML Canvas",
-      "demos": [],
-      "status": "Pending source, build or integration"
+      "demos": [
+        "game-space-invaders-deluxe.html"
+      ],
+      "status": "Browser demo prepared"
     },
     {
       "position": "13",
@@ -96,8 +104,10 @@
       "position": "15",
       "video_id": "eI9idPTT0c4",
       "title": "HTML5 Canvas and JavaScript Game Tutorial",
-      "demos": [],
-      "status": "Pending source, build or integration"
+      "demos": [
+        "game-canvas-shooter.html"
+      ],
+      "status": "Browser demo prepared"
     },
     {
       "position": "17",
@@ -136,7 +146,8 @@
         "game-kubowania--connect-four.html",
         "game-kubowania--space-invaders.html",
         "game-kubowania--whac-a-mole.html",
-        "game-kubowania--breakout.html"
+        "game-kubowania--breakout.html",
+        "game-frogger.html"
       ],
       "status": "Browser demo prepared"
     },
@@ -214,8 +225,10 @@
       "position": "43",
       "video_id": "Ubh_k18sX4E",
       "title": "Let's build Battleships in JavaScript!",
-      "demos": [],
-      "status": "Pending source, build or integration"
+      "demos": [
+        "game-battleships.html"
+      ],
+      "status": "Browser demo prepared"
     },
     {
       "position": "50",
@@ -860,8 +873,10 @@
       "position": "234",
       "video_id": "YBtzzVwrTeE",
       "title": "Build a Pac-Man Game in JavaScript",
-      "demos": [],
-      "status": "Pending source, build or integration"
+      "demos": [
+        "game-pacman-arcade.html"
+      ],
+      "status": "Browser demo prepared"
     },
     {
       "position": "235",
@@ -1198,6 +1213,102 @@
       "bytes": 18282,
       "status": "Browser startup and rendering checked; full playthrough pending",
       "title": "Tic Tac Toe"
+    },
+    {
+      "slug": "game-pokemon-adventure",
+      "title": "Pok\u00e9mon Adventure",
+      "ids": [
+        "yP5DKzriqXA"
+      ],
+      "status": "Startup and representative controls checked; full playthrough pending"
+    },
+    {
+      "slug": "game-mario-adventure",
+      "title": "Mario Adventure",
+      "ids": [
+        "4q2vvZn5aoo"
+      ],
+      "status": "Startup and representative controls checked; full playthrough pending"
+    },
+    {
+      "slug": "game-space-invaders-deluxe",
+      "title": "Space Invaders Deluxe",
+      "ids": [
+        "MCVU0w73uKI"
+      ],
+      "status": "Startup and representative controls checked; full playthrough pending"
+    },
+    {
+      "slug": "game-canvas-shooter",
+      "title": "Particle Arena Shooter",
+      "ids": [
+        "eI9idPTT0c4"
+      ],
+      "status": "Startup and representative controls checked; full playthrough pending"
+    },
+    {
+      "slug": "game-threejs-arena",
+      "title": "3D Obstacle Arena",
+      "ids": [
+        "sPereCgQnWQ"
+      ],
+      "status": "Startup and representative controls checked; full playthrough pending"
+    },
+    {
+      "slug": "game-evolution-simulator",
+      "title": "Evolution Simulator",
+      "ids": [
+        ""
+      ],
+      "status": "Startup and representative controls checked; full playthrough pending"
+    },
+    {
+      "slug": "game-pacman-arcade",
+      "title": "Pac-Man Arcade",
+      "ids": [
+        "YBtzzVwrTeE"
+      ],
+      "status": "Startup and representative controls checked; full playthrough pending"
+    },
+    {
+      "slug": "game-frogger",
+      "title": "Frogger",
+      "ids": [
+        "ec8vSKJuZTk"
+      ],
+      "status": "Startup and representative controls checked; full playthrough pending"
+    },
+    {
+      "slug": "game-battleships",
+      "title": "Battleships",
+      "ids": [
+        "Ubh_k18sX4E"
+      ],
+      "status": "Startup and representative controls checked; full playthrough pending"
+    },
+    {
+      "slug": "game-candy-crush-react",
+      "title": "Candy Crush React",
+      "ids": [
+        ""
+      ],
+      "status": "Startup and representative controls checked; full playthrough pending"
+    },
+    {
+      "slug": "game-rock-paper-scissors-react",
+      "title": "Rock Paper Scissors React",
+      "ids": [
+        ""
+      ],
+      "status": "Startup and representative controls checked; full playthrough pending"
+    },
+    {
+      "slug": "game-squid-survival",
+      "title": "Red Light, Green Light \u2014 3D Survival",
+      "ids": [
+        "4HSxX-EKJjw"
+      ],
+      "status": "3D model loaded and start control checked"
     }
   ]
 }
