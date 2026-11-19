@@ -474,18 +474,18 @@
   },
   "game-unity-doodle-jump": {
     "details": [
-      "A browser adaptation of Unity Doodle Jump: steer between platforms and climb an endless vertical level.",
-      "Use Left/Right or A/D to steer. Platforms bounce automatically. R restarts.",
-      "This is a JavaScript core-mechanics adaptation of the saved Unity tutorial source. Rendering, levels, balance and interface differ from the original engine build. The source archive includes the browser implementation, source mapping and selected original controller scripts with notices.",
-      "Browser startup, rendering and representative controls have been checked. Full equivalence to the original tutorial project is not claimed."
+      "Original Unity tutorial project compiled for interactive browser play.",
+      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
+      "Included scenes: Main.",
+      "Checked: Original platforms and character render, Character bounces automatically, D key visibly steers character, No runtime errors observed."
     ]
   },
   "game-unity-flappy-bird": {
     "details": [
-      "A browser adaptation of the Unity Flappy Bird controller with animated sprites, scoring and collision detection.",
-      "Press Space or click to flap. Fly between the pipes.",
-      "This is a JavaScript core-mechanics adaptation of the saved Unity tutorial source. Rendering, levels, balance and interface differ from the original engine build. The source archive includes the browser implementation, source mapping and selected original controller scripts with notices.",
-      "Browser startup, rendering and representative controls have been checked. Full equivalence to the original tutorial project is not claimed."
+      "Original Unity tutorial project compiled for interactive browser play.",
+      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
+      "Included scenes: Flappy Bird.",
+      "Checked: Original restart button starts play, Space visibly changes bird height, Game over and restart observed, No runtime errors observed."
     ]
   },
   "game-unity-fruit-slice": {
@@ -567,6 +567,30 @@
       "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
       "Included scenes: Menu, level01, level02, level03, Credits.",
       "Checked: Original menu starts level, Game renders and advances, A/D input accepted, No runtime errors observed, All three levels and credits included in compiled source."
+    ]
+  },
+  "game-unity-breakout-original": {
+    "details": [
+      "Original Unity tutorial project compiled for interactive browser play.",
+      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
+      "Included scenes: SampleScene.",
+      "Checked: Original menu starts game, Ball destroys bricks and score advances to 1000, Mouse controls paddle position, Game over and high score persist observed."
+    ]
+  },
+  "game-unity-cube-fall": {
+    "details": [
+      "Original Unity tutorial project compiled for interactive browser play.",
+      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
+      "Included scenes: Gameplay.",
+      "Checked: Original platforms and character render, Scrolling fall gameplay advances, A input accepted, Restart returns character to initial platform."
+    ]
+  },
+  "game-unity-fps-course": {
+    "details": [
+      "Original Unity tutorial project compiled for interactive browser play.",
+      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
+      "Included scenes: Menu, Tutorial, Level1, Level2.",
+      "Checked: Original menu loads tutorial, W movement passes through doorway, Tutorial environment renders, No runtime errors observed."
     ]
   }
 }

@@ -885,20 +885,24 @@
       "position": "192",
       "video_id": "beuoNuK2tbk",
       "title": "How to make a Tower Defense Game (E01) - Unity Tutorial",
-      "demos": [],
-      "status": "Source/resources saved; build or integration pending",
+      "demos": [
+        "unity-tower-original.html"
+      ],
+      "status": "Published original Unity WebGL build",
       "browser_adaptations": [
         "game-unity-tower-defense.html"
       ],
-      "implementation_notes": "Unfinished. Saved source/resources or earlier mechanics prototypes do not establish completion."
+      "implementation_notes": "Original saved scenes and C# compiled with Unity 2022.3.62f3; actual menu and gameplay browser checks recorded in verification.json. Full-game completion of all levels was not manually tested."
     },
     {
       "position": "193",
       "video_id": "j48LtUkZRjU",
       "title": "How to make a Video Game - Getting Started",
-      "demos": [],
-      "status": "Project source discovery or implementation pending",
-      "implementation_notes": "Unfinished. Saved source/resources or earlier mechanics prototypes do not establish completion."
+      "demos": [
+        "unity-cubeathon-original.html"
+      ],
+      "status": "Published original Unity WebGL build",
+      "implementation_notes": "Original saved scenes and C# compiled with Unity 2022.3.62f3; actual menu and gameplay browser checks recorded in verification.json. Full-game completion of all levels was not manually tested."
     },
     {
       "position": "194",
@@ -987,7 +991,7 @@
       "demos": [
         "game-nft-memory.html"
       ],
-      "status": "Original React/Solidity game verified locally; publication in progress",
+      "status": "Published original tutorial code with local browser EVM",
       "implementation_notes": "Actual saved contract deployed to in-browser Ganache EVM. Matching pair produced an ERC-721 mint receipt at block 2 and collection balance 1. Local test funds; resets on reload."
     },
     {
@@ -1510,8 +1514,8 @@
     }
   ],
   "published_browser_projects": 55,
-  "entries_with_browser_resources": 31,
-  "entries_without_browser_resources": 88,
+  "entries_with_browser_resources": 33,
+  "entries_without_browser_resources": 86,
   "all_119_complete": false,
-  "latest_publication_commit": "0a638c0bf55d134a37d38c7cc359e2e07b16ccc7"
+  "latest_publication_commit": "8ef340ac096b1239f19d9d9dd70e41e1b8111372"
 }

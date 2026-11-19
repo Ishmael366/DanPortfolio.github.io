@@ -571,6 +571,30 @@
       "label": "Sports & Games",
       "projects": [
         {
+          "id": "game-unity-breakout-original",
+          "title": "Breakout \u2014 Original Unity Build",
+          "description": "Original Unity tutorial project compiled for interactive browser play.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "Unity",
+            "C#",
+            "WebGL"
+          ],
+          "artifacts": [
+            {
+              "label": "Play Unity browser build",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/unity-breakout-original.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-breakout-original-source.zip"
+            }
+          ]
+        },
+        {
           "id": "game-unity-cubethon",
           "title": "Cubethon \u2014 Three Levels",
           "description": "The original three-level Cubethon project, including its menu, obstacle layouts, collision restart and ending.",
@@ -615,6 +639,102 @@
             {
               "label": "Source on GitHub",
               "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-tower-original-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-unity-flappy-bird",
+          "title": "Flappy Bird \u2014 Original Unity Build",
+          "description": "Original Unity tutorial project compiled for interactive browser play.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "Unity",
+            "C#",
+            "WebGL"
+          ],
+          "artifacts": [
+            {
+              "label": "Play Unity browser build",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/unity-flappy-original.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-flappy-original-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-unity-doodle-jump",
+          "title": "Doodle Jump \u2014 Original Unity Build",
+          "description": "Original Unity tutorial project compiled for interactive browser play.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "Unity",
+            "C#",
+            "WebGL"
+          ],
+          "artifacts": [
+            {
+              "label": "Play Unity browser build",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/unity-doodle-original.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-doodle-original-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-unity-cube-fall",
+          "title": "Cube Fall \u2014 Original Unity Build",
+          "description": "Original Unity tutorial project compiled for interactive browser play.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "Unity",
+            "C#",
+            "WebGL"
+          ],
+          "artifacts": [
+            {
+              "label": "Play Unity browser build",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/unity-cube-fall-original.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-cube-fall-original-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-unity-fps-course",
+          "title": "First Person Adventure \u2014 Unity",
+          "description": "Original Unity tutorial project compiled for interactive browser play.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "Unity",
+            "C#",
+            "WebGL"
+          ],
+          "artifacts": [
+            {
+              "label": "Play Unity browser build",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/unity-fps-course-original.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-fps-course-original-source.zip"
             }
           ]
         },
@@ -832,52 +952,6 @@
             {
               "label": "Source on GitHub",
               "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-unity-rider-source.zip"
-            }
-          ]
-        },
-        {
-          "id": "game-unity-doodle-jump",
-          "title": "Doodle Jump \u2014 Unity Adaptation",
-          "description": "A browser adaptation of Unity Doodle Jump: steer between platforms and climb an endless vertical level.",
-          "skills": [
-            "Modeling",
-            "Graphics"
-          ],
-          "tech": [
-            "JavaScript",
-            "HTML Canvas"
-          ],
-          "artifacts": [
-            {
-              "label": "Play browser adaptation",
-              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-unity-doodle-jump.html"
-            },
-            {
-              "label": "Source on GitHub",
-              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-unity-doodle-jump-source.zip"
-            }
-          ]
-        },
-        {
-          "id": "game-unity-flappy-bird",
-          "title": "Flappy Bird \u2014 Unity Adaptation",
-          "description": "A browser adaptation of the Unity Flappy Bird controller with animated sprites, scoring and collision detection.",
-          "skills": [
-            "Modeling",
-            "Graphics"
-          ],
-          "tech": [
-            "JavaScript",
-            "HTML Canvas"
-          ],
-          "artifacts": [
-            {
-              "label": "Play browser adaptation",
-              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-unity-flappy-bird.html"
-            },
-            {
-              "label": "Source on GitHub",
-              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-unity-flappy-bird-source.zip"
             }
           ]
         },

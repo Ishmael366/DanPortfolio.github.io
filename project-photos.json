@@ -513,18 +513,18 @@
     "alt": "Neon Rider interactive browser adaptation"
   },
   "game-unity-doodle-jump": {
-    "file": "game-unity-doodle-jump-preview.jpg",
+    "file": "unity-doodle-original-preview.jpg",
     "root": true,
     "width": 1280,
-    "height": 826,
-    "alt": "Doodle Jump \u2014 Unity Adaptation interactive browser adaptation"
+    "height": 720,
+    "alt": "Doodle Jump \u2014 Original Unity Build running in the browser"
   },
   "game-unity-flappy-bird": {
-    "file": "game-unity-flappy-bird-preview.jpg",
+    "file": "unity-flappy-original-preview.jpg",
     "root": true,
     "width": 1280,
-    "height": 826,
-    "alt": "Flappy Bird \u2014 Unity Adaptation interactive browser adaptation"
+    "height": 720,
+    "alt": "Flappy Bird \u2014 Original Unity Build running in the browser"
   },
   "game-unity-fruit-slice": {
     "file": "game-unity-fruit-slice-preview.jpg",
@@ -609,5 +609,26 @@
     "width": 1280,
     "height": 720,
     "alt": "Cubethon \u2014 Three Levels running in the browser"
+  },
+  "game-unity-breakout-original": {
+    "file": "unity-breakout-original-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Breakout \u2014 Original Unity Build running in the browser"
+  },
+  "game-unity-cube-fall": {
+    "file": "unity-cube-fall-original-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Cube Fall \u2014 Original Unity Build running in the browser"
+  },
+  "game-unity-fps-course": {
+    "file": "unity-fps-course-original-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "First Person Adventure \u2014 Unity running in the browser"
   }
 }
