@@ -571,6 +571,54 @@
       "label": "Sports & Games",
       "projects": [
         {
+          "id": "game-unity-cubethon",
+          "title": "Cubethon \u2014 Three Levels",
+          "description": "The original three-level Cubethon project, including its menu, obstacle layouts, collision restart and ending.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "Unity",
+            "C#",
+            "WebGL"
+          ],
+          "artifacts": [
+            {
+              "label": "Play Unity browser build",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/unity-cubeathon-original.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-cubeathon-original-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-unity-tower-defense",
+          "title": "Tower Defense \u2014 Original Unity Build",
+          "description": "Original two-level Unity tower defense with five waves per level, three turret types, upgrades and selling.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "Unity",
+            "C#",
+            "WebGL"
+          ],
+          "artifacts": [
+            {
+              "label": "Play Unity browser build",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/unity-tower-original.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-tower-original-source.zip"
+            }
+          ]
+        },
+        {
           "id": "game-nft-memory",
           "title": "Memory Tokens \u2014 Local Blockchain",
           "description": "Match cards to mint real ERC-721 tokens on a private blockchain running inside your browser.",
@@ -853,29 +901,6 @@
             {
               "label": "Source on GitHub",
               "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-unity-fruit-slice-source.zip"
-            }
-          ]
-        },
-        {
-          "id": "game-unity-tower-defense",
-          "title": "Tower Defense \u2014 3D Adaptation",
-          "description": "A 3D browser mechanics demo adapted from Unity tower defense: build and upgrade turrets across five waves.",
-          "skills": [
-            "Modeling",
-            "Graphics"
-          ],
-          "tech": [
-            "JavaScript",
-            "Three.js"
-          ],
-          "artifacts": [
-            {
-              "label": "Play browser adaptation",
-              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-unity-tower-defense.html"
-            },
-            {
-              "label": "Source on GitHub",
-              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-unity-tower-defense-source.zip"
             }
           ]
         },

@@ -498,10 +498,10 @@
   },
   "game-unity-tower-defense": {
     "details": [
-      "A 3D browser mechanics demo adapted from Unity tower defense: build and upgrade turrets across five waves.",
-      "Click a platform to build a $100 turret. Click a built turret to upgrade for $100. Defend 5 waves.",
-      "This is a JavaScript core-mechanics adaptation of the saved Unity tutorial source. Rendering, levels, balance and interface differ from the original engine build. The source archive includes the browser implementation, source mapping and selected original controller scripts with notices.",
-      "Browser startup, rendering and representative controls have been checked. Full equivalence to the original tutorial project is not claimed."
+      "Original two-level Unity tower defense with five waves per level, three turret types, upgrades and selling.",
+      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
+      "Included scenes: MainMenu, LevelSelect, Level01, Level02.",
+      "Checked: Original menu and level selector, Shop selects standard turret, Turret placement reduces money and creates turret, No runtime errors observed during gameplay."
     ]
   },
   "game-unity-ecosystem": {
@@ -559,6 +559,14 @@
       "Match cards to mint real ERC-721 tokens on a private blockchain running inside your browser.",
       "Original Dapp University tutorial React game and Solidity ERC-721 contract. Browser delivery starts an in-memory Ganache EVM and deploys the actual saved contract. Matching cards mint tokens and update the collection after a mined transaction receipt.",
       "Uses local test funds, with no real wallet, public chain transaction or external hosting account. The private blockchain resets on page reload. Original source and adaptation notes are retained in the archive."
+    ]
+  },
+  "game-unity-cubethon": {
+    "details": [
+      "The original three-level Cubethon project, including its menu, obstacle layouts, collision restart and ending.",
+      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
+      "Included scenes: Menu, level01, level02, level03, Credits.",
+      "Checked: Original menu starts level, Game renders and advances, A/D input accepted, No runtime errors observed, All three levels and credits included in compiled source."
     ]
   }
 }

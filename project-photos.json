@@ -534,11 +534,11 @@
     "alt": "Fruit Slice interactive browser adaptation"
   },
   "game-unity-tower-defense": {
-    "file": "game-unity-tower-defense-preview.jpg",
+    "file": "unity-tower-original-preview.jpg",
     "root": true,
     "width": 1280,
-    "height": 826,
-    "alt": "Tower Defense \u2014 3D Adaptation interactive browser adaptation"
+    "height": 720,
+    "alt": "Tower Defense \u2014 Original Unity Build running in the browser"
   },
   "game-unity-ecosystem": {
     "file": "game-unity-ecosystem-preview.jpg",
@@ -602,5 +602,12 @@
     "width": 1280,
     "height": 826,
     "alt": "Memory Tokens game with a confirmed local NFT mint"
+  },
+  "game-unity-cubethon": {
+    "file": "unity-cubeathon-original-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Cubethon \u2014 Three Levels running in the browser"
   }
 }
