@@ -553,5 +553,12 @@
       "The saved DQN model controls the dinosaur game with live browser inference.",
       "The actual saved 88,000-step tutorial model is exported to ONNX. Live Q values choose jump, duck or no action. The open-source game environment replaces desktop capture; configurable observation cropping means performance can differ from training. No scripted obstacle detector substitutes for inference."
     ]
+  },
+  "game-nft-memory": {
+    "details": [
+      "Match cards to mint real ERC-721 tokens on a private blockchain running inside your browser.",
+      "Original Dapp University tutorial React game and Solidity ERC-721 contract. Browser delivery starts an in-memory Ganache EVM and deploys the actual saved contract. Matching cards mint tokens and update the collection after a mined transaction receipt.",
+      "Uses local test funds, with no real wallet, public chain transaction or external hosting account. The private blockchain resets on page reload. Original source and adaptation notes are retained in the archive."
+    ]
   }
 }

@@ -571,6 +571,31 @@
       "label": "Sports & Games",
       "projects": [
         {
+          "id": "game-nft-memory",
+          "title": "Memory Tokens \u2014 Local Blockchain",
+          "description": "Match cards to mint real ERC-721 tokens on a private blockchain running inside your browser.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "React",
+            "Solidity",
+            "Web3",
+            "Ganache"
+          ],
+          "artifacts": [
+            {
+              "label": "Play and mint locally",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-nft-memory.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-nft-memory-source.zip"
+            }
+          ]
+        },
+        {
           "id": "game-rabbit-trap",
           "title": "Rabbit Trap",
           "description": "Original tutorial platformer with carrot collection and multi-zone exploration.",

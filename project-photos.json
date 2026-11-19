@@ -595,5 +595,12 @@
     "width": 1280,
     "height": 826,
     "alt": "Dino AI \u2014 Trained Agent working browser presentation"
+  },
+  "game-nft-memory": {
+    "file": "game-nft-memory-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 826,
+    "alt": "Memory Tokens game with a confirmed local NFT mint"
   }
 }
