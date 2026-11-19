@@ -665,9 +665,11 @@
       "position": "149",
       "video_id": "qVhG6ZWqD-o",
       "title": "How to Make a 3D Chess Game in Unity",
-      "demos": [],
-      "status": "Project source discovery or implementation pending",
-      "implementation_notes": "Unfinished. Saved source/resources or earlier mechanics prototypes do not establish completion."
+      "demos": [
+        "unity-chess-original-tools.html"
+      ],
+      "status": "Published original Unity WebGL build",
+      "implementation_notes": "Original saved scenes and C# compiled with Unity 2022.3.62f3; actual menu and gameplay browser checks recorded in verification.json. Full-game completion of all levels was not manually tested."
     },
     {
       "position": "150",
@@ -984,9 +986,11 @@
       "position": "219",
       "video_id": "Lu76c85LhGY",
       "title": "How to Make a Game - Unity Beginner Tutorial - 2021 Version",
-      "demos": [],
-      "status": "Project source discovery or implementation pending",
-      "implementation_notes": "Unfinished. Saved source/resources or earlier mechanics prototypes do not establish completion."
+      "demos": [
+        "unity-terrible-tweeters.html"
+      ],
+      "status": "Published original Unity WebGL build",
+      "implementation_notes": "Original saved scenes and C# compiled with Unity 2022.3.62f3; actual menu and gameplay browser checks recorded in verification.json. Full-game completion of all levels was not manually tested."
     },
     {
       "position": "222",
@@ -1518,8 +1522,8 @@
     }
   ],
   "published_browser_projects": 55,
-  "entries_with_browser_resources": 35,
-  "entries_without_browser_resources": 84,
+  "entries_with_browser_resources": 37,
+  "entries_without_browser_resources": 82,
   "all_119_complete": false,
-  "latest_publication_commit": "bfba1d2f4418d658c614c62dfc490ca6b7a9ea90"
+  "latest_publication_commit": "fef6460f26a81fad428300f38f5b6c4b7d0bfcb6"
 }

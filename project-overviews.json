@@ -474,34 +474,26 @@
   },
   "game-unity-doodle-jump": {
     "details": [
-      "Original Unity tutorial project compiled for interactive browser play.",
-      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
-      "Included scenes: Main.",
-      "Checked: Original platforms and character render, Character bounces automatically, D key visibly steers character, No runtime errors observed."
+      "Bounce between platforms while steering your character through a vertical jumping course.",
+      "Use A and D or the arrow keys to steer."
     ]
   },
   "game-unity-flappy-bird": {
     "details": [
-      "Original Unity tutorial project compiled for interactive browser play.",
-      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
-      "Included scenes: Flappy Bird.",
-      "Checked: Original restart button starts play, Space visibly changes bird height, Game over and restart observed, No runtime errors observed."
+      "Guide a bird through moving pipes and restart after a collision.",
+      "Click or press Space to flap."
     ]
   },
   "game-unity-fruit-slice": {
     "details": [
-      "Original Unity tutorial project compiled for interactive browser play.",
-      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
-      "Included scenes: Main.",
-      "Checked: Original authored meshes render, Drag cuts fruit into the authored halves, Original slicing handler logs an actual cut."
+      "Slice flying fruit into physical halves with a moving blade.",
+      "Click and drag across the fruit to slice it."
     ]
   },
   "game-unity-tower-defense": {
     "details": [
-      "Original two-level Unity tower defense with five waves per level, three turret types, upgrades and selling.",
-      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
-      "Included scenes: MainMenu, LevelSelect, Level01, Level02.",
-      "Checked: Original menu and level selector, Shop selects standard turret, Turret placement reduces money and creates turret, No runtime errors observed during gameplay."
+      "Defend two maps through five waves per level with three turret types, upgrades and selling.",
+      "Choose a turret, click a build node, then select a tower to upgrade or sell it."
     ]
   },
   "game-unity-ecosystem": {
@@ -563,50 +555,38 @@
   },
   "game-unity-cubethon": {
     "details": [
-      "The original three-level Cubethon project, including its menu, obstacle layouts, collision restart and ending.",
-      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
-      "Included scenes: Menu, level01, level02, level03, Credits.",
-      "Checked: Original menu starts level, Game renders and advances, A/D input accepted, No runtime errors observed, All three levels and credits included in compiled source."
+      "Race through three obstacle courses with collision restarts and a final finish screen.",
+      "Use A and D to steer between obstacles."
     ]
   },
   "game-unity-breakout-original": {
     "details": [
-      "Original Unity tutorial project compiled for interactive browser play.",
-      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
-      "Included scenes: SampleScene.",
-      "Checked: Original menu starts game, Ball destroys bricks and score advances to 1000, Mouse controls paddle position, Game over and high score persist observed."
+      "Clear rows of bricks with a mouse-controlled paddle, three balls and a persistent high score.",
+      "Move the mouse to steer the paddle. Start from the game menu."
     ]
   },
   "game-unity-cube-fall": {
     "details": [
-      "Original Unity tutorial project compiled for interactive browser play.",
-      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
-      "Included scenes: Gameplay.",
-      "Checked: Original platforms and character render, Scrolling fall gameplay advances, A input accepted, Restart returns character to initial platform."
+      "Steer a falling character between moving platforms and ceiling spikes.",
+      "Use A and D or the arrow keys to steer. Restart to begin again."
     ]
   },
   "game-unity-fps-course": {
     "details": [
-      "Original Unity tutorial project compiled for interactive browser play.",
-      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
-      "Included scenes: Menu, Tutorial, Level1, Level2.",
-      "Checked: Original menu loads tutorial, W movement passes through doorway, Tutorial environment renders, No runtime errors observed."
+      "Explore a first-person adventure with a tutorial and two playable levels.",
+      "Choose a level from the menu. Use WASD to move and the mouse to look."
     ]
   },
   "game-unity-chess": {
     "details": [
-      "A Unity two-player chess game with a new three-dimensional presentation and tutorial-derived rules.",
-      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
-      "Included scenes: Chess.",
-      "Checked: Authored chess scene and procedural 3D pieces render, Keyboard e2e4 is accepted as a legal move, Original move list records 1. e4, Side to move changes to black."
+      "Play two-player chess on a three-dimensional board with legal moves, move history and camera controls.",
+      "Drag pieces or type a move such as e2e4 and press Enter. Use the view controls to rotate or flip the board."
     ]
   },
   "game-unity-terrible-tweeters": {
     "details": [
-      "Original Unity tutorial project compiled for interactive browser play.",
-      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
-      "Included scenes: Level1, Level2.",
-      "Checked: Reused upstream finished WebGL export, Slingshot drag launches bird, Blocks collapse and next scene observed."
+      "Launch a bird into destructible block towers across two physics-based levels.",
+      "Drag the bird backward and release to launch. Clear the targets to progress."
     ]
   }
 }

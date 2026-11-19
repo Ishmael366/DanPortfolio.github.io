@@ -573,7 +573,7 @@
         {
           "id": "game-unity-breakout-original",
           "title": "Breakout \u2014 Original Unity Build",
-          "description": "Original Unity tutorial project compiled for interactive browser play.",
+          "description": "Clear rows of bricks with a mouse-controlled paddle, three balls and a persistent high score.",
           "skills": [
             "Graphics",
             "Modeling"
@@ -597,7 +597,7 @@
         {
           "id": "game-unity-cubethon",
           "title": "Cubethon \u2014 Three Levels",
-          "description": "The original three-level Cubethon project, including its menu, obstacle layouts, collision restart and ending.",
+          "description": "Race through three obstacle courses with collision restarts and a final finish screen.",
           "skills": [
             "Graphics",
             "Modeling"
@@ -621,7 +621,7 @@
         {
           "id": "game-unity-tower-defense",
           "title": "Tower Defense \u2014 Original Unity Build",
-          "description": "Original two-level Unity tower defense with five waves per level, three turret types, upgrades and selling.",
+          "description": "Defend two maps through five waves per level with three turret types, upgrades and selling.",
           "skills": [
             "Graphics",
             "Modeling"
@@ -645,7 +645,7 @@
         {
           "id": "game-unity-flappy-bird",
           "title": "Flappy Bird \u2014 Original Unity Build",
-          "description": "Original Unity tutorial project compiled for interactive browser play.",
+          "description": "Guide a bird through moving pipes and restart after a collision.",
           "skills": [
             "Graphics",
             "Modeling"
@@ -669,7 +669,7 @@
         {
           "id": "game-unity-doodle-jump",
           "title": "Doodle Jump \u2014 Original Unity Build",
-          "description": "Original Unity tutorial project compiled for interactive browser play.",
+          "description": "Bounce between platforms while steering your character through a vertical jumping course.",
           "skills": [
             "Graphics",
             "Modeling"
@@ -693,7 +693,7 @@
         {
           "id": "game-unity-fruit-slice",
           "title": "Fruit Ninja \u2014 Original Unity Build",
-          "description": "Original Unity tutorial project compiled for interactive browser play.",
+          "description": "Slice flying fruit into physical halves with a moving blade.",
           "skills": [
             "Graphics",
             "Modeling"
@@ -717,7 +717,7 @@
         {
           "id": "game-unity-cube-fall",
           "title": "Cube Fall \u2014 Original Unity Build",
-          "description": "Original Unity tutorial project compiled for interactive browser play.",
+          "description": "Steer a falling character between moving platforms and ceiling spikes.",
           "skills": [
             "Graphics",
             "Modeling"
@@ -741,7 +741,7 @@
         {
           "id": "game-unity-chess",
           "title": "3D Chess \u2014 Unity",
-          "description": "A Unity two-player chess game with a new three-dimensional presentation and tutorial-derived rules.",
+          "description": "Play two-player chess on a three-dimensional board with legal moves, move history and camera controls.",
           "skills": [
             "Graphics",
             "Modeling"
@@ -765,7 +765,7 @@
         {
           "id": "game-unity-fps-course",
           "title": "First Person Adventure \u2014 Unity",
-          "description": "Original Unity tutorial project compiled for interactive browser play.",
+          "description": "Explore a first-person adventure with a tutorial and two playable levels.",
           "skills": [
             "Graphics",
             "Modeling"
@@ -789,7 +789,7 @@
         {
           "id": "game-unity-terrible-tweeters",
           "title": "Terrible Tweeters \u2014 Unity",
-          "description": "Original Unity tutorial project compiled for interactive browser play.",
+          "description": "Launch a bird into destructible block towers across two physics-based levels.",
           "skills": [
             "Graphics",
             "Modeling"
