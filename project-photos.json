@@ -546,5 +546,54 @@
     "width": 1280,
     "height": 826,
     "alt": "Living Ecosystem \u2014 3D Adaptation interactive browser adaptation"
+  },
+  "game-rabbit-trap": {
+    "file": "game-rabbit-trap-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 826,
+    "alt": "Rabbit Trap working browser presentation"
+  },
+  "game-python-minesweeper": {
+    "file": "game-python-minesweeper-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 826,
+    "alt": "Python Minesweeper working browser presentation"
+  },
+  "game-react-tetris-finished": {
+    "file": "game-react-tetris-finished-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 826,
+    "alt": "React Tetris working browser presentation"
+  },
+  "project-javascript-calculator": {
+    "file": "project-javascript-calculator-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 826,
+    "alt": "JavaScript Calculator working browser presentation"
+  },
+  "game-react-tic-tac-toe": {
+    "file": "game-react-tic-tac-toe-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 826,
+    "alt": "Tic-Tac-Toe \u2014 React & JavaScript working browser presentation"
+  },
+  "project-cpp-course-lab": {
+    "file": "project-cpp-course-lab-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 826,
+    "alt": "C++ Course Lab working browser presentation"
+  },
+  "game-trained-dino-ai": {
+    "file": "game-trained-dino-ai-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 826,
+    "alt": "Dino AI \u2014 Trained Agent working browser presentation"
   }
 }

@@ -1,0 +1,964 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rabbit Trap</title><style>/* Frank Poth 02/28/2018 */
+
+* { box-sizing:border-box; margin:0; padding:0; }
+
+html { height:100%; width:100%; }
+
+body {
+
+  align-content:center;
+  align-items:space-around;
+  background-color:#202830;
+  display:grid;
+  justify-items:center;
+  height:100%;
+  width:100%;
+
+}
+
+/* 04/07/2018 */
+
+canvas { image-rendering:pixelated; }
+
+#menu {
+
+  background-color:rgba(0, 0, 0, 0.5);
+  color:#ffffff;
+  cursor:pointer;
+  display:grid;
+  max-height:100%;
+  overflow-y:auto;
+  padding:8px;
+  position:fixed;
+  right:0px;
+  top:0px;
+  user-select:none;
+
+  -webkit-tap-highlight-color:transparent;
+
+}
+
+#menu p {
+
+  color:#ffffff;
+  font-size:2.0em;
+
+}
+
+#menu-list {
+
+  display:none;
+
+}
+
+#menu-list a {
+
+  color:#ffffff;
+  font-size:1.5em;
+  text-decoration:none;
+
+}
+</style></head><body><canvas></canvas><aside style="position:fixed;z-index:99999;bottom:12px;left:12px;background:#111c;color:white;padding:10px;font:13px system-ui"><a style="color:white" href="sports.html">Sports & Games</a> · <a style="color:white" href="game-rabbit-trap-collect.html">Collect carrots</a> · Arrow keys to move and jump</aside><script>window.RABBIT_ZONES={"07/zone00.json": {"carrots": [[1, 2], [4, 2], [6, 2], [10, 2], [3, 4], [8, 4], [6, 5], [10, 5], [1, 6], [4, 6]], "grass": [[2, 7], [3, 7], [5, 7], [7, 7], [9, 7], [10, 7]], "doors": [], "columns": 12, "rows": 9, "collision_map": [0, 4, 4, 4, 4, 0, 4, 4, 0, 4, 4, 0, 2, 0, 0, 0, 0, 10, 0, 0, 14, 0, 0, 8, 2, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 8, 0, 3, 0, 0, 13, 4, 7, 0, 0, 0, 13, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 2, 0, 0, 1, 0, 0, 0, 0, 11, 0, 0, 8, 2, 0, 0, 0, 0, 0, 11, 0, 10, 0, 13, 0, 0, 3, 0, 0, 11, 0, 10, 0, 10, 0, 0, 8, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0], "graphical_map": [27, 36, 35, 5, 36, 25, 17, 35, 44, 17, 35, 5, 30, 39, 39, 39, 39, 11, 31, 39, 19, 31, 39, 7, 38, 31, 39, 31, 31, 11, 39, 39, 39, 39, 39, 7, 30, 3, 31, 39, 4, 23, 6, 31, 31, 39, 4, 14, 22, 21, 39, 31, 31, 39, 31, 39, 31, 39, 31, 20, 38, 39, 39, 47, 39, 31, 39, 39, 3, 39, 31, 12, 10, 31, 31, 31, 31, 39, 3, 39, 11, 31, 4, 46, 40, 2, 39, 39, 3, 39, 11, 39, 11, 31, 39, 8, 24, 49, 2, 3, 37, 27, 23, 13, 11, 12, 13, 8], "id": "00"}, "06/zone04.json": {"doors": [{"x": -16, "y": 80, "width": 16, "height": 64, "destination_zone": "03", "destination_x": 192, "destination_y": -1}], "columns": 12, "rows": 9, "graphical_map": [26, 40, 41, 42, 10, 16, 17, 25, 35, 36, 25, 26, 42, 9, 24, 17, 18, 31, 39, 11, 39, 39, 20, 34, 9, 24, 18, 31, 39, 39, 4, 23, 6, 31, 39, 29, 25, 18, 31, 39, 39, 39, 31, 31, 31, 39, 39, 11, 19, 39, 31, 39, 31, 47, 31, 31, 31, 47, 31, 37, 31, 39, 39, 31, 31, 39, 31, 47, 31, 39, 4, 34, 31, 31, 39, 4, 14, 6, 31, 39, 39, 7, 7, 8, 0, 2, 31, 39, 11, 31, 31, 31, 7, 7, 7, 8, 44, 18, 4, 14, 33, 28, 2, 0, 1, 1, 1, 48], "collision_map": [0, 0, 0, 0, 0, 4, 4, 0, 4, 4, 0, 0, 0, 0, 0, 4, 6, 0, 0, 10, 0, 0, 12, 0, 0, 0, 6, 0, 0, 0, 13, 4, 7, 0, 0, 8, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 6, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 9, 0, 0, 0, 0, 13, 1, 7, 0, 0, 0, 9, 0, 0, 1, 3, 0, 0, 10, 0, 0, 0, 9, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0], "id": "04"}, "06/zone02.json": {"doors": [{"x": -16, "y": 16, "width": 16, "height": 16, "destination_zone": "01", "destination_x": 192, "destination_y": -1}, {"x": 32, "y": 144, "width": 80, "height": 40, "destination_zone": "03", "destination_x": -1, "destination_y": 0}], "columns": 12, "rows": 9, "graphical_map": [17, 17, 18, 7, 16, 43, 21, 16, 17, 17, 17, 17, 31, 31, 39, 4, 5, 21, 39, 39, 31, 31, 31, 7, 6, 31, 31, 31, 31, 31, 39, 39, 31, 31, 7, 7, 27, 6, 39, 31, 39, 39, 31, 31, 4, 5, 5, 14, 10, 31, 31, 47, 39, 39, 31, 31, 39, 39, 39, 37, 40, 2, 39, 39, 39, 39, 3, 31, 31, 39, 39, 8, 24, 30, 31, 31, 47, 31, 20, 13, 39, 31, 31, 8, 49, 38, 31, 39, 39, 39, 31, 22, 13, 39, 39, 8, 8, 10, 31, 47, 31, 47, 31, 11, 37, 1, 1, 42], "collision_map": [4, 4, 4, 0, 0, 0, 4, 4, 4, 4, 4, 0, 0, 0, 0, 12, 4, 6, 0, 0, 0, 0, 0, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0, 7, 0, 0, 0, 0, 0, 0, 13, 5, 4, 0, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 8, 0, 3, 0, 0, 0, 0, 11, 0, 0, 0, 0, 8, 0, 2, 0, 0, 1, 0, 12, 3, 0, 0, 0, 8, 0, 2, 0, 0, 0, 0, 0, 8, 3, 0, 0, 8, 0, 2, 0, 1, 0, 1, 0, 8, 0, 1, 1, 0], "id": "02"}, "06/zone03.json": {"doors": [{"x": 32, "y": -16, "width": 80, "height": 16, "destination_zone": "02", "destination_x": -1, "destination_y": 143}, {"x": 192, "y": 80, "width": 16, "height": 64, "destination_zone": "04", "destination_x": 0, "destination_y": -1}], "columns": 12, "rows": 9, "graphical_map": [16, 18, 31, 31, 31, 31, 31, 11, 16, 17, 25, 17, 7, 39, 39, 47, 39, 47, 39, 19, 39, 31, 19, 0, 7, 7, 39, 39, 39, 39, 39, 39, 39, 31, 39, 8, 1, 1, 2, 39, 47, 31, 31, 3, 31, 31, 39, 29, 24, 17, 30, 31, 39, 39, 12, 23, 5, 5, 5, 21, 18, 31, 19, 39, 47, 31, 19, 39, 39, 39, 31, 31, 7, 31, 39, 31, 39, 39, 39, 31, 39, 39, 31, 31, 7, 7, 39, 39, 3, 31, 31, 31, 39, 31, 0, 2, 28, 1, 1, 27, 46, 1, 2, 7, 7, 0, 42, 32], "collision_map": [0, 6, 0, 0, 0, 0, 0, 8, 4, 4, 0, 0, 2, 0, 0, 1, 0, 1, 0, 14, 0, 0, 12, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 3, 0, 1, 0, 0, 11, 0, 0, 0, 8, 0, 4, 2, 0, 0, 0, 9, 4, 5, 5, 5, 4, 2, 0, 14, 0, 1, 0, 14, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 11, 0, 0, 0, 0, 0, 9, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0], "id": "03"}, "06/zone00.json": {"doors": [{"x": 192, "y": 64, "width": 16, "height": 16, "destination_zone": "01", "destination_x": 0, "destination_y": -1}], "columns": 12, "rows": 9, "graphical_map": [42, 24, 17, 17, 17, 17, 26, 24, 17, 35, 5, 44, 24, 18, 31, 39, 39, 31, 29, 18, 39, 31, 39, 11, 10, 39, 39, 39, 39, 31, 11, 31, 39, 39, 0, 41, 10, 39, 31, 47, 39, 4, 21, 31, 39, 39, 16, 17, 43, 6, 39, 31, 31, 39, 31, 39, 47, 39, 39, 31, 38, 31, 31, 31, 7, 39, 31, 39, 31, 39, 39, 12, 32, 6, 31, 3, 7, 7, 39, 39, 39, 47, 39, 37, 10, 7, 12, 23, 13, 7, 3, 31, 31, 31, 39, 8, 40, 1, 41, 1, 41, 1, 41, 1, 1, 1, 1, 48], "collision_map": [0, 0, 4, 4, 4, 4, 0, 0, 4, 4, 4, 0, 0, 6, 0, 0, 0, 0, 8, 6, 0, 0, 0, 8, 2, 0, 0, 0, 0, 0, 10, 0, 0, 0, 9, 0, 2, 0, 0, 1, 0, 13, 6, 0, 0, 0, 12, 4, 0, 7, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 9, 0, 3, 0, 9, 0, 3, 0, 0, 0, 1, 0, 8, 0, 0, 1, 0, 0, 0, 3, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0], "id": "00"}, "06/zone01.json": {"doors": [{"x": -16, "y": 64, "width": 16, "height": 16, "destination_zone": "00", "destination_x": 192, "destination_y": -1}, {"x": 192, "y": 16, "width": 16, "height": 16, "destination_zone": "02", "destination_x": 0, "destination_y": -1}], "columns": 12, "rows": 9, "graphical_map": [30, 16, 49, 2, 7, 7, 22, 36, 30, 19, 16, 17, 11, 39, 16, 49, 2, 4, 21, 31, 19, 39, 31, 31, 38, 31, 31, 16, 18, 31, 31, 39, 31, 39, 39, 4, 18, 31, 31, 31, 31, 39, 39, 31, 31, 47, 31, 0, 31, 39, 39, 31, 31, 39, 39, 39, 31, 31, 31, 8, 5, 5, 14, 6, 31, 39, 39, 47, 39, 31, 31, 8, 1, 27, 21, 39, 39, 31, 31, 39, 39, 12, 28, 42, 9, 10, 31, 39, 39, 3, 39, 39, 7, 37, 42, 24, 26, 40, 1, 1, 2, 11, 0, 27, 14, 34, 9, 10], "collision_map": [0, 4, 0, 0, 0, 0, 0, 4, 0, 4, 4, 4, 2, 0, 12, 0, 0, 4, 6, 0, 14, 0, 0, 0, 2, 0, 0, 12, 6, 0, 0, 0, 0, 0, 0, 9, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 1, 1, 1, 7, 0, 0, 0, 1, 0, 0, 0, 8, 0, 0, 6, 0, 0, 0, 0, 0, 0, 9, 1, 0, 0, 2, 0, 0, 0, 11, 0, 0, 9, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0], "id": "01"}};</script><script>// Frank Poth 03/09/2018
+
+/* The keyDownUp handler was moved to the main file. */
+
+const Controller = function() {
+
+  this.left  = new Controller.ButtonInput();
+  this.right = new Controller.ButtonInput();
+  this.up    = new Controller.ButtonInput();
+
+  this.keyDownUp = function(type, key_code) {
+
+    var down = (type == "keydown") ? true : false;
+
+    switch(key_code) {
+
+      case 37: this.left.getInput(down);  break;
+      case 38: this.up.getInput(down);    break;
+      case 39: this.right.getInput(down);
+
+    }
+
+  };
+
+};
+
+Controller.prototype = {
+
+  constructor : Controller
+
+};
+
+Controller.ButtonInput = function() {
+
+  this.active = this.down = false;
+
+};
+
+Controller.ButtonInput.prototype = {
+
+  constructor : Controller.ButtonInput,
+
+  getInput : function(down) {
+
+    if (this.down != down) this.active = down;
+    this.down = down;
+
+  }
+
+};
+</script><script>// Frank Poth 04/03/2018
+
+/* Changes:
+1. Removed the TileSheet class from part 3 and added the Game.World.TileSet class to Game.
+2. Changed the drawMap function to be as generic as posible.
+3. Changed the drawPlayer function to the drawObject function. */
+
+const Display = function(canvas) {
+
+  this.buffer  = document.createElement("canvas").getContext("2d"),
+  this.context = canvas.getContext("2d");
+
+  /* This function draws the map to the buffer. */
+  this.drawMap = function(image, image_columns, map, map_columns, tile_size) {
+
+    for (let index = map.length - 1; index > -1; -- index) {
+
+      let value         = map[index];
+      let source_x      =           (value % image_columns) * tile_size;
+      let source_y      = Math.floor(value / image_columns) * tile_size;
+      let destination_x =           (index % map_columns  ) * tile_size;
+      let destination_y = Math.floor(index / map_columns  ) * tile_size;
+
+      this.buffer.drawImage(image, source_x, source_y, tile_size, tile_size, destination_x, destination_y, tile_size, tile_size);
+
+    }
+
+  };
+
+  this.drawObject = function(image, source_x, source_y, destination_x, destination_y, width, height) {
+
+    this.buffer.drawImage(image, source_x, source_y, width, height, Math.round(destination_x), Math.round(destination_y), width, height);
+
+  };
+
+  this.resize = function(width, height, height_width_ratio) {
+
+    if (height / width > height_width_ratio) {
+
+      this.context.canvas.height = width * height_width_ratio;
+      this.context.canvas.width  = width;
+
+    } else {
+
+      this.context.canvas.height = height;
+      this.context.canvas.width  = height / height_width_ratio;
+
+    }
+
+    this.context.imageSmoothingEnabled = false;
+
+  };
+
+};
+
+Display.prototype = {
+
+  constructor : Display,
+
+  render:function() { this.context.drawImage(this.buffer.canvas, 0, 0, this.buffer.canvas.width, this.buffer.canvas.height, 0, 0, this.context.canvas.width, this.context.canvas.height); },
+
+};
+</script><script>// Frank Poth 04/09/2018
+
+/* I made a minor mistake the first time I wrote this engine class. Instead of calling
+window.requestAnimationFrame before I update my game logic, I called it after. This
+meant that even if I tried to stop my game loop from inside the game logic, RAF would
+still be called after I requested a stop. To fix this, I simply moved the request
+to the top of my game loop function, which is Engine.run. */
+
+const Engine = function(time_step, update, render) {
+
+  this.accumulated_time        = 0;
+  this.animation_frame_request = undefined,
+  this.time                    = undefined,
+  this.time_step               = time_step,
+
+  this.updated = false;
+
+  this.update = update;
+  this.render = render;
+
+  this.run = function(time_stamp) {
+
+    /* I moved this line from the bottom of this function to the top. This is better
+    anyway, because it ensures that if my game logic runs too long, a new frame will
+    already be requested before 30 or 60 frames pass and I miss a request entirely.
+    This could cause a "spiral of death" for my CPU, but since I have the frame dropping
+    safety if statement, this probably won't crash the user's computer. */
+    this.animation_frame_request = window.requestAnimationFrame(this.handleRun);
+
+    this.accumulated_time += time_stamp - this.time;
+    this.time = time_stamp;
+
+    /* This is the safety if statement. */
+    if (this.accumulated_time >= this.time_step * 3) {
+
+      this.accumulated_time = this.time_step;
+
+    }
+
+    while(this.accumulated_time >= this.time_step) {
+
+      this.accumulated_time -= this.time_step;
+
+      this.update(time_stamp);
+
+      this.updated = true;
+
+    }
+
+    if (this.updated) {
+
+      this.updated = false;
+      this.render(time_stamp);
+
+    }
+
+  };
+
+  this.handleRun = (time_step) => { this.run(time_step); };
+
+};
+
+Engine.prototype = {
+
+  constructor:Engine,
+
+  start:function() {
+
+    this.accumulated_time = this.time_step;
+    this.time = window.performance.now();
+    this.animation_frame_request = window.requestAnimationFrame(this.handleRun);
+
+  },
+
+  stop:function() { window.cancelAnimationFrame(this.animation_frame_request); }
+
+};
+</script><script>// Frank Poth 04/06/2018
+
+/* Changes since part 5:
+
+  1. Simplified Class constructors by removing multiple prefixes: For example:
+     Game.World.Object.Player is now Game.Player.
+  2. Added Game.World.prototype.setup to setup world from json level data.
+  3. Added the Game.MovingObject class to separate Objects from MovingObjects.
+     Game.Player now inherits from MovingObject instead of Object.
+  4. Changed Game.World.map to Game.World.graphical_map.
+  5. Made the Game.Collider.collideObject routing function do all y first collision checks.
+     This simply means that I check collision on top and bottom before left and right.
+  6. Removed world boundary collision from World.collideObject so the player can
+     move off screen enough to hit a door.
+  7. Added the Game.Door class.
+  8. Added functions to get the center position of Game.Object and Game.MovingObject.
+  9. Organized classes by alphabeticalish order.
+  10. Put a limit on player velocity because there was a problem with "tunneling"
+      through tiles due to jump movement speed.
+  11. Changed the player's hitbox size and his frame offsets for animation.
+
+*/
+
+const Game = function() {
+
+  this.world    = new Game.World();
+
+  this.update   = function() {
+
+    this.world.update();
+
+  };
+
+};
+Game.prototype = { constructor : Game };
+
+Game.Animator = function(frame_set, delay) {
+
+ this.count       = 0;
+ this.delay       = (delay >= 1) ? delay : 1;
+ this.frame_set   = frame_set;
+ this.frame_index = 0;
+ this.frame_value = frame_set[0];
+ this.mode        = "pause";
+
+};
+Game.Animator.prototype = {
+
+ constructor:Game.Animator,
+
+ animate:function() {
+
+   switch(this.mode) {
+
+     case "loop" : this.loop(); break;
+     case "pause":              break;
+
+   }
+
+ },
+
+ changeFrameSet(frame_set, mode, delay = 10, frame_index = 0) {
+
+   if (this.frame_set === frame_set) { return; }
+
+   this.count       = 0;
+   this.delay       = delay;
+   this.frame_set   = frame_set;
+   this.frame_index = frame_index;
+   this.frame_value = frame_set[frame_index];
+   this.mode        = mode;
+
+ },
+
+ loop:function() {
+
+   this.count ++;
+
+   while(this.count > this.delay) {
+
+     this.count -= this.delay;
+
+     this.frame_index = (this.frame_index < this.frame_set.length - 1) ? this.frame_index + 1 : 0;
+
+     this.frame_value = this.frame_set[this.frame_index];
+
+   }
+
+ }
+
+};
+
+Game.Collider = function() {
+
+  /* I changed this so all the checks happen in y first order. */
+  this.collide = function(value, object, tile_x, tile_y, tile_size) {
+
+    switch(value) {
+
+      case  1:     this.collidePlatformTop    (object, tile_y            ); break;
+      case  2:     this.collidePlatformRight  (object, tile_x + tile_size); break;
+      case  3: if (this.collidePlatformTop    (object, tile_y            )) return;
+                   this.collidePlatformRight  (object, tile_x + tile_size); break;
+      case  4:     this.collidePlatformBottom (object, tile_y + tile_size); break;
+      case  5: if (this.collidePlatformTop    (object, tile_y            )) return;
+                   this.collidePlatformBottom (object, tile_y + tile_size); break;
+      case  6: if (this.collidePlatformRight  (object, tile_x + tile_size)) return;
+                   this.collidePlatformBottom (object, tile_y + tile_size); break;
+      case  7: if (this.collidePlatformTop    (object, tile_y            )) return;
+               if (this.collidePlatformBottom (object, tile_y + tile_size)) return;
+                   this.collidePlatformRight  (object, tile_x + tile_size); break;
+      case  8:     this.collidePlatformLeft   (object, tile_x            ); break;
+      case  9: if (this.collidePlatformTop    (object, tile_y            )) return;
+                   this.collidePlatformLeft   (object, tile_x            ); break;
+      case 10: if (this.collidePlatformLeft   (object, tile_x            )) return;
+                   this.collidePlatformRight  (object, tile_x + tile_size); break;
+      case 11: if (this.collidePlatformTop    (object, tile_y            )) return;
+               if (this.collidePlatformLeft   (object, tile_x            )) return;
+                   this.collidePlatformRight  (object, tile_x + tile_size); break;
+      case 12: if (this.collidePlatformBottom (object, tile_y + tile_size)) return;
+                   this.collidePlatformLeft   (object, tile_x            ); break;
+      case 13: if (this.collidePlatformTop    (object, tile_y            )) return;
+               if (this.collidePlatformBottom (object, tile_y + tile_size)) return;
+                   this.collidePlatformLeft   (object, tile_x            ); break;
+      case 14: if (this.collidePlatformBottom (object, tile_y + tile_size)) return;
+               if (this.collidePlatformLeft   (object, tile_x            )) return;
+                   this.collidePlatformRight  (object, tile_x + tile_size); break;
+      case 15: if (this.collidePlatformTop    (object, tile_y            )) return;
+               if (this.collidePlatformBottom (object, tile_y + tile_size)) return;
+               if (this.collidePlatformLeft   (object, tile_x            )) return;
+                   this.collidePlatformRight  (object, tile_x + tile_size); break;
+
+    }
+
+  }
+
+};
+Game.Collider.prototype = {
+
+  constructor: Game.Collider,
+
+  collidePlatformBottom:function(object, tile_bottom) {
+
+    if (object.getTop() < tile_bottom && object.getOldTop() >= tile_bottom) {
+
+      object.setTop(tile_bottom);
+      object.velocity_y = 0;
+      return true;
+
+    } return false;
+
+  },
+
+  collidePlatformLeft:function(object, tile_left) {
+
+    if (object.getRight() > tile_left && object.getOldRight() <= tile_left) {
+
+      object.setRight(tile_left - 0.01);
+      object.velocity_x = 0;
+      return true;
+
+    } return false;
+
+  },
+
+  collidePlatformRight:function(object, tile_right) {
+
+    if (object.getLeft() < tile_right && object.getOldLeft() >= tile_right) {
+
+      object.setLeft(tile_right);
+      object.velocity_x = 0;
+      return true;
+
+    } return false;
+
+  },
+
+  collidePlatformTop:function(object, tile_top) {
+
+    if (object.getBottom() > tile_top && object.getOldBottom() <= tile_top) {
+
+      object.setBottom(tile_top - 0.01);
+      object.velocity_y = 0;
+      object.jumping    = false;
+      return true;
+
+    } return false;
+
+  }
+
+ };
+
+Game.Frame = function(x, y, width, height, offset_x, offset_y) {
+
+  this.x        = x;
+  this.y        = y;
+  this.width    = width;
+  this.height   = height;
+  this.offset_x = offset_x;
+  this.offset_y = offset_y;
+
+};
+Game.Frame.prototype = { constructor: Game.Frame };
+
+Game.Object = function(x, y, width, height) {
+
+ this.height = height;
+ this.width  = width;
+ this.x      = x;
+ this.y      = y;
+
+};
+/* I added getCenterX, getCenterY, setCenterX, and setCenterY */
+Game.Object.prototype = {
+
+  constructor:Game.Object,
+
+  getBottom : function()  { return this.y + this.height;       },
+  getCenterX: function()  { return this.x + this.width  * 0.5; },
+  getCenterY: function()  { return this.y + this.height * 0.5; },
+  getLeft   : function()  { return this.x;                     },
+  getRight  : function()  { return this.x + this.width;        },
+  getTop    : function()  { return this.y;                     },
+  setBottom : function(y) { this.y = y - this.height;          },
+  setCenterX: function(x) { this.x = x - this.width  * 0.5;    },
+  setCenterY: function(y) { this.y = y - this.height * 0.5;    },
+  setLeft   : function(x) { this.x = x;                        },
+  setRight  : function(x) { this.x = x - this.width;           },
+  setTop    : function(y) { this.y = y;                        }
+
+};
+
+Game.MovingObject = function(x, y, width, height, velocity_max = 15) {
+
+  Game.Object.call(this, x, y, width, height);
+
+  this.jumping      = false;
+  this.velocity_max = velocity_max;// added velocity_max so velocity can't go past 16
+  this.velocity_x   = 0;
+  this.velocity_y   = 0;
+  this.x_old        = x;
+  this.y_old        = y;
+
+};
+/* I added setCenterX, setCenterY, getCenterX, and getCenterY */
+Game.MovingObject.prototype = {
+
+  getOldBottom : function()  { return this.y_old + this.height;       },
+  getOldCenterX: function()  { return this.x_old + this.width  * 0.5; },
+  getOldCenterY: function()  { return this.y_old + this.height * 0.5; },
+  getOldLeft   : function()  { return this.x_old;                     },
+  getOldRight  : function()  { return this.x_old + this.width;        },
+  getOldTop    : function()  { return this.y_old;                     },
+  setOldBottom : function(y) { this.y_old = y    - this.height;       },
+  setOldCenterX: function(x) { this.x_old = x    - this.width  * 0.5; },
+  setOldCenterY: function(y) { this.y_old = y    - this.height * 0.5; },
+  setOldLeft   : function(x) { this.x_old = x;                        },
+  setOldRight  : function(x) { this.x_old = x    - this.width;        },
+  setOldTop    : function(y) { this.y_old = y;                        }
+
+};
+Object.assign(Game.MovingObject.prototype, Game.Object.prototype);
+Game.MovingObject.prototype.constructor = Game.MovingObject;
+
+Game.Door = function(door) {
+
+ Game.Object.call(this, door.x, door.y, door.width, door.height);
+
+ this.destination_x    = door.destination_x;
+ this.destination_y    = door.destination_y;
+ this.destination_zone = door.destination_zone;
+
+};
+Game.Door.prototype = {
+
+ /* Tests for collision between this door object and a MovingObject. */
+ collideObject(object) {
+
+   let center_x = object.getCenterX();
+   let center_y = object.getCenterY();
+
+   if (center_x < this.getLeft() || center_x > this.getRight() ||
+       center_y < this.getTop()  || center_y > this.getBottom()) return false;
+
+   return true;
+
+ }
+
+};
+Object.assign(Game.Door.prototype, Game.Object.prototype);
+Game.Door.prototype.constructor = Game.Door;
+
+Game.Player = function(x, y) {
+
+  Game.MovingObject.call(this, x, y, 7, 12);
+  Game.Animator.call(this, Game.Player.prototype.frame_sets["idle-left"], 10);
+
+  this.jumping     = true;
+  this.direction_x = -1;
+  this.velocity_x  = 0;
+  this.velocity_y  = 0;
+
+};
+Game.Player.prototype = {
+
+  frame_sets: {
+
+    "idle-left" : [0],
+    "jump-left" : [1],
+    "move-left" : [2, 3, 4, 5],
+    "idle-right": [6],
+    "jump-right": [7],
+    "move-right": [8, 9, 10, 11]
+
+  },
+
+  jump: function() {
+
+    /* Made it so you can only jump if you aren't falling faster than 10px per frame. */
+    if (!this.jumping && this.velocity_y < 10) {
+
+      this.jumping     = true;
+      this.velocity_y -= 13;
+
+    }
+
+  },
+
+  moveLeft: function() {
+
+    this.direction_x = -1;
+    this.velocity_x -= 0.55;
+
+  },
+
+  moveRight:function(frame_set) {
+
+    this.direction_x = 1;
+    this.velocity_x += 0.55;
+
+  },
+
+  updateAnimation:function() {
+
+    if (this.velocity_y < 0) {
+
+      if (this.direction_x < 0) this.changeFrameSet(this.frame_sets["jump-left"], "pause");
+      else this.changeFrameSet(this.frame_sets["jump-right"], "pause");
+
+    } else if (this.direction_x < 0) {
+
+      if (this.velocity_x < -0.1) this.changeFrameSet(this.frame_sets["move-left"], "loop", 5);
+      else this.changeFrameSet(this.frame_sets["idle-left"], "pause");
+
+    } else if (this.direction_x > 0) {
+
+      if (this.velocity_x > 0.1) this.changeFrameSet(this.frame_sets["move-right"], "loop", 5);
+      else this.changeFrameSet(this.frame_sets["idle-right"], "pause");
+
+    }
+
+    this.animate();
+
+  },
+
+  updatePosition:function(gravity, friction) {
+
+    this.x_old = this.x;
+    this.y_old = this.y;
+
+    this.velocity_y += gravity;
+    this.velocity_x *= friction;
+
+    /* Made it so that velocity cannot exceed velocity_max */
+    if (Math.abs(this.velocity_x) > this.velocity_max)
+    this.velocity_x = this.velocity_max * Math.sign(this.velocity_x);
+
+    if (Math.abs(this.velocity_y) > this.velocity_max)
+    this.velocity_y = this.velocity_max * Math.sign(this.velocity_y);
+
+    this.x    += this.velocity_x;
+    this.y    += this.velocity_y;
+
+  }
+
+};
+Object.assign(Game.Player.prototype, Game.MovingObject.prototype);
+Object.assign(Game.Player.prototype, Game.Animator.prototype);
+Game.Player.prototype.constructor = Game.Player;
+
+Game.TileSet = function(columns, tile_size) {
+
+  this.columns    = columns;
+  this.tile_size  = tile_size;
+
+  let f = Game.Frame;
+
+  this.frames = [new f(115,  96, 13, 16, 0, -4), // idle-left
+                 new f( 50,  96, 13, 16, 0, -4), // jump-left
+                 new f(102,  96, 13, 16, 0, -4), new f(89, 96, 13, 16, 0, -4), new f(76, 96, 13, 16, 0, -4), new f(63, 96, 13, 16, 0, -4), // walk-left
+                 new f(  0, 112, 13, 16, 0, -4), // idle-right
+                 new f( 65, 112, 13, 16, 0, -4), // jump-right
+                 new f( 13, 112, 13, 16, 0, -4), new f(26, 112, 13, 16, 0, -4), new f(39, 112, 13, 16, 0, -4), new f(52, 112, 13, 16, 0, -4) // walk-right
+                ];
+
+};
+Game.TileSet.prototype = { constructor: Game.TileSet };
+
+Game.World = function(friction = 0.85, gravity = 2) {
+
+  this.collider  = new Game.Collider();
+
+  this.friction  = friction;
+  this.gravity   = gravity;
+
+  this.columns   = 12;
+  this.rows      = 9;
+
+  this.tile_set  = new Game.TileSet(8, 16);
+  this.player    = new Game.Player(32, 76);
+
+  this.zone_id   = "00";// The current zone.
+
+  this.doors     = [];// The array of doors in the level.
+  this.door      = undefined; // If the player enters a door, the game will set this property to that door and the level will be loaded.
+
+  this.height    = this.tile_set.tile_size * this.rows;
+  this.width     = this.tile_set.tile_size * this.columns;
+
+};
+Game.World.prototype = {
+
+  constructor: Game.World,
+
+  collideObject:function(object) {
+
+    /* I got rid of the world boundary collision. Now it's up to the tiles to keep
+    the player from falling out of the world. */
+
+    var bottom, left, right, top, value;
+
+    top    = Math.floor(object.getTop()    / this.tile_set.tile_size);
+    left   = Math.floor(object.getLeft()   / this.tile_set.tile_size);
+    value  = this.collision_map[top * this.columns + left];
+    this.collider.collide(value, object, left * this.tile_set.tile_size, top * this.tile_set.tile_size, this.tile_set.tile_size);
+
+    top    = Math.floor(object.getTop()    / this.tile_set.tile_size);
+    right  = Math.floor(object.getRight()  / this.tile_set.tile_size);
+    value  = this.collision_map[top * this.columns + right];
+    this.collider.collide(value, object, right * this.tile_set.tile_size, top * this.tile_set.tile_size, this.tile_set.tile_size);
+
+    bottom = Math.floor(object.getBottom() / this.tile_set.tile_size);
+    left   = Math.floor(object.getLeft()   / this.tile_set.tile_size);
+    value  = this.collision_map[bottom * this.columns + left];
+    this.collider.collide(value, object, left * this.tile_set.tile_size, bottom * this.tile_set.tile_size, this.tile_set.tile_size);
+
+    bottom = Math.floor(object.getBottom() / this.tile_set.tile_size);
+    right  = Math.floor(object.getRight()  / this.tile_set.tile_size);
+    value  = this.collision_map[bottom * this.columns + right];
+    this.collider.collide(value, object, right * this.tile_set.tile_size, bottom * this.tile_set.tile_size, this.tile_set.tile_size);
+
+  },
+
+  /* The setup function takes a zone object generated from a zoneXX.json file. It
+  sets all the world values to values of zone. If the player just passed through a
+  door, it uses the this.door variable to change the player's location to wherever
+  that door's destination goes. */
+  setup:function(zone) {
+
+    /* Get the new tile maps, the new zone, and reset the doors array. */
+    this.graphical_map      = zone.graphical_map;
+    this.collision_map      = zone.collision_map;
+    this.columns            = zone.columns;
+    this.rows               = zone.rows;
+    this.doors              = new Array();
+    this.zone_id            = zone.id;
+
+    /* Generate new doors. */
+    for (let index = zone.doors.length - 1; index > -1; -- index) {
+
+      let door = zone.doors[index];
+      this.doors[index] = new Game.Door(door);
+
+    }
+
+    /* If the player entered into a door, this.door will reference that door. Here
+    it will be used to set the player's location to the door's destination. */
+    if (this.door) {
+
+      /* if a destination is equal to -1, that means it won't be used. Since each zone
+      spans from 0 to its width and height, any negative number would be invalid. If
+      a door's destination is -1, the player will keep his current position for that axis. */
+      if (this.door.destination_x != -1) {
+
+        this.player.setCenterX   (this.door.destination_x);
+        this.player.setOldCenterX(this.door.destination_x);// It's important to reset the old position as well.
+
+      }
+
+      if (this.door.destination_y != -1) {
+
+        this.player.setCenterY   (this.door.destination_y);
+        this.player.setOldCenterY(this.door.destination_y);
+
+      }
+
+      this.door = undefined;// Make sure to reset this.door so we don't trigger a zone load.
+
+    }
+
+  },
+
+  update:function() {
+
+    this.player.updatePosition(this.gravity, this.friction);
+
+    this.collideObject(this.player);
+
+    /* Here we loop through all the doors in the current zone and check to see
+    if the player is colliding with any. If he does collide with one, we set the
+    world's door variable equal to that door, so we know to use it to load the next zone. */
+    for(let index = this.doors.length - 1; index > -1; -- index) {
+
+      let door = this.doors[index];
+
+      if (door.collideObject(this.player)) {
+
+        this.door = door;
+
+      };
+
+    }
+
+    this.player.updateAnimation();
+
+  }
+
+};
+</script><script>// Frank Poth 04/06/2018
+
+/* Changes:
+
+  1. The update function now check on every frame for game.world.door. If a door
+     is selected, the game engine stops and the door's level is loaded.
+  2. When the game is first initialized at the bottom of this file, game.world is
+     loaded using it's default values defined in its constructor.
+  3. The AssetsManager class has been changed to load both images and json.
+
+*/
+
+window.addEventListener("load", function(event) {
+
+  "use strict";
+
+  //// CONSTANTS ////
+
+  /* Each zone has a url that looks like: zoneXX.json, where XX is the current zone
+  identifier. When loading zones, I use the game.world's zone identifier with these
+  two constants to construct a url that points to the appropriate zone file. */
+  /* I updated this after I made the video. I decided to move the zone files into
+  the 06 folder because I won't be using these levels again in future parts. */
+  const ZONE_PREFIX = "06/zone";
+  const ZONE_SUFFIX = ".json";
+
+      /////////////////
+    //// CLASSES ////
+  /////////////////
+
+  const AssetsManager = function() {
+
+    this.tile_set_image = undefined;
+
+  };
+
+  AssetsManager.prototype = {
+
+    constructor: Game.AssetsManager,
+
+    /* Requests a file and hands the callback function the contents of that file
+    parsed by JSON.parse. */
+    requestJSON:function(url, callback) {
+
+      let request = new XMLHttpRequest();
+
+      request.addEventListener("load", function(event) {
+
+        callback(JSON.parse(this.responseText));
+
+      }, { once:true });
+
+      request.open("GET", "data:application/json;base64,"+btoa(JSON.stringify(window.RABBIT_ZONES[url])));
+      request.send();
+
+    },
+
+    /* Creates a new Image and sets its src attribute to the specified url. When
+    the image loads, the callback function is called. */
+    requestImage:function(url, callback) {
+
+      let image = new Image();
+
+      image.addEventListener("load", function(event) {
+
+        callback(image);
+
+      }, { once:true });
+
+      image.src = url;
+
+    },
+
+  };
+
+      ///////////////////
+    //// FUNCTIONS ////
+  ///////////////////
+
+  var keyDownUp = function(event) {
+
+    controller.keyDownUp(event.type, event.keyCode);
+
+  };
+
+  var resize = function(event) {
+
+    display.resize(document.documentElement.clientWidth, document.documentElement.clientHeight, game.world.height / game.world.width);
+    display.render();
+
+  };
+
+  var render = function() {
+
+    display.drawMap   (assets_manager.tile_set_image,
+    game.world.tile_set.columns, game.world.graphical_map, game.world.columns,  game.world.tile_set.tile_size);
+
+    let frame = game.world.tile_set.frames[game.world.player.frame_value];
+
+    display.drawObject(assets_manager.tile_set_image,
+    frame.x, frame.y,
+    game.world.player.x + Math.floor(game.world.player.width * 0.5 - frame.width * 0.5) + frame.offset_x,
+    game.world.player.y + frame.offset_y, frame.width, frame.height);
+
+    display.render();
+
+  };
+
+  var update = function() {
+
+    if (controller.left.active ) { game.world.player.moveLeft ();                               }
+    if (controller.right.active) { game.world.player.moveRight();                               }
+    if (controller.up.active   ) { game.world.player.jump();      controller.up.active = false; }
+
+    game.update();
+
+    /* This if statement checks to see if a door has been selected by the player.
+    If the player collides with a door, he selects it. The engine is then stopped
+    and the assets_manager loads the door's level. */
+    if (game.world.door) {
+
+      engine.stop();
+
+      /* Here I'm requesting the JSON file to use to populate the game.world object. */
+      assets_manager.requestJSON(ZONE_PREFIX + game.world.door.destination_zone + ZONE_SUFFIX, (zone) => {
+
+        game.world.setup(zone);
+
+        engine.start();
+
+      });
+
+      return;
+
+    }
+
+  };
+
+      /////////////////
+    //// OBJECTS ////
+  /////////////////
+
+  var assets_manager = new AssetsManager();
+  var controller     = new Controller();
+  var display        = new Display(document.querySelector("canvas"));
+  var game           = new Game();
+  var engine         = new Engine(1000/30, render, update);
+
+      ////////////////////
+    //// INITIALIZE ////
+  ////////////////////
+
+  display.buffer.canvas.height = game.world.height;
+  display.buffer.canvas.width  = game.world.width;
+  display.buffer.imageSmoothingEnabled = false;
+
+  assets_manager.requestJSON(ZONE_PREFIX + game.world.zone_id + ZONE_SUFFIX, (zone) => {
+
+    game.world.setup(zone);
+
+    assets_manager.requestImage("data:image/png;base64,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", (image) => {
+
+      assets_manager.tile_set_image = image;
+
+      resize();
+      engine.start();
+
+    });
+
+  });
+
+  window.addEventListener("keydown", keyDownUp);
+  window.addEventListener("keyup"  , keyDownUp);
+  window.addEventListener("resize" , resize);
+
+});
+</script></body></html>

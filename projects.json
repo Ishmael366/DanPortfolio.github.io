@@ -571,6 +571,175 @@
       "label": "Sports & Games",
       "projects": [
         {
+          "id": "game-rabbit-trap",
+          "title": "Rabbit Trap",
+          "description": "Original tutorial platformer with carrot collection and multi-zone exploration.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play Collect",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-rabbit-trap-collect.html"
+            },
+            {
+              "label": "Play Explore",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-rabbit-trap-explore.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-rabbit-trap-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-python-minesweeper",
+          "title": "Python Minesweeper",
+          "description": "The original Python Minesweeper lesson runs in your browser.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "Python",
+            "Pyodide"
+          ],
+          "artifacts": [
+            {
+              "label": "Play demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-python-minesweeper.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-python-minesweeper-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-react-tetris-finished",
+          "title": "React Tetris",
+          "description": "Finished original React Tetris with rotation, scoring, rows and levels.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "React",
+            "styled-components"
+          ],
+          "artifacts": [
+            {
+              "label": "Play demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-react-tetris-finished.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-react-tetris-finished-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "project-javascript-calculator",
+          "title": "JavaScript Calculator",
+          "description": "A complete keyboard-friendly calculator with arithmetic, decimals and percentage controls.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "JavaScript"
+          ],
+          "artifacts": [
+            {
+              "label": "Play demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/project-javascript-calculator-demo.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/project-javascript-calculator-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-react-tic-tac-toe",
+          "title": "Tic-Tac-Toe \u2014 React & JavaScript",
+          "description": "Play locally or against minimax AI in two complete implementations.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "React",
+            "JavaScript"
+          ],
+          "artifacts": [
+            {
+              "label": "Play React",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-react-tic-tac-toe.html"
+            },
+            {
+              "label": "Play JavaScript",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-javascript-tic-tac-toe.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-react-tic-tac-toe-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "project-cpp-course-lab",
+          "title": "C++ Course Lab",
+          "description": "Explore 478 saved lesson entry programs and compile examples with a real C++20 compiler.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "C++20",
+            "Compiler Explorer"
+          ],
+          "artifacts": [
+            {
+              "label": "Play demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/project-cpp-course-lab-demo.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/project-cpp-course-lab-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-trained-dino-ai",
+          "title": "Dino AI \u2014 Trained Agent",
+          "description": "The saved DQN model controls the dinosaur game with live browser inference.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "Python",
+            "ONNX Runtime",
+            "JavaScript"
+          ],
+          "artifacts": [
+            {
+              "label": "Play demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-trained-dino-ai.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-trained-dino-ai-source.zip"
+            }
+          ]
+        },
+        {
           "id": "game-unity-rider",
           "title": "Neon Rider",
           "description": "A browser adaptation of the Unity Rider controller: accelerate along a neon track and rotate while airborne.",

@@ -511,5 +511,47 @@
       "This is a JavaScript core-mechanics adaptation of the saved Unity tutorial source. Rendering, levels, balance and interface differ from the original engine build. The source archive includes the browser implementation, source mapping and selected original controller scripts with notices.",
       "Browser startup, rendering and representative controls have been checked. Full equivalence to the original tutorial project is not claimed."
     ]
+  },
+  "game-rabbit-trap": {
+    "details": [
+      "Original tutorial platformer with carrot collection and multi-zone exploration.",
+      "Original tutorial source recovered from frankarendpoth.github.io legacy archives. Both completed lesson modes run in-browser."
+    ]
+  },
+  "game-python-minesweeper": {
+    "details": [
+      "The original Python Minesweeper lesson runs in your browser.",
+      "Original final lesson Python executes through Pyodide. A small DOM adapter implements the Tkinter controls used by this game. Reveal, marking, game over and restart have been checked."
+    ]
+  },
+  "game-react-tetris-finished": {
+    "details": [
+      "Finished original React Tetris with rotation, scoring, rows and levels.",
+      "Uses the actual FINISHED stepped solution supplied with the tutorial source. Start and controls checked in the browser."
+    ]
+  },
+  "project-javascript-calculator": {
+    "details": [
+      "A complete keyboard-friendly calculator with arithmetic, decimals and percentage controls.",
+      "New implementation of the playlist project brief using its original JavaScript tools. Original tutorial source was not recovered. The duplicate calculator video entries share this project."
+    ]
+  },
+  "game-react-tic-tac-toe": {
+    "details": [
+      "Play locally or against minimax AI in two complete implementations.",
+      "New implementations of the playlist project briefs using React and vanilla JavaScript. Includes legal moves, wins, draws, scorekeeping, reset and optional computer play. Original tutorial source was not recovered."
+    ]
+  },
+  "project-cpp-course-lab": {
+    "details": [
+      "Explore 478 saved lesson entry programs and compile examples with a real C++20 compiler.",
+      "The original course repository is retained. A new browser lab provides editable source, standard input and real compilation via Compiler Explorer. Some examples intentionally demonstrate compiler errors or need lesson-specific setup. This is a course resource, not one finished game."
+    ]
+  },
+  "game-trained-dino-ai": {
+    "details": [
+      "The saved DQN model controls the dinosaur game with live browser inference.",
+      "The actual saved 88,000-step tutorial model is exported to ONNX. Live Q values choose jump, duck or no action. The open-source game environment replaces desktop capture; configurable observation cropping means performance can differ from training. No scripted obstacle detector substitutes for inference."
+    ]
   }
 }
