@@ -571,6 +571,145 @@
       "label": "Sports & Games",
       "projects": [
         {
+          "id": "game-unity-rider",
+          "title": "Neon Rider",
+          "description": "A browser adaptation of the Unity Rider controller: accelerate along a neon track and rotate while airborne.",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play browser adaptation",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-unity-rider.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-unity-rider-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-unity-doodle-jump",
+          "title": "Doodle Jump \u2014 Unity Adaptation",
+          "description": "A browser adaptation of Unity Doodle Jump: steer between platforms and climb an endless vertical level.",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play browser adaptation",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-unity-doodle-jump.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-unity-doodle-jump-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-unity-flappy-bird",
+          "title": "Flappy Bird \u2014 Unity Adaptation",
+          "description": "A browser adaptation of the Unity Flappy Bird controller with animated sprites, scoring and collision detection.",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play browser adaptation",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-unity-flappy-bird.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-unity-flappy-bird-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-unity-fruit-slice",
+          "title": "Fruit Slice",
+          "description": "A browser adaptation of the Unity fruit-slicing mechanics with drag gestures, sliced-fruit effects and scoring.",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play browser adaptation",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-unity-fruit-slice.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-unity-fruit-slice-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-unity-tower-defense",
+          "title": "Tower Defense \u2014 3D Adaptation",
+          "description": "A 3D browser mechanics demo adapted from Unity tower defense: build and upgrade turrets across five waves.",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "tech": [
+            "JavaScript",
+            "Three.js"
+          ],
+          "artifacts": [
+            {
+              "label": "Play browser adaptation",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-unity-tower-defense.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-unity-tower-defense-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-unity-ecosystem",
+          "title": "Living Ecosystem \u2014 3D Adaptation",
+          "description": "A 3D browser mechanics demo adapted from the Unity ecosystem: rabbits seek food, consume plants and reproduce.",
+          "skills": [
+            "Modeling",
+            "Graphics",
+            "Ecology"
+          ],
+          "tech": [
+            "JavaScript",
+            "Three.js"
+          ],
+          "artifacts": [
+            {
+              "label": "Play browser adaptation",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-unity-ecosystem.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-unity-ecosystem-source.zip"
+            }
+          ]
+        },
+        {
           "id": "game-squid-survival",
           "title": "Red Light, Green Light \u2014 3D Survival",
           "skills": [

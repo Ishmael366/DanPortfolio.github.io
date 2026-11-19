@@ -463,5 +463,53 @@
       "A tutorial-derived browser presentation adapted from the saved project. The source archive contains the original project and its license notices.",
       "Startup, rendering and representative controls were checked. Desktop keyboard and mouse are recommended. Full game playthrough validation remains pending."
     ]
+  },
+  "game-unity-rider": {
+    "details": [
+      "A browser adaptation of the Unity Rider controller: accelerate along a neon track and rotate while airborne.",
+      "Hold mouse or Space to accelerate. Hold in the air to rotate. Avoid landing upside down.",
+      "This is a JavaScript core-mechanics adaptation of the saved Unity tutorial source. Rendering, levels, balance and interface differ from the original engine build. The source archive includes the browser implementation, source mapping and selected original controller scripts with notices.",
+      "Browser startup, rendering and representative controls have been checked. Full equivalence to the original tutorial project is not claimed."
+    ]
+  },
+  "game-unity-doodle-jump": {
+    "details": [
+      "A browser adaptation of Unity Doodle Jump: steer between platforms and climb an endless vertical level.",
+      "Use Left/Right or A/D to steer. Platforms bounce automatically. R restarts.",
+      "This is a JavaScript core-mechanics adaptation of the saved Unity tutorial source. Rendering, levels, balance and interface differ from the original engine build. The source archive includes the browser implementation, source mapping and selected original controller scripts with notices.",
+      "Browser startup, rendering and representative controls have been checked. Full equivalence to the original tutorial project is not claimed."
+    ]
+  },
+  "game-unity-flappy-bird": {
+    "details": [
+      "A browser adaptation of the Unity Flappy Bird controller with animated sprites, scoring and collision detection.",
+      "Press Space or click to flap. Fly between the pipes.",
+      "This is a JavaScript core-mechanics adaptation of the saved Unity tutorial source. Rendering, levels, balance and interface differ from the original engine build. The source archive includes the browser implementation, source mapping and selected original controller scripts with notices.",
+      "Browser startup, rendering and representative controls have been checked. Full equivalence to the original tutorial project is not claimed."
+    ]
+  },
+  "game-unity-fruit-slice": {
+    "details": [
+      "A browser adaptation of the Unity fruit-slicing mechanics with drag gestures, sliced-fruit effects and scoring.",
+      "Hold and drag the mouse or your finger to slice fruit. Five misses ends the round.",
+      "This is a JavaScript core-mechanics adaptation of the saved Unity tutorial source. Rendering, levels, balance and interface differ from the original engine build. The source archive includes the browser implementation, source mapping and selected original controller scripts with notices.",
+      "Browser startup, rendering and representative controls have been checked. Full equivalence to the original tutorial project is not claimed."
+    ]
+  },
+  "game-unity-tower-defense": {
+    "details": [
+      "A 3D browser mechanics demo adapted from Unity tower defense: build and upgrade turrets across five waves.",
+      "Click a platform to build a $100 turret. Click a built turret to upgrade for $100. Defend 5 waves.",
+      "This is a JavaScript core-mechanics adaptation of the saved Unity tutorial source. Rendering, levels, balance and interface differ from the original engine build. The source archive includes the browser implementation, source mapping and selected original controller scripts with notices.",
+      "Browser startup, rendering and representative controls have been checked. Full equivalence to the original tutorial project is not claimed."
+    ]
+  },
+  "game-unity-ecosystem": {
+    "details": [
+      "A 3D browser mechanics demo adapted from the Unity ecosystem: rabbits seek food, consume plants and reproduce.",
+      "Watch rabbits seek plants and reproduce. Change speed, add rabbits, pause or reset.",
+      "This is a JavaScript core-mechanics adaptation of the saved Unity tutorial source. Rendering, levels, balance and interface differ from the original engine build. The source archive includes the browser implementation, source mapping and selected original controller scripts with notices.",
+      "Browser startup, rendering and representative controls have been checked. Full equivalence to the original tutorial project is not claimed."
+    ]
   }
 }

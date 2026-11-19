@@ -504,5 +504,47 @@
     "width": 1280,
     "height": 720,
     "alt": "Red Light, Green Light \u2014 3D Survival demo preview"
+  },
+  "game-unity-rider": {
+    "file": "game-unity-rider-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 826,
+    "alt": "Neon Rider interactive browser adaptation"
+  },
+  "game-unity-doodle-jump": {
+    "file": "game-unity-doodle-jump-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 826,
+    "alt": "Doodle Jump \u2014 Unity Adaptation interactive browser adaptation"
+  },
+  "game-unity-flappy-bird": {
+    "file": "game-unity-flappy-bird-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 826,
+    "alt": "Flappy Bird \u2014 Unity Adaptation interactive browser adaptation"
+  },
+  "game-unity-fruit-slice": {
+    "file": "game-unity-fruit-slice-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 826,
+    "alt": "Fruit Slice interactive browser adaptation"
+  },
+  "game-unity-tower-defense": {
+    "file": "game-unity-tower-defense-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 826,
+    "alt": "Tower Defense \u2014 3D Adaptation interactive browser adaptation"
+  },
+  "game-unity-ecosystem": {
+    "file": "game-unity-ecosystem-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 826,
+    "alt": "Living Ecosystem \u2014 3D Adaptation interactive browser adaptation"
   }
 }

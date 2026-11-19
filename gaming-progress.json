@@ -1,6 +1,6 @@
 {
   "highlighted_entries": 119,
-  "published_browser_demos": 41,
+  "published_browser_demos": 47,
   "entries_with_demos": 20,
   "entries": [
     {
@@ -321,7 +321,10 @@
       "video_id": "r_It_X7v-1E",
       "title": "Coding Adventure: Simulating an Ecosystem",
       "demos": [],
-      "status": "Pending source, build or integration"
+      "status": "Core-mechanics browser adaptation; original project completion pending",
+      "browser_adaptations": [
+        "game-unity-ecosystem.html"
+      ]
     },
     {
       "position": "81",
@@ -468,7 +471,10 @@
       "video_id": "9Ztd1XXmUGI",
       "title": "How to make RIDER in Unity (Livestream)",
       "demos": [],
-      "status": "Pending source, build or integration"
+      "status": "Core-mechanics browser adaptation; original project completion pending",
+      "browser_adaptations": [
+        "game-unity-rider.html"
+      ]
     },
     {
       "position": "116",
@@ -762,7 +768,10 @@
       "video_id": "beuoNuK2tbk",
       "title": "How to make a Tower Defense Game (E01) - Unity Tutorial",
       "demos": [],
-      "status": "Pending source, build or integration"
+      "status": "Core-mechanics browser adaptation; original project completion pending",
+      "browser_adaptations": [
+        "game-unity-tower-defense.html"
+      ]
     },
     {
       "position": "193",
@@ -1309,6 +1318,54 @@
         "4HSxX-EKJjw"
       ],
       "status": "3D model loaded and start control checked"
+    },
+    {
+      "slug": "game-unity-rider",
+      "title": "Neon Rider",
+      "ids": [
+        "9Ztd1XXmUGI"
+      ],
+      "status": "Core-mechanics browser adaptation; differs from full Unity project"
+    },
+    {
+      "slug": "game-unity-doodle-jump",
+      "title": "Doodle Jump \u2014 Unity Adaptation",
+      "ids": [
+        "fHN-26GEVhA"
+      ],
+      "status": "Core-mechanics browser adaptation; differs from full Unity project"
+    },
+    {
+      "slug": "game-unity-flappy-bird",
+      "title": "Flappy Bird \u2014 Unity Adaptation",
+      "ids": [
+        "ihvBiJ1oC9U"
+      ],
+      "status": "Core-mechanics browser adaptation; differs from full Unity project"
+    },
+    {
+      "slug": "game-unity-fruit-slice",
+      "title": "Fruit Slice",
+      "ids": [
+        "3g5_8sE18tQ"
+      ],
+      "status": "Core-mechanics browser adaptation; differs from full Unity project"
+    },
+    {
+      "slug": "game-unity-tower-defense",
+      "title": "Tower Defense \u2014 3D Adaptation",
+      "ids": [
+        "beuoNuK2tbk"
+      ],
+      "status": "Core-mechanics browser adaptation; differs from full Unity project"
+    },
+    {
+      "slug": "game-unity-ecosystem",
+      "title": "Living Ecosystem \u2014 3D Adaptation",
+      "ids": [
+        "r_It_X7v-1E"
+      ],
+      "status": "Core-mechanics browser adaptation; differs from full Unity project"
     }
   ]
 }
