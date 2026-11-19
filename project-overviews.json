@@ -490,10 +490,10 @@
   },
   "game-unity-fruit-slice": {
     "details": [
-      "A browser adaptation of the Unity fruit-slicing mechanics with drag gestures, sliced-fruit effects and scoring.",
-      "Hold and drag the mouse or your finger to slice fruit. Five misses ends the round.",
-      "This is a JavaScript core-mechanics adaptation of the saved Unity tutorial source. Rendering, levels, balance and interface differ from the original engine build. The source archive includes the browser implementation, source mapping and selected original controller scripts with notices.",
-      "Browser startup, rendering and representative controls have been checked. Full equivalence to the original tutorial project is not claimed."
+      "Original Unity tutorial project compiled for interactive browser play.",
+      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
+      "Included scenes: Main.",
+      "Checked: Original authored meshes render, Drag cuts fruit into the authored halves, Original slicing handler logs an actual cut."
     ]
   },
   "game-unity-tower-defense": {
@@ -591,6 +591,22 @@
       "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
       "Included scenes: Menu, Tutorial, Level1, Level2.",
       "Checked: Original menu loads tutorial, W movement passes through doorway, Tutorial environment renders, No runtime errors observed."
+    ]
+  },
+  "game-unity-chess": {
+    "details": [
+      "A Unity two-player chess game with a new three-dimensional presentation and tutorial-derived rules.",
+      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
+      "Included scenes: Chess.",
+      "Checked: Authored chess scene and procedural 3D pieces render, Keyboard e2e4 is accepted as a legal move, Original move list records 1. e4, Side to move changes to black."
+    ]
+  },
+  "game-unity-terrible-tweeters": {
+    "details": [
+      "Original Unity tutorial project compiled for interactive browser play.",
+      "Compiled with Unity 2022.3.62f3 LTS using the saved original-tools project. Browser delivery keeps the original gameplay source and scene content; compatibility changes are documented in the source archive.",
+      "Included scenes: Level1, Level2.",
+      "Checked: Reused upstream finished WebGL export, Slingshot drag launches bird, Blocks collapse and next scene observed."
     ]
   }
 }

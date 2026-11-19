@@ -691,6 +691,30 @@
           ]
         },
         {
+          "id": "game-unity-fruit-slice",
+          "title": "Fruit Ninja \u2014 Original Unity Build",
+          "description": "Original Unity tutorial project compiled for interactive browser play.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "Unity",
+            "C#",
+            "WebGL"
+          ],
+          "artifacts": [
+            {
+              "label": "Play Unity browser build",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/unity-fruit-original.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-fruit-original-source.zip"
+            }
+          ]
+        },
+        {
           "id": "game-unity-cube-fall",
           "title": "Cube Fall \u2014 Original Unity Build",
           "description": "Original Unity tutorial project compiled for interactive browser play.",
@@ -715,6 +739,30 @@
           ]
         },
         {
+          "id": "game-unity-chess",
+          "title": "3D Chess \u2014 Unity",
+          "description": "A Unity two-player chess game with a new three-dimensional presentation and tutorial-derived rules.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "Unity",
+            "C#",
+            "WebGL"
+          ],
+          "artifacts": [
+            {
+              "label": "Play Unity browser build",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/unity-chess-original-tools.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-chess-original-tools-source.zip"
+            }
+          ]
+        },
+        {
           "id": "game-unity-fps-course",
           "title": "First Person Adventure \u2014 Unity",
           "description": "Original Unity tutorial project compiled for interactive browser play.",
@@ -735,6 +783,30 @@
             {
               "label": "Source on GitHub",
               "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-fps-course-original-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-unity-terrible-tweeters",
+          "title": "Terrible Tweeters \u2014 Unity",
+          "description": "Original Unity tutorial project compiled for interactive browser play.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "Unity",
+            "C#",
+            "WebGL"
+          ],
+          "artifacts": [
+            {
+              "label": "Play Unity browser build",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/unity-terrible-tweeters.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-terrible-tweeters-source.zip"
             }
           ]
         },
@@ -952,29 +1024,6 @@
             {
               "label": "Source on GitHub",
               "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-unity-rider-source.zip"
-            }
-          ]
-        },
-        {
-          "id": "game-unity-fruit-slice",
-          "title": "Fruit Slice",
-          "description": "A browser adaptation of the Unity fruit-slicing mechanics with drag gestures, sliced-fruit effects and scoring.",
-          "skills": [
-            "Modeling",
-            "Graphics"
-          ],
-          "tech": [
-            "JavaScript",
-            "HTML Canvas"
-          ],
-          "artifacts": [
-            {
-              "label": "Play browser adaptation",
-              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-unity-fruit-slice.html"
-            },
-            {
-              "label": "Source on GitHub",
-              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-unity-fruit-slice-source.zip"
             }
           ]
         },

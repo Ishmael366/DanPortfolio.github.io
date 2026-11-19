@@ -474,17 +474,21 @@
       "position": "103",
       "video_id": "gCqOnchV4V0",
       "title": "Make a Breakout Clone in Unity - Full Game Tutorial",
-      "demos": [],
-      "status": "Source/resources saved; build or integration pending",
-      "implementation_notes": "Unfinished. Saved source/resources or earlier mechanics prototypes do not establish completion."
+      "demos": [
+        "unity-breakout-original.html"
+      ],
+      "status": "Published original Unity WebGL build",
+      "implementation_notes": "Original saved scenes and C# compiled with Unity 2022.3.62f3; actual menu and gameplay browser checks recorded in verification.json. Full-game completion of all levels was not manually tested."
     },
     {
       "position": "104",
       "video_id": "rJqP5EesxLk",
       "title": "#1 FPS Movement: Let's Make a First Person Game in Unity!",
-      "demos": [],
-      "status": "Project source discovery or implementation pending",
-      "implementation_notes": "Unfinished. Saved source/resources or earlier mechanics prototypes do not establish completion."
+      "demos": [
+        "unity-fps-course-original.html"
+      ],
+      "status": "Published original Unity WebGL build",
+      "implementation_notes": "Original saved scenes and C# compiled with Unity 2022.3.62f3; actual menu and gameplay browser checks recorded in verification.json. Full-game completion of all levels was not manually tested."
     },
     {
       "position": "105",
@@ -1514,8 +1518,8 @@
     }
   ],
   "published_browser_projects": 55,
-  "entries_with_browser_resources": 33,
-  "entries_without_browser_resources": 86,
+  "entries_with_browser_resources": 35,
+  "entries_without_browser_resources": 84,
   "all_119_complete": false,
-  "latest_publication_commit": "8ef340ac096b1239f19d9d9dd70e41e1b8111372"
+  "latest_publication_commit": "bfba1d2f4418d658c614c62dfc490ca6b7a9ea90"
 }

@@ -527,11 +527,11 @@
     "alt": "Flappy Bird \u2014 Original Unity Build running in the browser"
   },
   "game-unity-fruit-slice": {
-    "file": "game-unity-fruit-slice-preview.jpg",
+    "file": "unity-fruit-original-preview.jpg",
     "root": true,
     "width": 1280,
-    "height": 826,
-    "alt": "Fruit Slice interactive browser adaptation"
+    "height": 720,
+    "alt": "Fruit Ninja \u2014 Original Unity Build running in the browser"
   },
   "game-unity-tower-defense": {
     "file": "unity-tower-original-preview.jpg",
@@ -630,5 +630,19 @@
     "width": 1280,
     "height": 720,
     "alt": "First Person Adventure \u2014 Unity running in the browser"
+  },
+  "game-unity-chess": {
+    "file": "unity-chess-original-tools-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "3D Chess \u2014 Unity running in the browser"
+  },
+  "game-unity-terrible-tweeters": {
+    "file": "unity-terrible-tweeters-preview.jpg",
+    "root": true,
+    "width": 1280,
+    "height": 720,
+    "alt": "Terrible Tweeters \u2014 Unity running in the browser"
   }
 }
