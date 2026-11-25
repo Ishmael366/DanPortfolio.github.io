@@ -289,133 +289,133 @@
     "alt": "Tetris live game preview"
   },
   "game-kubowania--memory-game": {
-    "file": "game-kubowania--memory-game-preview.jpg",
+    "file": "game-memory-game-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
     "alt": "Memory Game live game preview"
   },
   "game-kubowania--whack-a-mole": {
-    "file": "game-kubowania--whack-a-mole-preview.jpg",
+    "file": "game-whack-a-mole-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
     "alt": "Whack A Mole live game preview"
   },
   "game-kubowania--connect-four": {
-    "file": "game-kubowania--connect-four-preview.jpg",
+    "file": "game-connect-four-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
     "alt": "Connect Four live game preview"
   },
   "game-kubowania--nokia3310-snake": {
-    "file": "game-kubowania--nokia3310-snake-preview.jpg",
+    "file": "game-nokia3310-snake-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
     "alt": "Nokia3310 Snake live game preview"
   },
   "game-kubowania--space-invaders": {
-    "file": "game-kubowania--space-invaders-preview.jpg",
+    "file": "game-space-invaders-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
     "alt": "Space Invaders live game preview"
   },
   "game-kubowania--tetris": {
-    "file": "game-kubowania--tetris-preview.jpg",
+    "file": "game-tetris-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
     "alt": "Tetris live game preview"
   },
   "game-kubowania--doodle-jump": {
-    "file": "game-kubowania--doodle-jump-preview.jpg",
+    "file": "game-doodle-jump-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
     "alt": "Doodle Jump live game preview"
   },
   "game-kubowania--whac-a-mole": {
-    "file": "game-kubowania--whac-a-mole-preview.jpg",
+    "file": "game-whac-a-mole-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
     "alt": "Whac A Mole live game preview"
   },
   "game-kubowania--breakout": {
-    "file": "game-kubowania--breakout-preview.jpg",
+    "file": "game-breakout-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
     "alt": "Breakout live game preview"
   },
   "game-kubowania--flappy-bird": {
-    "file": "game-kubowania--flappy-bird-preview.jpg",
+    "file": "game-flappy-bird-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
     "alt": "Flappy Bird live game preview"
   },
   "game-kubowania--minesweeper": {
-    "file": "game-kubowania--minesweeper-preview.jpg",
+    "file": "game-minesweeper-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
     "alt": "Minesweeper live game preview"
   },
   "game-kubowania--tetris-basic": {
-    "file": "game-kubowania--tetris-basic-preview.jpg",
+    "file": "game-tetris-basic-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
     "alt": "Tetris Basic live game preview"
   },
   "game-kubowania--candy-crush": {
-    "file": "game-kubowania--candy-crush-preview.jpg",
+    "file": "game-candy-crush-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
     "alt": "Candy Crush live game preview"
   },
   "game-kubowania--2048": {
-    "file": "game-kubowania--2048-preview.jpg",
+    "file": "game-2048-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
     "alt": "2048 live game preview"
   },
   "game-kubowania--mario-js": {
-    "file": "game-kubowania--mario-js-preview.jpg",
+    "file": "game-mario-js-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
     "alt": "Mario Js live game preview"
   },
   "game-kubowania--pac-man": {
-    "file": "game-kubowania--pac-man-preview.jpg",
+    "file": "game-pac-man-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
     "alt": "Pac Man live game preview"
   },
   "game-kubowania--zelda-js": {
-    "file": "game-kubowania--zelda-js-preview.jpg",
+    "file": "game-zelda-js-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
     "alt": "Zelda Js live game preview"
   },
   "game-kubowania--zelda-kaboom-js": {
-    "file": "game-kubowania--zelda-kaboom-js-preview.jpg",
+    "file": "game-zelda-kaboom-js-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
     "alt": "Zelda Kaboom.Js live game preview"
   },
   "game-kubowania--tic-tac-toe": {
-    "file": "game-kubowania--tic-tac-toe-preview.jpg",
+    "file": "game-tic-tac-toe-preview.jpg",
     "root": true,
     "width": 1280,
     "height": 720,
