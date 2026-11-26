@@ -571,6 +571,28 @@
       "label": "Sports & Games",
       "projects": [
         {
+          "id": "unity-3d-8715694f5b",
+          "title": "Forest Survival Shooter",
+          "description": "Explore a forest arena, move between enemies and use first-person weapons.",
+          "tech": [
+            "Unity"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "artifacts": [
+            {
+              "label": "Play demo",
+              "url": "unity-fps-demo.html"
+            },
+            {
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-Sqb-Ue7wpsI-871569.tar.gz"
+            }
+          ]
+        },
+        {
           "id": "unreal-e83pkslfgr0",
           "title": "Castle & Landscape Worlds",
           "description": "Project source and scene files. Provided project/asset archive verified; runtime check pending",
@@ -1697,24 +1719,6 @@
           ]
         },
         {
-          "id": "unity-3d-8715694f5b",
-          "title": "Unity FPS Game",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unity"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-Sqb-Ue7wpsI-871569.tar.gz"
-            }
-          ]
-        },
-        {
           "id": "unity-3d-75a2bca31a",
           "title": "a Video Game in Unity - BASICS (E01)",
           "description": "Project source and scene files. Source archive verified; runtime check pending",
@@ -1789,7 +1793,7 @@
         {
           "id": "unity-3d-c86e65c87f",
           "title": "Snowboard Descent",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "description": "A single-button downhill obstacle-dodging prototype with a visible trail, scoring and restart.",
           "tech": [
             "Unity"
           ],
@@ -1798,6 +1802,10 @@
             "Modeling"
           ],
           "artifacts": [
+            {
+              "label": "Play demo",
+              "url": "unity-snowboard-descent.html"
+            },
             {
               "label": "Project files",
               "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-PBgdRFrJ3Uk-c86e65.tar.gz"
