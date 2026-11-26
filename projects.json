@@ -1547,7 +1547,7 @@
         {
           "id": "unity-3d-14b5e1a584",
           "title": "Fruit Slicing in Unity (Livestream)",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "description": "Playable browser build verified; source archive available.",
           "tech": [
             "Unity"
           ],
@@ -1556,6 +1556,10 @@
             "Modeling"
           ],
           "artifacts": [
+            {
+              "label": "Play demo",
+              "url": "unity-fruit-original.html"
+            },
             {
               "label": "Project files",
               "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-3g5_8sE18tQ-14b5e1.tar.gz"
@@ -1655,7 +1659,7 @@
         {
           "id": "unity-3d-10dc86fc0c",
           "title": "a Tower Defense Game (E01)",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "description": "Playable browser build verified; source archive available.",
           "tech": [
             "Unity"
           ],
@@ -1664,6 +1668,10 @@
             "Modeling"
           ],
           "artifacts": [
+            {
+              "label": "Play demo",
+              "url": "unity-tower-original.html"
+            },
             {
               "label": "Project files",
               "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-beuoNuK2tbk-10dc86.tar.gz"
