@@ -1471,7 +1471,7 @@
         {
           "id": "unreal-leviathan-axe",
           "title": "Axe Throw & Recall",
-          "description": "Project source and scene files. Project files and documentation available; runtime check pending",
+          "description": "Axe aiming, throwing, impact and recall. Source archive verified; runtime check pending.",
           "tech": [
             "Unreal Engine"
           ],
@@ -1481,8 +1481,12 @@
           ],
           "artifacts": [
             {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-Leviathan-Axe"
+              "label": "Unreal source project",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/axe-project-recovery/OoA7KNfA80k-source-1GaATKMZ1h7oayfL7KOSRWKX92EMh6kIu.rar"
+            },
+            {
+              "label": "Downloadable build",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/axe-project-recovery/OoA7KNfA80k-build-1BkofqbtocT5YboR9fgCHvrDBNJhJpVKJ.rar"
             }
           ]
         },
