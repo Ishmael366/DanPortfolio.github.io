@@ -1,5 +1,6 @@
 Project preview images retain their original asset rights and notices. Source images were copied without altering their pixels. Generated SVGs are labeled project illustrations.
 
+assets/projects-3d/forest-survival-shooter.jpg — https://ishmael366.github.io/DanPortfolio.github.io/unity-fps-demo.html
 assets/unreal-landscape-preview.avif — https://www.unrealsensei.com/assets/wf/LongImageLandscape_1.avif
 assets/projects-3d/unreal-0a208c359a.png — https://raw.githubusercontent.com/ZiqiAbbyOu/UnrealEnginePracticeProject/main/PracticeProject/Saved/AutoScreenshot.png
 assets/projects-3d/unity-3d-c59c11a631.png — https://raw.githubusercontent.com/cptnSeldon/Terrains/master/Assets/Allegorithmic/Plugins/Substance/Substance%20Source/Editor/Images/spinner.png
@@ -11,13 +12,16 @@ assets/projects-3d/unreal-638db94c48.png — https://raw.githubusercontent.com/d
 assets/projects-3d/unreal-0ff416fce5.png — https://raw.githubusercontent.com/AbhiramGarg/Unreal/main/FPSgame/FirstPersonTemplate/Saved/AutoScreenshot.png
 assets/projects-3d/unreal-a1345341ae.png — https://github.com/xaesu/UE5-PlatformerTutorial/assets/133942666/7e338a5d-b81d-4a22-8b60-f9f865456c63
 assets/projects-3d/unreal-fps-game.png — https://user-images.githubusercontent.com/48059148/165107553-d8d9581c-51f9-4929-ac90-b8afcad4e0de.png
+unity-fruit-original-preview.jpg — https://ishmael366.github.io/DanPortfolio.github.io/unity-fruit-original.html
 assets/projects-3d/unity-3d-ffc63e840f.png — https://raw.githubusercontent.com/KMoszczyc/Countryside-Level-Design/master/countryside.png
 assets/projects-3d/unity-3d-771661c9d5.png — https://user-images.githubusercontent.com/106058972/175040364-3d3186e9-27a5-4980-8e6e-457df7bf4693.png
 assets/projects-3d/unity-3d-7767c4ee7b.png — https://raw.githubusercontent.com/ERawl1/C19736845_Assignment/main/ProceduralRunner_C19736845/Library/PackageCache/com.unity.timeline%401.4.8/Documentation~/images/timeline_preview_selector.png
 assets/projects-3d/unity-3d-8c5a6ea19e.png — https://raw.githubusercontent.com/amansoory/Hack-NC-Initial-D/main/Library/PackageCache/com.unity.timeline%401.7.6/Documentation~/images/timeline_preview_selector.png
+unity-tower-original-preview.jpg — https://ishmael366.github.io/DanPortfolio.github.io/unity-tower-original.html
 assets/projects-3d/unity-3d-af94441e72.png — https://raw.githubusercontent.com/ilhan-athn7/unity_snake-3d/main/Library/PackageCache/com.unity.package-manager-ui%402.0.7/Editor/Resources/Images/Light/loading.png
 assets/projects-3d/unity-3d-c7d5df0edc.png — https://user-images.githubusercontent.com/37108233/103480378-12037c80-4de5-11eb-821d-e6f2ad62ccc1.PNG
 assets/projects-3d/unity-3d-4997abd809.png — https://user-images.githubusercontent.com/91980582/156880913-f2a0ac36-1fa0-4f74-9322-84c04473b0d4.png
+assets/projects-3d/snowboard-descent-gameplay.jpg — https://ishmael366.github.io/DanPortfolio.github.io/unity-snowboard-descent.html
 assets/projects-3d/unreal-19c23e0607.svg — Generated project illustration
 assets/projects-3d/unreal-09585f9fb6.svg — Generated project illustration
 assets/projects-3d/unreal-593a68013a.svg — Generated project illustration
@@ -44,20 +48,16 @@ assets/projects-3d/unreal-leviathan-axe.svg — Generated project illustration
 assets/projects-3d/unreal-compass-radar.svg — Generated project illustration
 assets/projects-3d/unreal-target-practice.svg — Generated project illustration
 assets/projects-3d/unity-3d-ae15704ccd.svg — Generated project illustration
-assets/projects-3d/unity-3d-14b5e1a584.svg — Generated project illustration
 assets/projects-3d/unity-3d-1714075b5b.svg — Generated project illustration
 assets/projects-3d/unity-3d-aa565e6e5c.svg — Generated project illustration
 assets/projects-3d/unity-3d-471f7653ed.svg — Generated project illustration
 assets/projects-3d/unity-3d-9602e0d55d.svg — Generated project illustration
 assets/projects-3d/unity-3d-68e4acc31f.svg — Generated project illustration
-assets/projects-3d/unity-3d-10dc86fc0c.svg — Generated project illustration
 assets/projects-3d/unity-3d-5b3952b1e2.svg — Generated project illustration
-assets/projects-3d/unity-3d-8715694f5b.svg — Generated project illustration
 assets/projects-3d/unity-3d-75a2bca31a.svg — Generated project illustration
 assets/projects-3d/unity-3d-88d7a3a035.svg — Generated project illustration
 assets/projects-3d/unity-3d-b6958b80c5.svg — Generated project illustration
 assets/projects-3d/unity-3d-49f605d033.svg — Generated project illustration
-assets/projects-3d/unity-3d-c86e65c87f.svg — Generated project illustration
 assets/projects-3d/unreal-3b20331e65.png — https://raw.githubusercontent.com/OmSonawane102/OhScrepler/main/screenshots/img1.png
 assets/projects-3d/unreal-a1b9f71859.png — https://github.com/user-attachments/assets/7b8b3ae8-cd44-4e02-bcab-4c035a702f38
 assets/projects-3d/unreal-ccfc152dd3.svg — Generated project illustration
