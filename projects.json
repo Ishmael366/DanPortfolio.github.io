@@ -571,42 +571,6 @@
       "label": "Sports & Games",
       "projects": [
         {
-          "id": "unreal-19c23e0607",
-          "title": "Creek Landscape",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unreal Engine"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unreal-sensei-complete-source/MihaiUnreal--CreekLandscape.tar.gz.part000"
-            }
-          ]
-        },
-        {
-          "id": "unreal-09585f9fb6",
-          "title": "Creek Environment",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unreal Engine"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unreal-sensei-complete-source/sveta3011--CreekAssets.tar.gz"
-            }
-          ]
-        },
-        {
           "id": "unreal-e83pkslfgr0",
           "title": "Castle & Landscape Worlds",
           "description": "Project source and scene files. Provided project/asset archive verified; runtime check pending",
@@ -621,6 +585,54 @@
             {
               "label": "Project files",
               "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/priority-unreal-projects/e83pKSlfGR0-Castle-Environment-Assets.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-unity-fps-course",
+          "title": "First Person Adventure \u2014 Unity",
+          "description": "Explore a first-person adventure with a tutorial and two playable levels.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "Unity",
+            "C#",
+            "WebGL"
+          ],
+          "artifacts": [
+            {
+              "label": "Play Unity browser build",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/unity-fps-course-original.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-fps-course-original-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-unity-ecosystem",
+          "title": "Living Ecosystem \u2014 3D Adaptation",
+          "description": "A 3D browser mechanics demo adapted from the Unity ecosystem: rabbits seek food, consume plants and reproduce.",
+          "skills": [
+            "Modeling",
+            "Graphics",
+            "Ecology"
+          ],
+          "tech": [
+            "JavaScript",
+            "Three.js"
+          ],
+          "artifacts": [
+            {
+              "label": "Play browser adaptation",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-unity-ecosystem.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-unity-ecosystem-source.zip"
             }
           ]
         },
@@ -643,11 +655,11 @@
           ]
         },
         {
-          "id": "unreal-593a68013a",
-          "title": "Castle & Lighting World",
+          "id": "unity-3d-c59c11a631",
+          "title": "MAKING TERRAINS in Unity 2018",
           "description": "Project source and scene files. Source archive verified; runtime check pending",
           "tech": [
-            "Unreal Engine"
+            "Unity"
           ],
           "skills": [
             "Graphics",
@@ -656,16 +668,16 @@
           "artifacts": [
             {
               "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unreal-sensei-complete-source/LucasMatuszewski--SenseiTutorialYT.tar.gz"
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-Mm_zBHw6Unw-c59c11.tar.gz"
             }
           ]
         },
         {
-          "id": "unreal-ce9e554688",
-          "title": "Modular Castle Worlds",
+          "id": "unity-3d-a86d436172",
+          "title": "Beautiful Terrain in Unity 2020",
           "description": "Project source and scene files. Source archive verified; runtime check pending",
           "tech": [
-            "Unreal Engine"
+            "Unity"
           ],
           "skills": [
             "Graphics",
@@ -674,16 +686,16 @@
           "artifacts": [
             {
               "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unreal-sensei-complete-source/Raurs2--unreal-5-study-projects.tar.gz"
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-ddy12WHqt-M-a86d43.tar.gz"
             }
           ]
         },
         {
-          "id": "unreal-c7e6cdcfe4",
-          "title": "Landscape & Material Worlds",
+          "id": "unity-3d-ae52c3ab3d",
+          "title": "Create a Survival Horror Game in Unity",
           "description": "Project source and scene files. Source archive verified; runtime check pending",
           "tech": [
-            "Unreal Engine"
+            "Unity"
           ],
           "skills": [
             "Graphics",
@@ -692,7 +704,173 @@
           "artifacts": [
             {
               "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unreal-sensei-complete-source/Vazyri--us_landscape_2023.tar.gz"
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-OzwdgrxYViQ-ae52c3.tar.gz"
+            }
+          ]
+        },
+        {
+          "id": "unity-3d-c82900d87c",
+          "title": "A Survival Horror Game In Unity",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unity"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "artifacts": [
+            {
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-fSTQoClEAEQ-c82900.tar.gz"
+            }
+          ]
+        },
+        {
+          "id": "unity-3d-c4e2365020",
+          "title": "Boss Fight Arena",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unity"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "artifacts": [
+            {
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-Yrx-tu704Ys-c4e236.tar.gz"
+            }
+          ]
+        },
+        {
+          "id": "game-threejs-arena",
+          "title": "3D Obstacle Arena",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "description": "A Three.js game study with 3D movement, shadows, camera controls and obstacles.",
+          "tech": [
+            "JavaScript",
+            "Three.js"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-threejs-arena.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-threejs-arena-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-unity-tower-defense",
+          "title": "Tower Defense \u2014 Original Unity Build",
+          "description": "Defend two maps through five waves per level with three turret types, upgrades and selling.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "Unity",
+            "C#",
+            "WebGL"
+          ],
+          "artifacts": [
+            {
+              "label": "Play Unity browser build",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/unity-tower-original.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-tower-original-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-unity-chess",
+          "title": "3D Chess \u2014 Unity",
+          "description": "Play two-player chess on a three-dimensional board with legal moves, move history and camera controls.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "Unity",
+            "C#",
+            "WebGL"
+          ],
+          "artifacts": [
+            {
+              "label": "Play Unity browser build",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/unity-chess-original-tools.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-chess-original-tools-source.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-squid-survival",
+          "title": "Red Light, Green Light \u2014 3D Survival",
+          "skills": [
+            "Modeling",
+            "Graphics"
+          ],
+          "description": "A two-player 3D survival game with a fully rendered doll, timed movement and red-light detection.",
+          "tech": [
+            "JavaScript",
+            "HTML Canvas"
+          ],
+          "artifacts": [
+            {
+              "label": "Play live demo",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-squid-survival.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-squid-survival-source.zip"
+            },
+            {
+              "label": "Source media 1",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-squid-survival-source-media-1.zip"
+            },
+            {
+              "label": "Source media 2",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-squid-survival-source-media-2.zip"
+            },
+            {
+              "label": "Source media 3",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-squid-survival-source-media-3.zip"
+            }
+          ]
+        },
+        {
+          "id": "game-unity-cube-fall",
+          "title": "Cube Fall \u2014 Original Unity Build",
+          "description": "Steer a falling character between moving platforms and ceiling spikes.",
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "tech": [
+            "Unity",
+            "C#",
+            "WebGL"
+          ],
+          "artifacts": [
+            {
+              "label": "Play Unity browser build",
+              "url": "https://ishmael366.github.io/DanPortfolio.github.io/unity-cube-fall-original.html"
+            },
+            {
+              "label": "Source on GitHub",
+              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-cube-fall-original-source.zip"
             }
           ]
         },
@@ -711,42 +889,6 @@
             {
               "label": "Project files",
               "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/simulations-unreal-source-batch/dartmouth-cs98--hack-a-thing-21f-2-julian.tar.gz"
-            }
-          ]
-        },
-        {
-          "id": "unreal-3b20331e65",
-          "title": "OhScrepler",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unreal Engine"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/simulations-unreal-source-batch/OmSonawane102--OhScrepler.tar.gz"
-            }
-          ]
-        },
-        {
-          "id": "unreal-a1b9f71859",
-          "title": "UEProject",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unreal Engine"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/simulations-unreal-source-batch/malriy--UEProject.tar.gz"
             }
           ]
         },
@@ -805,6 +947,258 @@
           ]
         },
         {
+          "id": "unity-3d-ffc63e840f",
+          "title": "Awesome level design in less than 1 hour using free assets!",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unity"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "artifacts": [
+            {
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-WYfM3JyAVeM-ffc63e.tar.gz"
+            }
+          ]
+        },
+        {
+          "id": "unity-3d-771661c9d5",
+          "title": "an FPS Survival Game in Unity",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unity"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "artifacts": [
+            {
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-CTWvAwSw98Q-771661.tar.gz"
+            }
+          ]
+        },
+        {
+          "id": "unity-3d-7767c4ee7b",
+          "title": "A 3D ENDLESS RUNNER GAME IN UNITY FOR PC & MOBILE",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unity"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "artifacts": [
+            {
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-u5hRtTEhnOA-7767c4.tar.gz"
+            }
+          ]
+        },
+        {
+          "id": "unity-3d-8c5a6ea19e",
+          "title": "a driving racing game in Unity",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unity"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "artifacts": [
+            {
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-MQ5GJPlAGS4-8c5a6e.tar.gz"
+            }
+          ]
+        },
+        {
+          "id": "unity-3d-af94441e72",
+          "title": "Unity Game Dev Full Tutorial - 3D Snake Game",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unity"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "artifacts": [
+            {
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-8ztq9fQT6Kc-af9444.tar.gz"
+            }
+          ]
+        },
+        {
+          "id": "unity-3d-c7d5df0edc",
+          "title": "Beat Em Up Fight Game",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unity"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "artifacts": [
+            {
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-gcF66q-UPCs-c7d5df.tar.gz"
+            }
+          ]
+        },
+        {
+          "id": "unity-3d-4997abd809",
+          "title": "Learn Unity - Beginner\u2019s Game Development Tutorial",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unity"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "artifacts": [
+            {
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-gB1F9G0JXOo-4997ab.tar.gz"
+            }
+          ]
+        },
+        {
+          "id": "unreal-19c23e0607",
+          "title": "Creek Landscape",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unreal Engine"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "artifacts": [
+            {
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unreal-sensei-complete-source/MihaiUnreal--CreekLandscape.tar.gz.part000"
+            }
+          ]
+        },
+        {
+          "id": "unreal-09585f9fb6",
+          "title": "Creek Environment",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unreal Engine"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "artifacts": [
+            {
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unreal-sensei-complete-source/sveta3011--CreekAssets.tar.gz"
+            }
+          ]
+        },
+        {
+          "id": "unreal-593a68013a",
+          "title": "Castle & Lighting World",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unreal Engine"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "artifacts": [
+            {
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unreal-sensei-complete-source/LucasMatuszewski--SenseiTutorialYT.tar.gz"
+            }
+          ]
+        },
+        {
+          "id": "unreal-ce9e554688",
+          "title": "Modular Castle Worlds",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unreal Engine"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "artifacts": [
+            {
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unreal-sensei-complete-source/Raurs2--unreal-5-study-projects.tar.gz"
+            }
+          ]
+        },
+        {
+          "id": "unreal-c7e6cdcfe4",
+          "title": "Landscape & Material Worlds",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unreal Engine"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "artifacts": [
+            {
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unreal-sensei-complete-source/Vazyri--us_landscape_2023.tar.gz"
+            }
+          ]
+        },
+        {
+          "id": "unity-3d-34370a513e",
+          "title": "MAKING TERRAINS in Unity 2018",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unity"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "artifacts": [
+            {
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-Mm_zBHw6Unw-34370a.tar.gz"
+            }
+          ]
+        },
+        {
+          "id": "unity-3d-749d37513d",
+          "title": "HOW TO CREATE DARK SOULS in UNITY",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unity"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "artifacts": [
+            {
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-HKMo3pczQyc-749d37.tar.gz"
+            }
+          ]
+        },
+        {
           "id": "unreal-9467331239",
           "title": "Syntra BPE Rocks BP",
           "description": "Project source and scene files. Source archive verified; runtime check pending",
@@ -855,24 +1249,6 @@
             {
               "label": "Project files",
               "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/simulations-unreal-source-batch/CalebHaleDev--UnrealLearningProject.tar.gz"
-            }
-          ]
-        },
-        {
-          "id": "unreal-ccfc152dd3",
-          "title": "Ninja",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unreal Engine"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/simulations-unreal-source-batch/FrozenLittleGirl--Ninja.tar.gz"
             }
           ]
         },
@@ -931,24 +1307,6 @@
           ]
         },
         {
-          "id": "unreal-181951d8a0",
-          "title": "SideScrollerBP",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unreal Engine"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/simulations-unreal-source-batch/dlarkinc--SideScrollerBP.tar.gz"
-            }
-          ]
-        },
-        {
           "id": "unreal-cd79e8b4b5",
           "title": "Car Racing Game",
           "description": "Project source and scene files. Source archive verified; runtime check pending",
@@ -981,24 +1339,6 @@
             {
               "label": "Project files",
               "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/simulations-unreal-source-batch/edwinyung--MMORPG.tar.gz"
-            }
-          ]
-        },
-        {
-          "id": "unreal-d10e4e058e",
-          "title": "SoulConstruct",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unreal Engine"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/simulations-unreal-source-batch/emmettirl--SoulConstruct.tar.gz"
             }
           ]
         },
@@ -1179,240 +1519,6 @@
             {
               "label": "Project files",
               "url": "https://github.com/Ishmael366/Unreal-Target-Practice"
-            }
-          ]
-        },
-        {
-          "id": "unity-3d-c59c11a631",
-          "title": "MAKING TERRAINS in Unity 2018",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unity"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-Mm_zBHw6Unw-c59c11.tar.gz"
-            }
-          ]
-        },
-        {
-          "id": "unity-3d-a86d436172",
-          "title": "Beautiful Terrain in Unity 2020",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unity"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-ddy12WHqt-M-a86d43.tar.gz"
-            }
-          ]
-        },
-        {
-          "id": "unity-3d-ae52c3ab3d",
-          "title": "Create a Survival Horror Game in Unity",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unity"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-OzwdgrxYViQ-ae52c3.tar.gz"
-            }
-          ]
-        },
-        {
-          "id": "unity-3d-c82900d87c",
-          "title": "A Survival Horror Game In Unity",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unity"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-fSTQoClEAEQ-c82900.tar.gz"
-            }
-          ]
-        },
-        {
-          "id": "unity-3d-34370a513e",
-          "title": "MAKING TERRAINS in Unity 2018",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unity"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-Mm_zBHw6Unw-34370a.tar.gz"
-            }
-          ]
-        },
-        {
-          "id": "unity-3d-749d37513d",
-          "title": "HOW TO CREATE DARK SOULS in UNITY",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unity"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-HKMo3pczQyc-749d37.tar.gz"
-            }
-          ]
-        },
-        {
-          "id": "unity-3d-ffc63e840f",
-          "title": "Awesome level design in less than 1 hour using free assets!",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unity"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-WYfM3JyAVeM-ffc63e.tar.gz"
-            }
-          ]
-        },
-        {
-          "id": "unity-3d-771661c9d5",
-          "title": "an FPS Survival Game in Unity",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unity"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-CTWvAwSw98Q-771661.tar.gz"
-            }
-          ]
-        },
-        {
-          "id": "unity-3d-7767c4ee7b",
-          "title": "A 3D ENDLESS RUNNER GAME IN UNITY FOR PC & MOBILE",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unity"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-u5hRtTEhnOA-7767c4.tar.gz"
-            }
-          ]
-        },
-        {
-          "id": "unity-3d-8c5a6ea19e",
-          "title": "a driving racing game in Unity",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unity"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-MQ5GJPlAGS4-8c5a6e.tar.gz"
-            }
-          ]
-        },
-        {
-          "id": "unity-3d-af94441e72",
-          "title": "Unity Game Dev Full Tutorial - 3D Snake Game",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unity"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-8ztq9fQT6Kc-af9444.tar.gz"
-            }
-          ]
-        },
-        {
-          "id": "unity-3d-c7d5df0edc",
-          "title": "Beat Em Up Fight Game",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unity"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-gcF66q-UPCs-c7d5df.tar.gz"
-            }
-          ]
-        },
-        {
-          "id": "unity-3d-4997abd809",
-          "title": "Learn Unity - Beginner\u2019s Game Development Tutorial",
-          "description": "Project source and scene files. Source archive verified; runtime check pending",
-          "tech": [
-            "Unity"
-          ],
-          "skills": [
-            "Graphics",
-            "Modeling"
-          ],
-          "artifacts": [
-            {
-              "label": "Project files",
-              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-gB1F9G0JXOo-4997ab.tar.gz"
             }
           ]
         },
@@ -1669,180 +1775,110 @@
           ]
         },
         {
-          "id": "game-unity-fps-course",
-          "title": "First Person Adventure \u2014 Unity",
-          "description": "Explore a first-person adventure with a tutorial and two playable levels.",
+          "id": "unity-3d-c86e65c87f",
+          "title": "Snowboard Descent",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unity"
+          ],
           "skills": [
             "Graphics",
             "Modeling"
           ],
-          "tech": [
-            "Unity",
-            "C#",
-            "WebGL"
-          ],
           "artifacts": [
             {
-              "label": "Play Unity browser build",
-              "url": "https://ishmael366.github.io/DanPortfolio.github.io/unity-fps-course-original.html"
-            },
-            {
-              "label": "Source on GitHub",
-              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-fps-course-original-source.zip"
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/unity-3d-source-batch/Unity-3D-PBgdRFrJ3Uk-c86e65.tar.gz"
             }
           ]
         },
         {
-          "id": "game-unity-tower-defense",
-          "title": "Tower Defense \u2014 Original Unity Build",
-          "description": "Defend two maps through five waves per level with three turret types, upgrades and selling.",
+          "id": "unreal-3b20331e65",
+          "title": "OhScrepler",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unreal Engine"
+          ],
           "skills": [
             "Graphics",
             "Modeling"
           ],
-          "tech": [
-            "Unity",
-            "C#",
-            "WebGL"
-          ],
           "artifacts": [
             {
-              "label": "Play Unity browser build",
-              "url": "https://ishmael366.github.io/DanPortfolio.github.io/unity-tower-original.html"
-            },
-            {
-              "label": "Source on GitHub",
-              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-tower-original-source.zip"
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/simulations-unreal-source-batch/OmSonawane102--OhScrepler.tar.gz"
             }
           ]
         },
         {
-          "id": "game-unity-chess",
-          "title": "3D Chess \u2014 Unity",
-          "description": "Play two-player chess on a three-dimensional board with legal moves, move history and camera controls.",
+          "id": "unreal-a1b9f71859",
+          "title": "UEProject",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unreal Engine"
+          ],
           "skills": [
             "Graphics",
             "Modeling"
           ],
-          "tech": [
-            "Unity",
-            "C#",
-            "WebGL"
-          ],
           "artifacts": [
             {
-              "label": "Play Unity browser build",
-              "url": "https://ishmael366.github.io/DanPortfolio.github.io/unity-chess-original-tools.html"
-            },
-            {
-              "label": "Source on GitHub",
-              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-chess-original-tools-source.zip"
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/simulations-unreal-source-batch/malriy--UEProject.tar.gz"
             }
           ]
         },
         {
-          "id": "game-unity-ecosystem",
-          "title": "Living Ecosystem \u2014 3D Adaptation",
-          "description": "A 3D browser mechanics demo adapted from the Unity ecosystem: rabbits seek food, consume plants and reproduce.",
-          "skills": [
-            "Modeling",
-            "Graphics",
-            "Ecology"
-          ],
+          "id": "unreal-ccfc152dd3",
+          "title": "Ninja",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
           "tech": [
-            "JavaScript",
-            "Three.js"
+            "Unreal Engine"
           ],
-          "artifacts": [
-            {
-              "label": "Play browser adaptation",
-              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-unity-ecosystem.html"
-            },
-            {
-              "label": "Source on GitHub",
-              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-unity-ecosystem-source.zip"
-            }
-          ]
-        },
-        {
-          "id": "game-threejs-arena",
-          "title": "3D Obstacle Arena",
-          "skills": [
-            "Modeling",
-            "Graphics"
-          ],
-          "description": "A Three.js game study with 3D movement, shadows, camera controls and obstacles.",
-          "tech": [
-            "JavaScript",
-            "Three.js"
-          ],
-          "artifacts": [
-            {
-              "label": "Play live demo",
-              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-threejs-arena.html"
-            },
-            {
-              "label": "Source on GitHub",
-              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-threejs-arena-source.zip"
-            }
-          ]
-        },
-        {
-          "id": "game-squid-survival",
-          "title": "Red Light, Green Light \u2014 3D Survival",
-          "skills": [
-            "Modeling",
-            "Graphics"
-          ],
-          "description": "A two-player 3D survival game with a fully rendered doll, timed movement and red-light detection.",
-          "tech": [
-            "JavaScript",
-            "HTML Canvas"
-          ],
-          "artifacts": [
-            {
-              "label": "Play live demo",
-              "url": "https://ishmael366.github.io/DanPortfolio.github.io/game-squid-survival.html"
-            },
-            {
-              "label": "Source on GitHub",
-              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-squid-survival-source.zip"
-            },
-            {
-              "label": "Source media 1",
-              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-squid-survival-source-media-1.zip"
-            },
-            {
-              "label": "Source media 2",
-              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-squid-survival-source-media-2.zip"
-            },
-            {
-              "label": "Source media 3",
-              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/game-squid-survival-source-media-3.zip"
-            }
-          ]
-        },
-        {
-          "id": "game-unity-cube-fall",
-          "title": "Cube Fall \u2014 Original Unity Build",
-          "description": "Steer a falling character between moving platforms and ceiling spikes.",
           "skills": [
             "Graphics",
             "Modeling"
           ],
+          "artifacts": [
+            {
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/simulations-unreal-source-batch/FrozenLittleGirl--Ninja.tar.gz"
+            }
+          ]
+        },
+        {
+          "id": "unreal-181951d8a0",
+          "title": "SideScrollerBP",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
           "tech": [
-            "Unity",
-            "C#",
-            "WebGL"
+            "Unreal Engine"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
           ],
           "artifacts": [
             {
-              "label": "Play Unity browser build",
-              "url": "https://ishmael366.github.io/DanPortfolio.github.io/unity-cube-fall-original.html"
-            },
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/simulations-unreal-source-batch/dlarkinc--SideScrollerBP.tar.gz"
+            }
+          ]
+        },
+        {
+          "id": "unreal-d10e4e058e",
+          "title": "SoulConstruct",
+          "description": "Project source and scene files. Source archive verified; runtime check pending",
+          "tech": [
+            "Unreal Engine"
+          ],
+          "skills": [
+            "Graphics",
+            "Modeling"
+          ],
+          "artifacts": [
             {
-              "label": "Source on GitHub",
-              "url": "https://github.com/Ishmael366/DanPortfolio.github.io/blob/main/unity-cube-fall-original-source.zip"
+              "label": "Project files",
+              "url": "https://github.com/Ishmael366/Unreal-FPS-Game/releases/download/simulations-unreal-source-batch/emmettirl--SoulConstruct.tar.gz"
             }
           ]
         },
