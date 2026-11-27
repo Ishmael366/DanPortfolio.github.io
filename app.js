@@ -47,7 +47,8 @@
       skills: element.dataset.skills?.split('|') ?? [],
       searchable: normalize(`${element.textContent} ${element.dataset.skills?.replaceAll('|', ' ') ?? ''}`),
     }));
-    const pageSize = 7;
+    const sizePicker = find('#page-size');
+    let pageSize = Number(catalog.dataset.pageSize) || 7;
     const linkedIndex = cards.findIndex((card) => `#${card.element.id}` === location.hash);
     let page = linkedIndex < 0 ? 1 : Math.floor(linkedIndex / pageSize) + 1;
     let pages = 1;
@@ -114,6 +115,10 @@
         event.preventDefault();
         reset();
       }
+    });
+    sizePicker?.addEventListener('change', () => {
+      pageSize = sizePicker.value === 'all' ? Math.max(1, cards.length) : Number(sizePicker.value);
+      updateFilters();
     });
     tool?.addEventListener('change', updateFilters);
     skill?.addEventListener('change', updateFilters);
