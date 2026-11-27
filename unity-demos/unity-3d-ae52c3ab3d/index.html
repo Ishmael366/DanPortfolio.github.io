@@ -3,7 +3,7 @@
   <head><script>(()=>{const map={"https://raw.githubusercontent.com/Ishmael366/Unreal-FPS-Game/d8c1804e7d6623c211a334fcb9481ca464839ab5/UnityBrowserBuilds/unity-demos/unity-3d-ae52c3ab3d/Build/unity-3d-ae52c3ab3d.data.unityweb": ["https://raw.githubusercontent.com/Ishmael366/Unreal-FPS-Game/d8c1804e7d6623c211a334fcb9481ca464839ab5/UnityBrowserBuilds/unity-demos/unity-3d-ae52c3ab3d/Build/unity-3d-ae52c3ab3d.data.unityweb.part0", "https://raw.githubusercontent.com/Ishmael366/Unreal-FPS-Game/d8c1804e7d6623c211a334fcb9481ca464839ab5/UnityBrowserBuilds/unity-demos/unity-3d-ae52c3ab3d/Build/unity-3d-ae52c3ab3d.data.unityweb.part1", "https://raw.githubusercontent.com/Ishmael366/Unreal-FPS-Game/d8c1804e7d6623c211a334fcb9481ca464839ab5/UnityBrowserBuilds/unity-demos/unity-3d-ae52c3ab3d/Build/unity-3d-ae52c3ab3d.data.unityweb.part2", "https://raw.githubusercontent.com/Ishmael366/Unreal-FPS-Game/d8c1804e7d6623c211a334fcb9481ca464839ab5/UnityBrowserBuilds/unity-demos/unity-3d-ae52c3ab3d/Build/unity-3d-ae52c3ab3d.data.unityweb.part3", "https://raw.githubusercontent.com/Ishmael366/Unreal-FPS-Game/d8c1804e7d6623c211a334fcb9481ca464839ab5/UnityBrowserBuilds/unity-demos/unity-3d-ae52c3ab3d/Build/unity-3d-ae52c3ab3d.data.unityweb.part4"]};const original=window.fetch.bind(window);window.fetch=(input,init)=>{const url=typeof input==="string"?input:input.url;if(!map[url])return original(input,init);return Promise.all(map[url].map(p=>original(p).then(r=>{if(!r.ok)throw Error("Game download failed");return r.arrayBuffer();}))).then(parts=>new Response(new Blob(parts),{status:200}));};})();</script><script>(()=>{if(!window.AudioNode)return;const connect=AudioNode.prototype.connect,outputs=new WeakMap();AudioNode.prototype.connect=function(dest,...args){if(window.AudioDestinationNode&&dest instanceof AudioDestinationNode){let gain=outputs.get(dest);if(!gain){gain=dest.context.createGain();gain.gain.value=0;connect.call(gain,dest);outputs.set(dest,gain);}connect.call(this,gain,...args);return dest;}return connect.call(this,dest,...args);};})();</script>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity 3D Ae52C3Ab3D — Daniel Nguyen</title>
+    <title>Create a Survival Horror Game in Unity — Daniel Nguyen</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Unity 3D Ae52C3Ab3D</div>
+        <div id="unity-build-title">Create a Survival Horror Game in Unity</div>
       </div>
     </div>
     <script>
