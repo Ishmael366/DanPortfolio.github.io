@@ -3,7 +3,7 @@
   <head><script>(()=>{if(!window.AudioNode)return;const connect=AudioNode.prototype.connect,outputs=new WeakMap();AudioNode.prototype.connect=function(dest,...args){if(window.AudioDestinationNode&&dest instanceof AudioDestinationNode){let gain=outputs.get(dest);if(!gain){gain=dest.context.createGain();gain.gain.value=0;connect.call(gain,dest);outputs.set(dest,gain);}connect.call(this,gain,...args);return dest;}return connect.call(this,dest,...args);};})();</script>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | MOBA Series 2023</title>
+    <title>Recovered Moba Character Study — Daniel Nguyen</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">MOBA Series 2023</div>
+        <div id="unity-build-title">Recovered Moba Character Study</div>
       </div>
     </div>
     <script>
@@ -59,9 +59,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/recovered-moba-character-study.loader.js";
       var config = {
-        dataUrl: "https://raw.githubusercontent.com/Ishmael366/Unreal-FPS-Game/ef31f46f1b290386f26b8ffd6b3ff4317beaad40/UnityBrowserBuilds/unity-demos/recovered-moba-character-study/Build/recovered-moba-character-study.data.unityweb",
+        dataUrl: "https://raw.githubusercontent.com/Ishmael366/Unreal-FPS-Game/d8c1804e7d6623c211a334fcb9481ca464839ab5/UnityBrowserBuilds/unity-demos/recovered-moba-character-study/Build/recovered-moba-character-study.data.unityweb",
         frameworkUrl: buildUrl + "/recovered-moba-character-study.framework.js.unityweb",
-        codeUrl: "https://raw.githubusercontent.com/Ishmael366/Unreal-FPS-Game/ef31f46f1b290386f26b8ffd6b3ff4317beaad40/UnityBrowserBuilds/unity-demos/recovered-moba-character-study/Build/recovered-moba-character-study.wasm.unityweb",
+        codeUrl: "https://raw.githubusercontent.com/Ishmael366/Unreal-FPS-Game/d8c1804e7d6623c211a334fcb9481ca464839ab5/UnityBrowserBuilds/unity-demos/recovered-moba-character-study/Build/recovered-moba-character-study.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Daniel Nguyen",
         productName: "MOBA Series 2023",

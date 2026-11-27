@@ -3,11 +3,11 @@
   <head><script>(()=>{if(!window.AudioNode)return;const connect=AudioNode.prototype.connect,outputs=new WeakMap();AudioNode.prototype.connect=function(dest,...args){if(window.AudioDestinationNode&&dest instanceof AudioDestinationNode){let gain=outputs.get(dest);if(!gain){gain=dest.context.createGain();gain.gain.value=0;connect.call(gain,dest);outputs.set(dest,gain);}connect.call(this,gain,...args);return dest;}return connect.call(this,dest,...args);};})();</script>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | BulletHell</title>
+    <title>Recovered Bullet Hell Source — Daniel Nguyen</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <body>
+  <body><p style="margin:8px;font:14px system-ui">Unfinished preview · this build may not play correctly. Source files are available below on the project card.</p>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">BulletHell</div>
+        <div id="unity-build-title">Recovered Bullet Hell Source</div>
       </div>
     </div>
     <script>

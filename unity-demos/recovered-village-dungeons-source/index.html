@@ -3,11 +3,11 @@
   <head><script>(()=>{if(!window.AudioNode)return;const connect=AudioNode.prototype.connect,outputs=new WeakMap();AudioNode.prototype.connect=function(dest,...args){if(window.AudioDestinationNode&&dest instanceof AudioDestinationNode){let gain=outputs.get(dest);if(!gain){gain=dest.context.createGain();gain.gain.value=0;connect.call(gain,dest);outputs.set(dest,gain);}connect.call(this,gain,...args);return dest;}return connect.call(this,dest,...args);};})();</script>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | HappyVillage, Scary Dungeons</title>
+    <title>Recovered Village Dungeons Source — Daniel Nguyen</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <body>
+  <body><p style="margin:8px;font:14px system-ui">Unfinished preview · this build may not play correctly. Source files are available below on the project card.</p>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=1280 height=720 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">HappyVillage, Scary Dungeons</div>
+        <div id="unity-build-title">Recovered Village Dungeons Source</div>
       </div>
     </div>
     <script>
@@ -57,13 +57,13 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/village-dungeons.loader.js";
+      var loaderUrl = buildUrl + "/recovered-village-dungeons-source.loader.js";
       var config = {
-        dataUrl: buildUrl + "/village-dungeons.data",
-        frameworkUrl: buildUrl + "/village-dungeons.framework.js",
-        codeUrl: buildUrl + "/village-dungeons.wasm",
+        dataUrl: buildUrl + "/recovered-village-dungeons-source.data",
+        frameworkUrl: buildUrl + "/recovered-village-dungeons-source.framework.js",
+        codeUrl: buildUrl + "/recovered-village-dungeons-source.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "BigSegFaultEnergy",
+        companyName: "Daniel Nguyen",
         productName: "HappyVillage, Scary Dungeons",
         productVersion: "0.1",
         showBanner: unityShowBanner,
