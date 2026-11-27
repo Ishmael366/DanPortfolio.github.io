@@ -1,4 +1,39 @@
 {
+  "project-recovered-moba-character-study": {
+    "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-recovered-moba-character-study.jpg",
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-demos/recovered-moba-character-study/index.html",
+    "kind": "Project preview",
+    "runtime_errors": [],
+    "public_path": "assets/project-captures/project-recovered-moba-character-study.jpg"
+  },
+  "project-recovered-number-guessing-study": {
+    "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-recovered-number-guessing-study.jpg",
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-demos/recovered-number-guessing-study/index.html",
+    "kind": "Project preview",
+    "runtime_errors": [],
+    "public_path": "assets/project-captures/project-recovered-number-guessing-study.jpg"
+  },
+  "project-recovered-hangman-study": {
+    "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-recovered-hangman-study.jpg",
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-demos/recovered-hangman-study/index.html",
+    "kind": "Project preview",
+    "runtime_errors": [
+      {
+        "level": "error",
+        "message": "DirectoryNotFoundException: Could not find a part of the path \"/Assets/Texts/Words.txt\".\n  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x00000] in <00000000000000000000000000000000>:0 \n\n",
+        "timestamp": "2026-11-27T21:15:27.880Z",
+        "url": "blob:https://ishmael366.github.io/c8e1e49c-6395-4862-9d64-53383b60c69b"
+      }
+    ],
+    "public_path": "assets/project-captures/project-recovered-hangman-study.jpg"
+  },
+  "project-recovered-asteroids-course-study": {
+    "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-recovered-asteroids-course-study.jpg",
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-demos/recovered-asteroids-course-study/index.html",
+    "kind": "Project preview",
+    "runtime_errors": [],
+    "public_path": "assets/project-captures/project-recovered-asteroids-course-study.jpg"
+  },
   "project-recovered-village-dungeons-source": {
     "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-recovered-village-dungeons-source.png",
     "source": "/Users/neo/Documents/Codex/2026-11-17/referenced-chatgpt-conversation-this-is-an/work/unity-project-builds/village-dungeons/Assets/16x16 RPG Item Pack/Preview.png",
@@ -7,13 +42,61 @@
     "height": 864,
     "public_path": "assets/project-captures/project-recovered-village-dungeons-source.png"
   },
+  "project-recovered-zelda-adventure-source": {
+    "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-recovered-zelda-adventure-source.jpg",
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-demos/recovered-zelda-adventure-source/index.html",
+    "kind": "Project preview",
+    "runtime_errors": [],
+    "public_path": "assets/project-captures/project-recovered-zelda-adventure-source.jpg"
+  },
+  "project-recovered-platformer-study-source": {
+    "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-recovered-platformer-study-source.jpg",
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-demos/recovered-platformer-study-source/index.html",
+    "kind": "Project preview",
+    "runtime_errors": [],
+    "public_path": "assets/project-captures/project-recovered-platformer-study-source.jpg"
+  },
+  "project-recovered-metroidvania-source": {
+    "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-recovered-metroidvania-source.jpg",
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-demos/recovered-metroidvania-source/index.html",
+    "kind": "Project preview",
+    "runtime_errors": [],
+    "public_path": "assets/project-captures/project-recovered-metroidvania-source.jpg"
+  },
+  "project-recovered-brick-breaker-source": {
+    "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-recovered-brick-breaker-source.jpg",
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-demos/recovered-brick-breaker-source/index.html",
+    "kind": "Project preview",
+    "runtime_errors": [],
+    "public_path": "assets/project-captures/project-recovered-brick-breaker-source.jpg"
+  },
   "project-recovered-bird-launcher-source": {
-    "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-recovered-bird-launcher-source.gif",
-    "source": "/Users/neo/Documents/Codex/continuation/unity-demos/native-build-work/inputs/0a85947b7bab/source/AngryBirdsUnityTutorial-master/Assets/Flappy Fat Bird Sprite Sheets/GIF preview/flying.gif",
-    "kind": "Project artwork",
-    "width": 854,
-    "height": 480,
-    "public_path": "assets/project-captures/project-recovered-bird-launcher-source.gif"
+    "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-recovered-bird-launcher-source.jpg",
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-demos/recovered-bird-launcher-source/index.html",
+    "kind": "Project preview",
+    "runtime_errors": [],
+    "public_path": "assets/project-captures/project-recovered-bird-launcher-source.jpg"
+  },
+  "project-recovered-infinite-runner-source": {
+    "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-recovered-infinite-runner-source.jpg",
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-demos/recovered-infinite-runner-source/index.html",
+    "kind": "Project preview",
+    "runtime_errors": [],
+    "public_path": "assets/project-captures/project-recovered-infinite-runner-source.jpg"
+  },
+  "project-recovered-jump-and-gems-source": {
+    "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-recovered-jump-and-gems-source.jpg",
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-demos/recovered-jump-and-gems-source/index.html",
+    "kind": "Project preview",
+    "runtime_errors": [],
+    "public_path": "assets/project-captures/project-recovered-jump-and-gems-source.jpg"
+  },
+  "project-unity-3d-749d37513d": {
+    "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-unity-3d-749d37513d.jpg",
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-demos/unity-3d-749d37513d/index.html",
+    "kind": "Project preview",
+    "runtime_errors": [],
+    "public_path": "assets/project-captures/project-unity-3d-749d37513d.jpg"
   },
   "project-unity-3d-ae15704ccd": {
     "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-unity-3d-ae15704ccd.png",
@@ -22,6 +105,41 @@
     "width": 3096,
     "height": 2592,
     "public_path": "assets/project-captures/project-unity-3d-ae15704ccd.png"
+  },
+  "project-unity-3d-1714075b5b": {
+    "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-unity-3d-1714075b5b.jpg",
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-demos/unity-3d-1714075b5b/index.html",
+    "kind": "Project preview",
+    "runtime_errors": [],
+    "public_path": "assets/project-captures/project-unity-3d-1714075b5b.jpg"
+  },
+  "project-unity-3d-471f7653ed": {
+    "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-unity-3d-471f7653ed.jpg",
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-demos/unity-3d-471f7653ed/index.html",
+    "kind": "Project preview",
+    "runtime_errors": [],
+    "public_path": "assets/project-captures/project-unity-3d-471f7653ed.jpg"
+  },
+  "project-unity-3d-5b3952b1e2": {
+    "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-unity-3d-5b3952b1e2.jpg",
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-demos/unity-3d-5b3952b1e2/index.html",
+    "kind": "Project preview",
+    "runtime_errors": [],
+    "public_path": "assets/project-captures/project-unity-3d-5b3952b1e2.jpg"
+  },
+  "project-unity-3d-b6958b80c5": {
+    "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-unity-3d-b6958b80c5.jpg",
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-demos/unity-3d-b6958b80c5/index.html",
+    "kind": "Project preview",
+    "runtime_errors": [],
+    "public_path": "assets/project-captures/project-unity-3d-b6958b80c5.jpg"
+  },
+  "project-unity-3d-49f605d033": {
+    "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-unity-3d-49f605d033.jpg",
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-demos/unity-3d-49f605d033/index.html",
+    "kind": "Project preview",
+    "runtime_errors": [],
+    "public_path": "assets/project-captures/project-unity-3d-49f605d033.jpg"
   },
   "project-unity-3d-68e4acc31f": {
     "file": "/Users/neo/Documents/Codex/continuation/unity-demos/card-refresh/images/project-unity-3d-68e4acc31f.jpg",
