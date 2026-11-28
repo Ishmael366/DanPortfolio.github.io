@@ -1,0 +1,206 @@
+{
+  "project-recovered-mad-doctor-study": {
+    "src": "assets/game-features/project-recovered-mad-doctor-study.mp4",
+    "width": 1920,
+    "height": 1200,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-recovered-number-guessing-study": {
+    "src": "assets/game-features/project-recovered-number-guessing-study.mp4",
+    "width": 1920,
+    "height": 1200,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-recovered-hangman-study": {
+    "src": "assets/game-features/project-recovered-hangman-study.mp4",
+    "width": 1920,
+    "height": 1200,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-recovered-asteroids-course-study": {
+    "src": "assets/game-features/project-recovered-asteroids-course-study.mp4",
+    "width": 1920,
+    "height": 1200,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-recovered-village-dungeons-source": {
+    "src": "assets/game-features/project-recovered-village-dungeons-source.mp4",
+    "width": 2560,
+    "height": 1440,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-recovered-zelda-adventure-source": {
+    "src": "assets/game-features/project-recovered-zelda-adventure-source.mp4",
+    "width": 1920,
+    "height": 1200,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-recovered-platformer-study-source": {
+    "src": "assets/game-features/project-recovered-platformer-study-source.mp4",
+    "width": 2560,
+    "height": 1440,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-recovered-bullet-hell-source": {
+    "src": "assets/game-features/project-recovered-bullet-hell-source.mp4",
+    "width": 1920,
+    "height": 1200,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-recovered-metroidvania-source": {
+    "src": "assets/game-features/project-recovered-metroidvania-source.mp4",
+    "width": 1920,
+    "height": 1200,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-recovered-brick-breaker-source": {
+    "src": "assets/game-features/project-recovered-brick-breaker-source.mp4",
+    "width": 1984,
+    "height": 1116,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-recovered-bird-launcher-source": {
+    "src": "assets/game-features/project-recovered-bird-launcher-source.mp4",
+    "width": 1920,
+    "height": 1200,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-recovered-infinite-runner-source": {
+    "src": "assets/game-features/project-recovered-infinite-runner-source.mp4",
+    "width": 1920,
+    "height": 1200,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-game-unity-chess": {
+    "src": "assets/game-features/project-game-unity-chess.mp4",
+    "width": 2134,
+    "height": 1200,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-unity-3d-14b5e1a584": {
+    "src": "assets/game-features/project-unity-3d-14b5e1a584.mp4",
+    "width": 2134,
+    "height": 1200,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-unity-3d-c7d5df0edc": {
+    "src": "assets/game-features/project-unity-3d-c7d5df0edc.mp4",
+    "width": 1920,
+    "height": 1200,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-unity-3d-4997abd809": {
+    "src": "assets/game-features/project-unity-3d-4997abd809.mp4",
+    "width": 1920,
+    "height": 1200,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-unity-3d-1714075b5b": {
+    "src": "assets/game-features/project-unity-3d-1714075b5b.mp4",
+    "width": 1920,
+    "height": 1200,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-game-ninja-adventure": {
+    "src": "assets/game-features/project-game-ninja-adventure.mp4",
+    "width": 2048,
+    "height": 1152,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-game-sunnyland-platformer": {
+    "src": "assets/game-features/project-game-sunnyland-platformer.mp4",
+    "width": 2048,
+    "height": 1152,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-game-unity-ecosystem": {
+    "src": "assets/game-features/project-game-unity-ecosystem.mp4",
+    "width": 2560,
+    "height": 1440,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-game-unity-cube-fall": {
+    "src": "assets/game-features/project-game-unity-cube-fall.mp4",
+    "width": 2134,
+    "height": 1200,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-game-unity-doodle-jump": {
+    "src": "assets/game-features/project-game-unity-doodle-jump.mp4",
+    "width": 2134,
+    "height": 1200,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-game-unity-fruit-slice": {
+    "src": "assets/game-features/project-game-unity-fruit-slice.mp4",
+    "width": 2134,
+    "height": 1200,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-game-unity-terrible-tweeters": {
+    "src": "assets/game-features/project-game-unity-terrible-tweeters.mp4",
+    "width": 2134,
+    "height": 1200,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-game-unity-rider": {
+    "src": "assets/game-features/project-game-unity-rider.mp4",
+    "width": 2560,
+    "height": 1440,
+    "kind": "Recorded project gameplay",
+    "audio": false
+  },
+  "project-unity-3d-a86d436172": {
+    "src": "assets/project-presentations/project-unity-3d-a86d436172-1080.mp4",
+    "width": 1920,
+    "height": 1080,
+    "kind": "Actual source-project footage",
+    "audio": false,
+    "source": "https://www.youtube.com/watch?v=MC4yK0L4l04",
+    "duration_seconds": 24
+  },
+  "project-unity-3d-ae15704ccd": {
+    "src": "assets/project-presentations/project-unity-3d-ae15704ccd-1080.mp4",
+    "width": 1920,
+    "height": 1080,
+    "kind": "Actual source-project footage",
+    "audio": false,
+    "source": "https://www.youtube.com/watch?v=yxGCLXTgKyE",
+    "duration_seconds": 24
+  },
+  "project-unreal-leviathan-axe": {
+    "src": "assets/project-presentations/project-unreal-leviathan-axe-1080.mp4",
+    "width": 1920,
+    "height": 1080,
+    "kind": "Actual source-project footage",
+    "audio": false,
+    "source": "https://www.youtube.com/watch?v=OoA7KNfA80k",
+    "source_start_seconds": 1385,
+    "duration_seconds": 14,
+    "note": "Original 1784x1080 capture centered without upscaling."
+  }
+}
