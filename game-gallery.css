@@ -11,3 +11,11 @@
 .project-card-actions .button{display:flex;align-items:center;justify-content:center;padding:12px 5px!important;font-size:12px!important;min-width:0;white-space:normal;text-align:center}
 .action-unavailable{opacity:.4;cursor:default}.feature-video{margin-top:30px;margin-bottom:60px}.feature-video video{display:block;width:100%;height:auto;max-height:760px;background:#080808;border-radius:12px}.project-overview-art img{width:100%;max-height:680px;object-fit:contain}.project-page .project-card-actions{display:flex!important;max-width:480px}.project-page .project-card-actions>.button{min-width:140px}.availability-note{opacity:.7;font-size:14px}
 @media(max-width:900px){#project-grid.topic-grid,.engine-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}@media(max-width:600px){#project-grid.topic-grid,.engine-grid{grid-template-columns:1fr!important}}
+
+/* Respect filtering and pagination even when cards use a forced flex layout. */
+.topic-project[hidden],#project-grid.topic-grid[hidden],.engine-grid[hidden]{display:none!important}
+.project-overview-summary{max-width:850px}.project-overview-summary p{line-height:1.75}.project-overview-summary h3{margin-top:28px}.project-overview-summary li{margin:8px 0;line-height:1.6}
+
+/* Respect filtering and pagination even when cards use a forced flex layout. */
+.topic-project[hidden],#project-grid.topic-grid[hidden],.engine-grid[hidden]{display:none!important}
+.project-overview-summary{max-width:850px}.project-overview-summary p{line-height:1.75}.project-overview-summary h3{margin-top:28px}.project-overview-summary li{margin:8px 0;line-height:1.6}
