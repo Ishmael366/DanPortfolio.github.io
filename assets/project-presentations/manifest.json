@@ -202,5 +202,541 @@
     "source_start_seconds": 1385,
     "duration_seconds": 14,
     "note": "Original 1784x1080 capture centered without upscaling."
+  },
+  "project-unity-study-wind-meadow": {
+    "src": "assets/game-features/project-unity-study-wind-meadow.mp4",
+    "width": 1240,
+    "height": 496,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "unity-demos/collection/index.html?study=Wind-Meadow"
+  },
+  "project-unity-study-forest-survival": {
+    "src": "assets/game-features/project-unity-study-forest-survival.mp4",
+    "width": 1240,
+    "height": 496,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "unity-demos/collection/index.html?study=Forest-Survival"
+  },
+  "project-unity-study-silent-extraction": {
+    "src": "assets/game-features/project-unity-study-silent-extraction.mp4",
+    "width": 1240,
+    "height": 496,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "unity-demos/collection/index.html?study=Silent-Extraction"
+  },
+  "project-unity-study-archive-escape": {
+    "src": "assets/game-features/project-unity-study-archive-escape.mp4",
+    "width": 1240,
+    "height": 496,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "unity-demos/collection/index.html?study=Archive-Escape"
+  },
+  "project-unity-study-sky-island-trail": {
+    "src": "assets/game-features/project-unity-study-sky-island-trail.mp4",
+    "width": 1240,
+    "height": 496,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "unity-demos/collection/index.html?study=Sky-Island-Trail"
+  },
+  "project-unity-study-facility-breach": {
+    "src": "assets/game-features/project-unity-study-facility-breach.mp4",
+    "width": 1240,
+    "height": 496,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "unity-demos/collection/index.html?study=Facility-Breach"
+  },
+  "project-unity-study-shield-arena": {
+    "src": "assets/game-features/project-unity-study-shield-arena.mp4",
+    "width": 1240,
+    "height": 496,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "unity-demos/collection/index.html?study=Shield-Arena"
+  },
+  "project-unity-study-neon-vault": {
+    "src": "assets/game-features/project-unity-study-neon-vault.mp4",
+    "width": 1240,
+    "height": 496,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "unity-demos/collection/index.html?study=Neon-Vault"
+  },
+  "project-unity-study-shrine-path": {
+    "src": "assets/game-features/project-unity-study-shrine-path.mp4",
+    "width": 1240,
+    "height": 496,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "unity-demos/collection/index.html?study=Shrine-Path"
+  },
+  "project-unity-study-lan-arena": {
+    "src": "assets/game-features/project-unity-study-lan-arena.mp4",
+    "width": 1240,
+    "height": 496,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "unity-demos/collection/index.html?study=LAN-Arena"
+  },
+  "project-unity-study-castle-relics": {
+    "src": "assets/game-features/project-unity-study-castle-relics.mp4",
+    "width": 1240,
+    "height": 496,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "unity-demos/collection/index.html?study=Castle-Relics"
+  },
+  "project-unity-study-sunlit-side-runner": {
+    "src": "assets/game-features/project-unity-study-sunlit-side-runner.mp4",
+    "width": 1240,
+    "height": 496,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "unity-demos/collection/index.html?study=Sunlit-Side-Runner"
+  },
+  "project-recovered-jump-and-gems-source": {
+    "src": "assets/game-features/project-recovered-jump-and-gems-source.mp4",
+    "width": 1920,
+    "height": 1200,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "unity-demos/recovered-jump-and-gems-source/index.html"
+  },
+  "project-unity-3d-8715694f5b": {
+    "src": "assets/game-features/project-unity-3d-8715694f5b.mp4",
+    "width": 1192,
+    "height": 670,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "unity-fps-demo.html"
+  },
+  "project-game-unity-fps-course": {
+    "src": "assets/game-features/project-game-unity-fps-course.mp4",
+    "width": 2134,
+    "height": 1200,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-fps-course-original.html"
+  },
+  "project-unity-3d-ae52c3ab3d": {
+    "src": "assets/game-features/project-unity-3d-ae52c3ab3d.mp4",
+    "width": 960,
+    "height": 600,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "unity-demos/unity-3d-ae52c3ab3d/index.html"
+  },
+  "project-game-unity-tower-defense": {
+    "src": "assets/game-features/project-game-unity-tower-defense.mp4",
+    "width": 2134,
+    "height": 1200,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-tower-original.html"
+  },
+  "project-unity-3d-10dc86fc0c": {
+    "src": "assets/game-features/project-unity-3d-10dc86fc0c.mp4",
+    "width": 2134,
+    "height": 1200,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "unity-tower-original.html"
+  },
+  "project-game-unity-cubethon": {
+    "src": "assets/game-features/project-game-unity-cubethon.mp4",
+    "width": 2134,
+    "height": 1200,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-cubeathon-original.html"
+  },
+  "project-game-threejs-arena": {
+    "src": "assets/game-features/project-game-threejs-arena.mp4",
+    "width": 1240,
+    "height": 650,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-threejs-arena.html"
+  },
+  "project-game-pokemon-adventure": {
+    "src": "assets/game-features/project-game-pokemon-adventure.mp4",
+    "width": 1024,
+    "height": 576,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-pokemon-adventure.html"
+  },
+  "project-game-mario-adventure": {
+    "src": "assets/game-features/project-game-mario-adventure.mp4",
+    "width": 1024,
+    "height": 576,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-mario-adventure.html"
+  },
+  "project-game-canvas-shooter": {
+    "src": "assets/game-features/project-game-canvas-shooter.mp4",
+    "width": 1240,
+    "height": 650,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-canvas-shooter.html"
+  },
+  "project-game-programming-pong-in-the-park": {
+    "src": "assets/game-features/project-game-programming-pong-in-the-park.mp4",
+    "width": 1240,
+    "height": 650,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-programming-pong-in-the-park.html"
+  },
+  "project-game-vertical-platformer": {
+    "src": "assets/game-features/project-game-vertical-platformer.mp4",
+    "width": 1024,
+    "height": 576,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-vertical-platformer.html"
+  },
+  "project-game-fighting-game": {
+    "src": "assets/game-features/project-game-fighting-game.mp4",
+    "width": 1024,
+    "height": 576,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-fighting-game.html"
+  },
+  "project-unity-3d-75a2bca31a": {
+    "src": "assets/game-features/project-unity-3d-75a2bca31a.mp4",
+    "width": 1920,
+    "height": 1200,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "unity-demos/unity-3d-75a2bca31a/index.html"
+  },
+  "project-game-tower-defense": {
+    "src": "assets/game-features/project-game-tower-defense.mp4",
+    "width": 1280,
+    "height": 768,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-tower-defense.html"
+  },
+  "project-game-kings-and-pigs": {
+    "src": "assets/game-features/project-game-kings-and-pigs.mp4",
+    "width": 1024,
+    "height": 576,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-kings-and-pigs.html"
+  },
+  "project-game-pacman": {
+    "src": "assets/game-features/project-game-pacman.mp4",
+    "width": 440,
+    "height": 520,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-pacman.html"
+  },
+  "project-game-squid-survival": {
+    "src": "assets/game-features/project-game-squid-survival.mp4",
+    "width": 1240,
+    "height": 650,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-squid-survival.html"
+  },
+  "project-unity-3d-b6958b80c5": {
+    "src": "assets/game-features/project-unity-3d-b6958b80c5.mp4",
+    "width": 1920,
+    "height": 1200,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "unity-demos/unity-3d-b6958b80c5/index.html"
+  },
+  "project-game-nft-memory": {
+    "src": "assets/game-features/project-game-nft-memory.mp4",
+    "width": 1240,
+    "height": 580,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-nft-memory.html"
+  },
+  "project-game-rabbit-trap": {
+    "src": "assets/game-features/project-game-rabbit-trap.mp4",
+    "width": 866,
+    "height": 650,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-rabbit-trap-collect.html"
+  },
+  "project-game-react-tic-tac-toe": {
+    "src": "assets/game-features/project-game-react-tic-tac-toe.mp4",
+    "width": 470,
+    "height": 812,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-react-tic-tac-toe.html"
+  },
+  "project-game-trained-dino-ai": {
+    "src": "assets/game-features/project-game-trained-dino-ai.mp4",
+    "width": 1200,
+    "height": 300,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-trained-dino-ai.html"
+  },
+  "project-game-evolution-simulator": {
+    "src": "assets/game-features/project-game-evolution-simulator.mp4",
+    "width": 1240,
+    "height": 650,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-evolution-simulator.html"
+  },
+  "project-game-pacman-arcade": {
+    "src": "assets/game-features/project-game-pacman-arcade.mp4",
+    "width": 400,
+    "height": 460,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-pacman-arcade.html"
+  },
+  "project-game-unity-breakout-original": {
+    "src": "assets/game-features/project-game-unity-breakout-original.mp4",
+    "width": 2134,
+    "height": 1200,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-breakout-original.html"
+  },
+  "project-game-unity-flappy-bird": {
+    "src": "assets/game-features/project-game-unity-flappy-bird.mp4",
+    "width": 2134,
+    "height": 1200,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-flappy-original.html"
+  },
+  "project-game-candy-crush-react": {
+    "src": "assets/game-features/project-game-candy-crush-react.mp4",
+    "width": 1224,
+    "height": 620,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-candy-crush-react.html"
+  },
+  "project-game-rock-paper-scissors-react": {
+    "src": "assets/game-features/project-game-rock-paper-scissors-react.mp4",
+    "width": 1224,
+    "height": 138,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-rock-paper-scissors-react.html"
+  },
+  "project-game-asteroids-neural-network": {
+    "src": "assets/game-features/project-game-asteroids-neural-network.mp4",
+    "width": 760,
+    "height": 570,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-asteroids-neural-network.html"
+  },
+  "project-game-meth-meth-method--tetris": {
+    "src": "assets/game-features/project-game-meth-meth-method--tetris.mp4",
+    "width": 240,
+    "height": 400,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-meth-meth-method--tetris.html"
+  },
+  "project-game-kubowania--memory-game": {
+    "src": "assets/game-features/project-game-kubowania--memory-game.mp4",
+    "width": 400,
+    "height": 300,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-memory-game.html"
+  },
+  "project-game-kubowania--whack-a-mole": {
+    "src": "assets/game-features/project-game-kubowania--whack-a-mole.mp4",
+    "width": 606,
+    "height": 606,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-whack-a-mole.html"
+  },
+  "project-game-kubowania--nokia3310-snake": {
+    "src": "assets/game-features/project-game-kubowania--nokia3310-snake.mp4",
+    "width": 206,
+    "height": 206,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-nokia3310-snake.html"
+  },
+  "project-game-kubowania--space-invaders": {
+    "src": "assets/game-features/project-game-kubowania--space-invaders.mp4",
+    "width": 302,
+    "height": 302,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-space-invaders.html"
+  },
+  "project-game-kubowania--tetris": {
+    "src": "assets/game-features/project-game-kubowania--tetris.mp4",
+    "width": 600,
+    "height": 362,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-tetris.html"
+  },
+  "project-game-kubowania--doodle-jump": {
+    "src": "assets/game-features/project-game-kubowania--doodle-jump.mp4",
+    "width": 400,
+    "height": 600,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-doodle-jump.html"
+  },
+  "project-game-kubowania--whac-a-mole": {
+    "src": "assets/game-features/project-game-kubowania--whac-a-mole.mp4",
+    "width": 606,
+    "height": 606,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-whac-a-mole.html"
+  },
+  "project-game-kubowania--breakout": {
+    "src": "assets/game-features/project-game-kubowania--breakout.mp4",
+    "width": 562,
+    "height": 302,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-breakout.html"
+  },
+  "project-game-kubowania--flappy-bird": {
+    "src": "assets/game-features/project-game-kubowania--flappy-bird.mp4",
+    "width": 500,
+    "height": 730,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-flappy-bird.html"
+  },
+  "project-game-kubowania--minesweeper": {
+    "src": "assets/game-features/project-game-kubowania--minesweeper.mp4",
+    "width": 420,
+    "height": 420,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-minesweeper.html"
+  },
+  "project-game-kubowania--candy-crush": {
+    "src": "assets/game-features/project-game-kubowania--candy-crush.mp4",
+    "width": 570,
+    "height": 570,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-candy-crush.html"
+  },
+  "project-game-kubowania--2048": {
+    "src": "assets/game-features/project-game-kubowania--2048.mp4",
+    "width": 470,
+    "height": 470,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-2048.html"
+  },
+  "project-game-kubowania--mario-js": {
+    "src": "assets/game-features/project-game-kubowania--mario-js.mp4",
+    "width": 830,
+    "height": 600,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-mario-js.html"
+  },
+  "project-game-kubowania--zelda-kaboom-js": {
+    "src": "assets/game-features/project-game-kubowania--zelda-kaboom-js.mp4",
+    "width": 1240,
+    "height": 650,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-zelda-kaboom-js.html"
+  },
+  "project-game-kubowania--tic-tac-toe": {
+    "src": "assets/game-features/project-game-kubowania--tic-tac-toe.mp4",
+    "width": 610,
+    "height": 610,
+    "kind": "Recorded project capture",
+    "audio": false,
+    "source": "https://ishmael366.github.io/DanPortfolio.github.io/game-tic-tac-toe.html"
+  },
+  "project-unreal-06a09ea692": {
+    "src": "assets/game-features/project-unreal-06a09ea692.mp4",
+    "width": 498,
+    "height": 230,
+    "kind": "Original project feature footage",
+    "audio": false,
+    "source": "https://www.youtube.com/watch?v=gjPGZd8SpuY"
+  },
+  "project-recovered-material-workshop": {
+    "src": "assets/game-features/project-recovered-material-workshop.mp4",
+    "width": 984,
+    "height": 502,
+    "kind": "Original project feature footage",
+    "audio": false,
+    "source": "https://www.youtube.com/watch?v=dXDWFPHkeZM"
+  },
+  "project-unreal-a1b9f71859": {
+    "src": "assets/game-features/project-unreal-a1b9f71859.mp4",
+    "width": 1280,
+    "height": 720,
+    "kind": "Original project feature footage",
+    "audio": false,
+    "source": "https://www.youtube.com/watch?v=wqsmQmYXtLk"
+  },
+  "project-unreal-r-hfcpd5eaw": {
+    "src": "assets/game-features/project-unreal-r-hfcpd5eaw.mp4",
+    "width": 984,
+    "height": 366,
+    "kind": "Original project feature footage",
+    "audio": false,
+    "source": "https://www.youtube.com/watch?v=R_HFCPd5eAw"
+  },
+  "project-recovered-monkey-shrine": {
+    "src": "assets/game-features/project-recovered-monkey-shrine.mp4",
+    "width": 972,
+    "height": 524,
+    "kind": "Original project feature footage",
+    "audio": false,
+    "source": "https://www.youtube.com/watch?v=IQCNJ9Lpx-s"
+  },
+  "project-recovered-lighting-workshop": {
+    "src": "assets/game-features/project-recovered-lighting-workshop.mp4",
+    "width": 972,
+    "height": 524,
+    "kind": "Original project feature footage",
+    "audio": false,
+    "source": "https://www.youtube.com/watch?v=IQCNJ9Lpx-s"
+  },
+  "project-unreal-e83pkslfgr0": {
+    "src": "assets/game-features/project-unreal-e83pkslfgr0.mp4",
+    "width": 704,
+    "height": 496,
+    "kind": "Original project feature footage",
+    "audio": false,
+    "source": "https://www.youtube.com/watch?v=e83pKSlfGR0"
+  },
+  "project-unreal-5412fa5bb0": {
+    "src": "assets/project-presentations/project-unreal-5412fa5bb0-source.mp4",
+    "width": 1496,
+    "height": 842,
+    "kind": "Original project recording",
+    "audio": false,
+    "source": "https://www.youtube.com/watch?v=c-yYjjf84_A"
   }
 }
