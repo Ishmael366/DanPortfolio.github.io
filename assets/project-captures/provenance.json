@@ -114,10 +114,8 @@
     "height": 248
   },
   "project-unreal-compass-radar": {
-    "source": "https://i.ytimg.com/vi/sAuxSt6PvKo/hq2.jpg",
-    "kind": "Tutorial reference",
-    "width": 480,
-    "height": 360
+    "source": "https://www.youtube.com/watch?v=sAuxSt6PvKo",
+    "kind": "Matching project scene"
   },
   "project-unreal-target-practice": {
     "source": "https://i.ytimg.com/vi/1XjgLKrb4_M/hq2.jpg",
@@ -259,6 +257,10 @@
     "kind": "Project preview",
     "runtime_errors": []
   },
+  "project-unity-3d-a86d436172": {
+    "source": "https://www.youtube.com/watch?v=MC4yK0L4l04",
+    "kind": "Matching project scene"
+  },
   "project-unity-3d-34370a513e": {
     "source": "https://i.ytimg.com/vi/Mm_zBHw6Unw/hq2.jpg",
     "kind": "Tutorial reference",
@@ -271,10 +273,8 @@
     "runtime_errors": []
   },
   "project-unity-3d-ae15704ccd": {
-    "source": "/Users/neo/Documents/Codex/continuation/unity-demos/native-build-work/inputs/f40b41952b6c/source/lamnguyenkhoa-JhoVengeance-38335d8/Images/demo_images.png",
-    "kind": "Project screenshot",
-    "width": 3096,
-    "height": 2592
+    "source": "https://www.youtube.com/watch?v=yxGCLXTgKyE",
+    "kind": "Matching project scene"
   },
   "project-unity-3d-1714075b5b": {
     "source": "https://ishmael366.github.io/DanPortfolio.github.io/unity-demos/unity-3d-1714075b5b/index.html",
