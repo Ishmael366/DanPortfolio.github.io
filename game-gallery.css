@@ -19,3 +19,15 @@
 /* Respect filtering and pagination even when cards use a forced flex layout. */
 .topic-project[hidden],#project-grid.topic-grid[hidden],.engine-grid[hidden]{display:none!important}
 .project-overview-summary{max-width:850px}.project-overview-summary p{line-height:1.75}.project-overview-summary h3{margin-top:28px}.project-overview-summary li{margin:8px 0;line-height:1.6}
+
+/* Project content at a glance, with full-size media on detail pages. */
+.project-feature-chips{list-style:none;display:flex;flex-wrap:wrap;align-content:flex-start;gap:6px;padding:0;margin:14px 0 0;min-height:72px}
+.project-feature-chips li{font-size:11px;line-height:1.35;border:1px solid #8da59144;border-radius:5px;padding:5px 7px;color:#d3ded2;background:#a5c48f08;max-width:100%}
+.project-lead{font-size:clamp(19px,2vw,26px);line-height:1.6!important;max-width:850px}.project-overview-summary{max-width:none!important}
+.project-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;padding:25px 0;border-top:1px solid #9ca99233;border-bottom:1px solid #9ca99233;margin:32px 0}
+.project-facts dt{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:#a9b6ac;margin-bottom:10px}.project-facts dd{margin:0;font-size:14px;line-height:1.65;color:#e1e8dc}
+.system-breakdown{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}.system-breakdown h4{font-size:18px;line-height:1.4;margin:0 0 12px}.system-breakdown p{font-size:14px;line-height:1.8!important;color:#bfccbf;margin:0}
+.project-overview-art{display:grid;gap:28px;margin-top:48px;margin-bottom:60px}.project-overview-art>img,.browser-preview img{display:block;width:100%!important;height:auto!important;max-height:900px!important;object-fit:contain!important;border-radius:12px;background:#101414;cursor:zoom-in}
+.browser-preview{margin:0}.browser-preview figcaption{font-size:12px;color:#b8c8ba;margin-top:12px}.demo-controls-summary{font-size:13px;color:#bdd5c1;border-left:3px solid #b5ce9b;padding-left:18px}.browser-feature-list{display:flex;gap:12px;flex-wrap:wrap;padding:0;list-style:none}.browser-feature-list li{border:1px solid #b8cb9e44;border-radius:7px;padding:8px 12px;font-size:13px}
+.media-viewer{border:1px solid #627466;background:#0c1312;padding:18px;border-radius:12px;max-width:96vw;max-height:94vh}.media-viewer::backdrop{background:#000d}.media-viewer img{display:block;max-width:90vw;max-height:80vh;object-fit:contain}.media-viewer button{display:block;margin:0 0 12px auto;color:white;background:#24382c;border:1px solid #82957c;border-radius:5px;padding:8px 18px;cursor:pointer}
+@media(max-width:900px){.project-facts{grid-template-columns:repeat(2,minmax(0,1fr))}.system-breakdown{grid-template-columns:1fr;gap:20px}}@media(max-width:500px){.project-facts{grid-template-columns:1fr}.project-feature-chips{min-height:0}}

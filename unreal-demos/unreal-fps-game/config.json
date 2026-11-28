@@ -1,0 +1,22 @@
+{
+  "id": "project-unreal-fps-game",
+  "slug": "unreal-fps-game",
+  "title": "First-Person Shooter",
+  "mode": "fps",
+  "theme": "arena",
+  "objective": "Clear the arena of six approaching opponents. Click to shoot.",
+  "experience": "First-person arena shooter",
+  "features": [
+    "Aimed shooting",
+    "Enemy pursuit",
+    "Health and encounter goal"
+  ],
+  "controls": "WASD / arrows move \u00b7 Space jump \u00b7 Right-drag look \u00b7 Shift sprint \u00b7 Click / F fire",
+  "seed": 2218,
+  "firstPerson": true,
+  "sky": "#9fb6ba",
+  "accent": 11627083,
+  "biome": "forest",
+  "variant": "",
+  "scope": "Independent browser adaptation of the project concept, built with JavaScript and WebGL. This is not a packaged Unreal Engine build."
+}

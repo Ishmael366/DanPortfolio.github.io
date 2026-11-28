@@ -1,0 +1,22 @@
+{
+  "id": "project-unreal-28df7185ad",
+  "slug": "unreal-28df7185ad",
+  "title": "World & Lighting",
+  "mode": "lighting",
+  "theme": "ruin",
+  "objective": "Walk through the scene and press E to cycle the lighting setup.",
+  "experience": "World and lighting environment",
+  "features": [
+    "Scene exploration",
+    "Light color",
+    "Lighting variation"
+  ],
+  "controls": "WASD / arrows move \u00b7 Space jump \u00b7 Right-drag look \u00b7 Shift sprint \u00b7 E change setup",
+  "seed": 17611,
+  "firstPerson": false,
+  "sky": "#9fb6ba",
+  "accent": 11627083,
+  "biome": "autumn",
+  "variant": "",
+  "scope": "Independent browser adaptation of the project concept, built with JavaScript and WebGL. This is not a packaged Unreal Engine build."
+}

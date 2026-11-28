@@ -1,0 +1,22 @@
+{
+  "id": "project-unreal-033adc2085",
+  "slug": "unreal-033adc2085",
+  "title": "Target Game",
+  "mode": "target",
+  "theme": "arena",
+  "objective": "Hit all nine targets in the range.",
+  "experience": "Target shooting",
+  "features": [
+    "Aimed shots",
+    "Reactive targets",
+    "Score"
+  ],
+  "controls": "WASD / arrows move \u00b7 Space jump \u00b7 Right-drag look \u00b7 Shift sprint \u00b7 Click / F fire",
+  "seed": 18344,
+  "firstPerson": true,
+  "sky": "#bdc6bc",
+  "accent": 8767680,
+  "biome": "forest",
+  "variant": "",
+  "scope": "Independent browser adaptation of the project concept, built with JavaScript and WebGL. This is not a packaged Unreal Engine build."
+}
